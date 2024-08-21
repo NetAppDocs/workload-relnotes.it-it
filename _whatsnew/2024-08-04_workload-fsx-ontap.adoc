@@ -1,12 +1,6 @@
-= 4 agosto 2024
+= Supporto terraforme
 :allow-uri-read: 
 
-
-
-
-== 4 agosto 2024
-
-Direttiva non risolta in <stdin> - include:_include/workload-fsx-ONTAP.adoc[] :leveloffset: +1
 
 
 
@@ -24,15 +18,3 @@ Ora puoi utilizzare Terraform di Codebox per distribuire e gestire file system e
 === Consigli su throughput e IOPS nel calcolatore dello storage
 
 Il calcolatore dello storage formula raccomandazioni di configurazione del file system FSX per ONTAP per il throughput e gli IOPS sulla base delle Best practice di AWS, il che ti fornisce una guida ottimale per le tue scelte.
-
-
-
-== 7 luglio 2024
-
-Direttiva non risolta in <stdin> - include:_include/workload-fsx-ONTAP.adoc[] :leveloffset: +1
-
-
-
-=== Release iniziale di workload Factory per Amazon FSX per NetApp ONTAP
-
-Amazon FSX per NetApp ONTAP è ora generalmente disponibile in workload Factory.
