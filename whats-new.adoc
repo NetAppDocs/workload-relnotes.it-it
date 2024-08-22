@@ -1,14 +1,38 @@
----
-sidebar: sidebar 
-permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, setup, administration, amazon fsx for ontap, databases, genai, vmware' 
-summary: Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della BlueXP  workload Factory. 
----
-= Recenti modifiche nella fabbrica di workload BlueXP
+= 4 agosto 2024
 :allow-uri-read: 
-:icons: font
-:imagesdir: ./media/
 
 
-[role="lead"]
-Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della BlueXP  workload Factory.
+
+
+== 4 agosto 2024
+
+Direttiva non risolta in <stdin> - include:_include/workload-fsx-ONTAP.adoc[] :leveloffset: +1
+
+
+
+=== Supporto terraforme
+
+Ora puoi utilizzare Terraform di Codebox per distribuire e gestire file system e macchine virtuali di storage.
+
+* link:create-file-system.html["Creare un file system"]
+* link:create-storage-vm.html["Creare una VM di storage"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilizzare Terraform da Codebox"^]
+
+
+
+
+=== Consigli su throughput e IOPS nel calcolatore dello storage
+
+Il calcolatore dello storage formula raccomandazioni di configurazione del file system FSX per ONTAP per il throughput e gli IOPS sulla base delle Best practice di AWS, il che ti fornisce una guida ottimale per le tue scelte.
+
+
+
+== 7 luglio 2024
+
+Direttiva non risolta in <stdin> - include:_include/workload-fsx-ONTAP.adoc[] :leveloffset: +1
+
+
+
+=== Release iniziale di workload Factory per Amazon FSX per NetApp ONTAP
+
+Amazon FSX per NetApp ONTAP è generalmente disponibile in workload Factory.
