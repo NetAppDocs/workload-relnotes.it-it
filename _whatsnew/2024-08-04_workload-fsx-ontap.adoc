@@ -6,7 +6,7 @@
 
 === Supporto terraforme
 
-Ora puoi utilizzare Terraform di Codebox per distribuire e gestire file system e macchine virtuali di storage.
+Ora puoi utilizzare Terraform di Codebox per implementare file system e macchine virtuali di storage.
 
 * link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Creare un file system"]
 * link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["Creare una VM di storage"]
