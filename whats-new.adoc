@@ -35,4 +35,4 @@ Direttiva non risolta in <stdin> - include:_include/workload-fsx-ONTAP.adoc[] :l
 
 === Release iniziale di workload Factory per Amazon FSX per NetApp ONTAP
 
-Amazon FSX per NetApp ONTAP è generalmente disponibile in workload Factory.
+Amazon FSX per NetApp ONTAP è ora generalmente disponibile in workload Factory.
