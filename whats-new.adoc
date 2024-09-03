@@ -69,6 +69,22 @@ Workload Factory per VMware ora supporta la migrazione ad Amazon EC2 utilizzando
 
 
 
+=== Carichi di lavoro Genai
+
+
+
+==== Ulteriori strategie di scissione
+
+I carichi di lavoro ai generativi ora supportano la suddivisione di più frasi e la suddivisione in blocchi basata su sovrapposizioni per le origini dati.
+
+
+
+==== Volume dedicato per ogni knowledge base
+
+I workload ai generativi ora creano un volume Amazon FSX per NetApp ONTAP dedicato per ogni nuova knowledge base, abilitando singole policy Snapshot per ogni knowledge base e migliorando la protezione da guasti e intossicazione dei dati.
+
+
+
 === Installazione e amministrazione
 
 
@@ -148,6 +164,22 @@ link:explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di 
 
 
 
+=== Carichi di lavoro Genai
+
+
+
+==== Integrazione di Amazon CloudWatch Logs
+
+I carichi di lavoro ai generativi sono ora integrati con Amazon CloudWatch Logs, consentendo di monitorare i file di log dei carichi di lavoro ai generici.
+
+
+
+==== Esempio di applicazione chatbot
+
+L'applicazione di esempio Genai di NetApp workload Factory ti consente di testare l'autenticazione e il recupero dalla tua knowledge base pubblicata di NetApp workload Factory interagendo direttamente con essa in un'applicazione chatbot basata sul web.
+
+
+
 === Installazione e amministrazione
 
 
@@ -193,6 +225,16 @@ link:learn-databases.html["Informazioni sui database"].
 ==== Release iniziale di workload Factory per VMware
 
 La release iniziale include la capacità di utilizzare il consulente per la migrazione di VMware per analizzare le configurazioni delle macchine virtuali correnti negli ambienti vSphere on-premise e generare un piano per implementare i layout delle macchine virtuali raccomandati in VMware Cloud su AWS e utilizzare file system Amazon FSX per NetApp ONTAP personalizzati come datastore esterni.
+
+
+
+=== Carichi di lavoro Genai
+
+
+
+==== Release iniziale di workload Factory per Genai
+
+La versione iniziale include la capacità di sviluppare una knowledge base personalizzata incorporando i dati dell'organizzazione. È possibile accedere alla knowledge base tramite un'applicazione chatbot destinata agli utenti. Questa funzionalità garantisce risposte accurate e pertinenti alle domande specifiche dell'organizzazione, migliorando la soddisfazione e la produttività di tutti gli utenti.
 
 
 

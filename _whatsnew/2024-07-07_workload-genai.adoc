@@ -1,0 +1,9 @@
+= Release iniziale di workload Factory per Genai
+:allow-uri-read: 
+
+
+
+
+=== Release iniziale di workload Factory per Genai
+
+La versione iniziale include la capacità di sviluppare una knowledge base personalizzata incorporando i dati dell'organizzazione. È possibile accedere alla knowledge base tramite un'applicazione chatbot destinata agli utenti. Questa funzionalità garantisce risposte accurate e pertinenti alle domande specifiche dell'organizzazione, migliorando la soddisfazione e la produttività di tutti gli utenti.

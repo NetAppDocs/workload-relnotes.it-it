@@ -1,0 +1,15 @@
+= Ulteriori strategie di scissione
+:allow-uri-read: 
+
+
+
+
+=== Ulteriori strategie di scissione
+
+I carichi di lavoro ai generativi ora supportano la suddivisione di più frasi e la suddivisione in blocchi basata su sovrapposizioni per le origini dati.
+
+
+
+=== Volume dedicato per ogni knowledge base
+
+I workload ai generativi ora creano un volume Amazon FSX per NetApp ONTAP dedicato per ogni nuova knowledge base, abilitando singole policy Snapshot per ogni knowledge base e migliorando la protezione da guasti e intossicazione dei dati.
