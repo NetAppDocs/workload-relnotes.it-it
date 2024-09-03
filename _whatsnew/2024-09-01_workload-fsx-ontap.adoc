@@ -1,0 +1,19 @@
+= Supporto della modalità di lettura per la gestione dello storage
+:allow-uri-read: 
+
+
+
+
+=== Supporto della modalità di lettura per la gestione dello storage
+
+La modalità di lettura è disponibile per la gestione dello storage in workload Factory. La modalità di lettura migliora l'esperienza della modalità di base aggiungendo autorizzazioni di sola lettura in modo che i modelli Infrastructure-as-Code vengano riempiti con variabili specifiche. I modelli Infrastructure-as-Code possono essere eseguiti direttamente dal tuo account AWS senza fornire autorizzazioni di modifica a workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Ulteriori informazioni sulla modalità di lettura"^]
+
+
+
+=== Backup prima del supporto per l'eliminazione del volume
+
+È ora possibile eseguire il backup di un volume prima di eliminarlo. Il backup rimarrà nel file system fino all'eliminazione.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Eliminare un volume"^]

@@ -74,4 +74,12 @@
   <block id="1bd7517fe14fe5f1784a4d71ebf0c2e1" category="inline-image-macro">Schermata della home page della console workload Factory. L'immagine mostra il riquadro dei database con un nuovo pulsante di risparmio Esplora. Fare clic sul pulsante per aprire un menu a discesa. Il menu a discesa ha due opzioni: Elastic Block Store e FSX per Windows file Server. La selezione di una delle due opzioni ti porta al calcolatore di risparmio per esplorare i risparmi.</block>
   <block id="ace456f52a384b923a9eedd83d20db48" category="paragraph"><block ref="ace456f52a384b923a9eedd83d20db48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 settembre 2024</block>
+  <block id="f0881d896f399a09e86122a09c00b74d" category="doc">Supporto della modalità di lettura per la gestione dello storage</block>
+  <block id="8db376980442524a58ebd917532846d7" category="paragraph">La modalità di lettura è disponibile per la gestione dello storage in workload Factory. La modalità di lettura migliora l'esperienza della modalità di base aggiungendo autorizzazioni di sola lettura in modo che i modelli Infrastructure-as-Code vengano riempiti con variabili specifiche. I modelli Infrastructure-as-Code possono essere eseguiti direttamente dal tuo account AWS senza fornire autorizzazioni di modifica a workload Factory.</block>
+  <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">Ulteriori informazioni sulla modalità di lettura</block>
+  <block id="2d68ad2bd6b1f5ddb456706e84602c5e" category="paragraph"><block ref="2d68ad2bd6b1f5ddb456706e84602c5e" category="inline-link-macro-rx"></block></block>
+  <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">Backup prima del supporto per l'eliminazione del volume</block>
+  <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">È ora possibile eseguire il backup di un volume prima di eliminarlo. Il backup rimarrà nel file system fino all'eliminazione.</block>
+  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">Eliminare un volume</block>
+  <block id="8fb924f94cef9a4615d9910253ac7353" category="paragraph"><block ref="8fb924f94cef9a4615d9910253ac7353" category="inline-link-macro-rx"></block></block>
 </blocks>
