@@ -1,0 +1,31 @@
+= Miglioramenti apportati al calcolatore di risparmi
+:allow-uri-read: 
+
+
+
+
+=== Miglioramenti apportati al calcolatore di risparmi
+
+* Descrizioni della stima dei costi
++
+Ora potete scoprire come vengono calcolate le stime dei costi nel calcolatore di risparmio. Potrai rivedere le descrizioni di tutti i calcoli per le istanze di Microsoft SQL Server utilizzando lo storage di Amazon Elastic Block Store rispetto all'utilizzo di Amazon FSX per lo storage ONTAP.
+
+* Supporto per il gruppo di disponibilità sempre attivo
++
+I database ora forniscono calcoli di risparmio sui costi per il tipo di implementazione del gruppo di disponibilità sempre attivo con Microsoft SQL Server utilizzando Amazon Elastic Block Store.
+
+* Ottimizza la licenza di SQL server con FSX per ONTAP
++
+Il calcolatore dei database determina se l'edizione di licenza SQL utilizzata con lo storage di Amazon Elastic Block Store è ottimizzata per i carichi di lavoro del tuo database. Otterrai un consiglio per la licenza SQL ottimale con FSX per lo storage ONTAP.
+
+* Più istanze di SQL Server
++
+Ora i database forniscono calcoli di risparmio sui costi per una configurazione che ospita più istanze di Microsoft SQL Server utilizzando Amazon Elastic Block Store.
+
+* Personalizzare le impostazioni della calcolatrice
++
+Ora puoi personalizzare le impostazioni per Microsoft SQL Server, Amazon EC2 e Elastic Block Store per esplorare i risparmi manualmente. Il calcolatore di risparmio determinerà la configurazione migliore in base ai costi.
+
+
+
+link:explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di lavoro del database."]
