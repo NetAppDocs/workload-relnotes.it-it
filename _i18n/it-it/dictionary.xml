@@ -106,4 +106,9 @@
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">I carichi di lavoro ai generativi ora supportano la suddivisione di più frasi e la suddivisione in blocchi basata su sovrapposizioni per le origini dati.</block>
   <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">Volume dedicato per ogni knowledge base</block>
   <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">I workload ai generativi ora creano un volume Amazon FSX per NetApp ONTAP dedicato per ogni nuova knowledge base, abilitando singole policy Snapshot per ogni knowledge base e migliorando la protezione da guasti e intossicazione dei dati.</block>
+  <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Miglioramenti al Migration Advisor di VMware</block>
+  <block id="bdcdfcdfcb9e0d2084c9c9ff58163d0b" category="paragraph">Questa versione di workload Factory per VMware offre miglioramenti delle funzionalità e della stabilità, nonché la possibilità di importare ed esportare piani di migrazione quando si utilizza il Migration ADVISOR di VMware.</block>
+  <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Crea un piano di implementazione per Amazon EC2 utilizzando il Migration Advisor</block>
+  <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
+  <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">19 settembre 2024</block>
 </blocks>
