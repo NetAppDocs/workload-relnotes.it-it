@@ -1,10 +1,10 @@
-= Creare una snapshot e ripristinare un volume della Knowledge base
+= Supporto di Snapshot e ripristino per i volumi della Knowledge base
 :allow-uri-read: 
 
 
 
 
-=== Creare una snapshot e ripristinare un volume della Knowledge base
+=== Supporto di Snapshot e ripristino per i volumi della Knowledge base
 
 Ora puoi proteggere i dati dei carichi di lavoro ai generici acquisendo una copia point-in-time di una knowledge base. Ciò consente di proteggere i dati da perdite accidentali o di verificare le modifiche alle impostazioni della knowledge base. È possibile ripristinare la versione precedente del volume della Knowledge base in qualsiasi momento.
 

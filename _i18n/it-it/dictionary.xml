@@ -112,7 +112,6 @@
   <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Scopri i risparmi con FSX per ONTAP per i carichi di lavoro del database</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
-  <block id="430ea429b454fdc4ea2eb6c6b9cdbd77" category="doc">Creare una snapshot e ripristinare un volume della Knowledge base</block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Ora puoi proteggere i dati dei carichi di lavoro ai generici acquisendo una copia point-in-time di una knowledge base. Ciò consente di proteggere i dati da perdite accidentali o di verificare le modifiche alle impostazioni della knowledge base. È possibile ripristinare la versione precedente del volume della Knowledge base in qualsiasi momento.</block>
   <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">Creare un'istantanea del volume di una knowledge base</block>
   <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
@@ -126,4 +125,5 @@
   <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">Quando si seleziona un volume della Knowledge base, è ora possibile scegliere un volume di data Protection che fa parte di una relazione di replica NetApp SnapMirror. In questo modo è possibile archiviare knowledge base su volumi già protetti dalla replica SnapMirror.</block>
   <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">Identificare le origini dati da integrare nella propria knowledge base</block>
   <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
+  <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">Supporto di Snapshot e ripristino per i volumi della Knowledge base</block>
 </blocks>
