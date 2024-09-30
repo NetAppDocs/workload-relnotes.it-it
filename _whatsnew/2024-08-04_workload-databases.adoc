@@ -28,4 +28,4 @@ Ora puoi personalizzare le impostazioni per Microsoft SQL Server, Amazon EC2 e E
 
 
 
-link:explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di lavoro del database."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di lavoro dei database^."]

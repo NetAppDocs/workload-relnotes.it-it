@@ -15,6 +15,22 @@ Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della Blue
 
 
 
+== 29 settembre 2024
+
+
+
+=== Workload dei database
+
+
+
+==== Esplora i risparmi per i server Microsoft SQL rilevati in FSX per Windows file Server
+
+Ora puoi esplorare i risparmi derivanti dai Microsoft SQL Server rilevati su Amazon EC2 con storage FSX per Windows file Server nel calcolatore dei risparmi. A seconda dei tuoi requisiti di storage e server SQL, potresti renderti conto che FSX per lo storage ONTAP è la più conveniente per i tuoi carichi di lavoro del database.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di lavoro dei database^."]
+
+
+
 == 19 settembre 2024
 
 
@@ -63,7 +79,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Elimin
 
 Ora puoi personalizzare le impostazioni di configurazione per Microsoft SQL Server su Amazon EC2 con FSX per Windows file Server e storage Elastic Block Store nel calcolatore dei risparmi. In base ai tuoi requisiti di storage, potresti renderti conto che FSX per lo storage ONTAP è la più conveniente per i tuoi carichi di lavoro del database.
 
-link:explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di lavoro del database."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di lavoro dei database^."]
 
 
 
@@ -71,7 +87,7 @@ link:explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di 
 
 È ora possibile accedere al calcolatore dei risparmi dalla link:https://console.workloads.netapp.com["Console di workload Factory"^]home page. Per iniziare, seleziona Elastic Block Store ed FSX for Windows file Server.
 
-image:screenshot-explore-savings-home-small.png["Schermata della home page della console workload Factory. L'immagine mostra il riquadro dei database con un nuovo pulsante di risparmio Esplora. Fare clic sul pulsante per aprire un menu a discesa. Il menu a discesa ha due opzioni: Elastic Block Store e FSX per Windows file Server. La selezione di una delle due opzioni ti porta al calcolatore di risparmio per esplorare i risparmi."]
+image:screenshot-explore-savings-home-small.png["Schermata della home page della console workload Factory. L'immagine mostra il riquadro dei database con un nuovo pulsante di risparmio Esplora. Fare clic sul pulsante per aprire un menu a discesa. Il menu a discesa presenta due opzioni: Microsoft SQL Server su EBS e Microsoft SQL Server su FSX per Windows file Server."]
 
 
 
@@ -176,7 +192,7 @@ Ora puoi personalizzare le impostazioni per Microsoft SQL Server, Amazon EC2 e E
 
 
 
-link:explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di lavoro del database."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di lavoro dei database^."]
 
 
 
@@ -219,18 +235,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utiliz
 ==== Release iniziale di workload Factory per Amazon FSX per NetApp ONTAP
 
 Amazon FSX per NetApp ONTAP è ora generalmente disponibile in workload Factory.
-
-
-
-=== Workload dei database
-
-
-
-==== Release iniziale di workload Factory per i database
-
-La release iniziale include la capacità di esplorare i risparmi con Amazon FSX per NetApp ONTAP come ambiente di storage per i carichi di lavoro del database, rilevare, gestire e implementare server Microsoft SQL, implementare e clonare database e monitorare questi job all'interno di workload Factory.
-
-link:learn-databases.html["Informazioni sui database"].
 
 
 
