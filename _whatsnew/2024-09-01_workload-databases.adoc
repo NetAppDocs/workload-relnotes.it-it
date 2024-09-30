@@ -8,7 +8,7 @@
 
 Ora puoi personalizzare le impostazioni di configurazione per Microsoft SQL Server su Amazon EC2 con FSX per Windows file Server e storage Elastic Block Store nel calcolatore dei risparmi. In base ai tuoi requisiti di storage, potresti renderti conto che FSX per lo storage ONTAP è la più conveniente per i tuoi carichi di lavoro del database.
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di lavoro dei database^."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di lavoro del database"^]
 
 
 
