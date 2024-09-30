@@ -84,8 +84,6 @@
   <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">La release iniziale include la capacità di utilizzare il consulente per la migrazione di VMware per analizzare le configurazioni delle macchine virtuali correnti negli ambienti vSphere on-premise e generare un piano per implementare i layout delle macchine virtuali raccomandati in VMware Cloud su AWS e utilizzare file system Amazon FSX per NetApp ONTAP personalizzati come datastore esterni.</block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrazione ad Amazon EC2</block>
   <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">Workload Factory per VMware ora supporta la migrazione ad Amazon EC2 utilizzando il Migration ADVISOR di VMware.</block>
-  <block id="9ba97d99706e208a6fec2439db710d74" category="doc">Release iniziale di workload Factory per Genai</block>
-  <block id="3d2b63396c87b28180a4d9d0ba951b0d" category="paragraph">La versione iniziale include la capacità di sviluppare una knowledge base personalizzata incorporando i dati dell'organizzazione. È possibile accedere alla knowledge base tramite un'applicazione chatbot destinata agli utenti. Questa funzionalità garantisce risposte accurate e pertinenti alle domande specifiche dell'organizzazione, migliorando la soddisfazione e la produttività di tutti gli utenti.</block>
   <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Integrazione di Amazon CloudWatch Logs</block>
   <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">I carichi di lavoro ai generativi sono ora integrati con Amazon CloudWatch Logs, consentendo di monitorare i file di log dei carichi di lavoro ai generici.</block>
   <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">Esempio di applicazione chatbot</block>
@@ -114,4 +112,18 @@
   <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Scopri i risparmi con FSX per ONTAP per i carichi di lavoro del database</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
+  <block id="430ea429b454fdc4ea2eb6c6b9cdbd77" category="doc">Creare una snapshot e ripristinare un volume della Knowledge base</block>
+  <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Ora puoi proteggere i dati dei carichi di lavoro ai generici acquisendo una copia point-in-time di una knowledge base. Ciò consente di proteggere i dati da perdite accidentali o di verificare le modifiche alle impostazioni della knowledge base. È possibile ripristinare la versione precedente del volume della Knowledge base in qualsiasi momento.</block>
+  <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">Creare un'istantanea del volume di una knowledge base</block>
+  <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
+  <block id="3d1e45266a0a6784e668353081a13cd0" category="inline-link">Ripristinare uno snapshot di un volume della Knowledge base</block>
+  <block id="340b5c4d996cad6cf6d27d13faf94e89" category="paragraph"><block ref="340b5c4d996cad6cf6d27d13faf94e89" category="inline-link-rx"></block></block>
+  <block id="073751c61467c5e36c6cc197d92a75c4" category="section-title">Sospendere le scansioni pianificate</block>
+  <block id="6c31cb11ffc4d11a5aed0e968bb5f8c9" category="paragraph">È ora possibile mettere in pausa le scansioni delle origini dati pianificate. Per impostazione predefinita, i carichi di lavoro ai generativi analizzano ogni origine dati ogni giorno per acquisire nuovi dati in ciascuna knowledge base. Se non si desidera acquisire le ultime modifiche (ad esempio durante il test o il ripristino di uno snapshot), è possibile sospendere le scansioni pianificate e riprenderle in qualsiasi momento.</block>
+  <block id="67f0dcee920749eead316e2518099abb" category="inline-link">Gestire le knowledge base</block>
+  <block id="f951fa0f2608d186cd1f0bd8889ac232" category="paragraph"><block ref="f951fa0f2608d186cd1f0bd8889ac232" category="inline-link-rx"></block></block>
+  <block id="9813be0bded00d4a8f5457f2e27277fa" category="section-title">Volumi di protezione dei dati ora supportati per le basi di conoscenza</block>
+  <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">Quando si seleziona un volume della Knowledge base, è ora possibile scegliere un volume di data Protection che fa parte di una relazione di replica NetApp SnapMirror. In questo modo è possibile archiviare knowledge base su volumi già protetti dalla replica SnapMirror.</block>
+  <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">Identificare le origini dati da integrare nella propria knowledge base</block>
+  <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
 </blocks>
