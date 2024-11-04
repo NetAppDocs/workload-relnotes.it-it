@@ -55,6 +55,18 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
+=== Workload VMware
+
+
+
+==== Il rapporto di riduzione dei dati di VMware Migration Advisor aiuta
+
+Questa versione di workload Factory per VMware include un assistente al rapporto di riduzione dei dati. L'assistente rapporto di riduzione dei dati ti aiuta a decidere il rapporto migliore per il tuo inventario VMware e la tua proprietà di storage durante la preparazione per l'onboarding nel cloud AWS.
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Crea un piano di implementazione per Amazon EC2 utilizzando il Migration Advisor"]
+
+
+
 == 29 settembre 2024
 
 
@@ -257,16 +269,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utiliz
 
 
 == 7 luglio 2024
-
-
-
-=== Workload VMware
-
-
-
-==== Release iniziale di workload Factory per VMware
-
-La release iniziale include la capacità di utilizzare il consulente per la migrazione di VMware per analizzare le configurazioni delle macchine virtuali correnti negli ambienti vSphere on-premise e generare un piano per implementare i layout delle macchine virtuali raccomandati in VMware Cloud su AWS e utilizzare file system Amazon FSX per NetApp ONTAP personalizzati come datastore esterni.
 
 
 
