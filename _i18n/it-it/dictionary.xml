@@ -26,16 +26,11 @@
   <block id="7cdd7814bbdae8c80aca5d088683d506" category="sidebar">Note sulla release di workload Factory</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">Modifiche recenti</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Supporto terraforme</block>
-  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">Creare un file system</block>
-  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="inline-link-macro">Creare una VM di storage</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Utilizzare Terraform da Codebox</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">Consigli su throughput e IOPS nel calcolatore dello storage</block>
-  <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">Il calcolatore dello storage formula raccomandazioni di configurazione del file system FSX per ONTAP per il throughput e gli IOPS sulla base delle Best practice di AWS, il che ti fornisce una guida ottimale per le tue scelte.</block>
   <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Release iniziale di workload Factory</block>
   <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP workload Factory per AWS è una potente piattaforma di gestione del ciclo di vita progettata per aiutarti a ottimizzare i carichi di lavoro utilizzando i file system di Amazon FSX per NetApp ONTAP. I carichi di lavoro che possono essere ottimizzati utilizzando workload Factory e FSX per ONTAP includono database, migrazioni VMware su VMware Cloud su AWS, chatbot ai e altro ancora.</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Il supporto per Terraform è disponibile per Amazon FSX per l'implementazione del file system NetApp ONTAP e la creazione delle VM di storage. La guida di installazione e amministrazione contiene ora le istruzioni per l'uso di Terraform dal Codebox.</block>
-  <block id="0fd886acd6700c343d655429665d7e6a" category="paragraph">Ora puoi utilizzare Terraform di Codebox per implementare file system e macchine virtuali di storage.</block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">Workload dei database</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX per NetApp ONTAP</block>
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Carichi di lavoro Genai</block>
@@ -102,8 +97,6 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Esplora i risparmi per i server Microsoft SQL rilevati in FSX per Windows file Server</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Ora puoi esplorare i risparmi derivanti dai Microsoft SQL Server rilevati su Amazon EC2 con storage FSX per Windows file Server nel calcolatore dei risparmi. A seconda dei tuoi requisiti di storage e server SQL, potresti renderti conto che FSX per lo storage ONTAP è la più conveniente per i tuoi carichi di lavoro del database.</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">29 settembre 2024</block>
-  <block id="a384088a79fca35da6b697720f2ddd66" category="list-text"><block ref="a384088a79fca35da6b697720f2ddd66" category="inline-link-macro-rx"></block></block>
-  <block id="a9803c91b8fa40d3fdc106b005fdb16c" category="list-text"><block ref="a9803c91b8fa40d3fdc106b005fdb16c" category="inline-link-macro-rx"></block></block>
   <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">Aggiornamenti per la creazione del collegamento</block>
   <block id="15f127e6d8c5111ce85f47eff68232a7" category="list-text">Visualizzatore Codebox: La codebox è ora integrata nel processo di creazione del collegamento. Prima di reindirizzare ad AWS per eseguire l'operazione, è possibile visualizzare e copiare il modello CloudFormation da Codebox in workload Factory.</block>
   <block id="8efc4e00ac03374d3e1dc5d19c40016b" category="list-text">Autorizzazioni richieste: Le autorizzazioni necessarie per eseguire la creazione del collegamento in AWS CloudFormation sono ora disponibili per la visualizzazione e la copia dalla procedura guidata Create link in workload Factory.</block>
@@ -126,4 +119,9 @@
   <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">Identificare le origini dati da integrare nella propria knowledge base</block>
   <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
   <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">Supporto di Snapshot e ripristino per i volumi della Knowledge base</block>
+  <block id="31139fb3d548620b7d82f880e4660606" category="doc">Viste a schede nell'inventario dello storage</block>
+  <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">L'inventario dello storage è stato aggiornato con una vista a due schede:</block>
+  <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">Scheda FSX per ONTAP: Visualizza i file system FSX per ONTAP attualmente disponibili.</block>
+  <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">Scheda Esplora i risparmi: Visualizza i sistemi di storage Elastic Block Store, FSX per Windows file Server e Elastic file Systems. A questo punto, puoi esplorare i risparmi per questi sistemi confrontandoli con FSX per ONTAP.</block>
+  <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">3 novembre 2024</block>
 </blocks>
