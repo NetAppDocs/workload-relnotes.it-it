@@ -1,0 +1,13 @@
+= Mascherare le informazioni personali identificabili con le barriere di protezione dei dati
+:allow-uri-read: 
+
+
+
+
+=== Mascherare le informazioni personali identificabili con le barriere di protezione dei dati
+
+Il carico di lavoro ai generativo introduce la funzionalità di data Guardrails, con tecnologia di classificazione BlueXP . La funzione di protezione dei dati identifica e maschera le informazioni personali identificabili (PII, Personal Identifiable Information), contribuendo a mantenere la conformità e a rafforzare la sicurezza dei dati aziendali sensibili.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["Creare una knowledge base"]
+
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Scopri di più sulla classificazione BlueXP"^]
