@@ -2,16 +2,16 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, administration, amazon fsx for netapp ontap, databases, genai, vmware' 
-summary: Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della BlueXP  workload Factory. 
+summary: Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della fabbrica di carichi di lavoro BlueXP . 
 ---
-= Recenti modifiche nella fabbrica di workload BlueXP
+= Recenti cambiamenti nella fabbrica di workload BlueXP 
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della BlueXP  workload Factory.
+Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della fabbrica di carichi di lavoro BlueXP .
 
 
 

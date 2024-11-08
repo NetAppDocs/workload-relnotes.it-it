@@ -1,13 +1,13 @@
 ---
 indexpage:
-  title: Note sulla release di BlueXP  workload Factory
+  title: Note sulla release di fabbrica del carico di lavoro BlueXP 
   summary: Queste note di release descrivono i recenti miglioramenti apportati ai
-    servizi cloud che fanno parte di BlueXP  workload Factory.
-  keywords: BlueXP Workload Factory, release notes, what's new
+    servizi cloud che fanno parte della fabbrica di carichi di lavoro BlueXP .
+  keywords: BlueXP workload factory, release notes, what's new
   lead: Queste note di release descrivono i recenti miglioramenti apportati ai servizi
-    cloud che fanno parte di BlueXP  workload Factory.
+    cloud che fanno parte della fabbrica di carichi di lavoro BlueXP .
   tiles:
   - title: Novità
     links:
-    - title: Recenti modifiche in workload Factory
+    - title: Recenti cambiamenti nella fabbrica di workload BlueXP 
       url: whats-new.html

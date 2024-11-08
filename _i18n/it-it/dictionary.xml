@@ -19,11 +19,7 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open source</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">I file di avviso forniscono informazioni sul copyright e sulle licenze di terze parti utilizzate nel software NetApp.</block>
-  <block id="cce08aba345d6d02161a37f9cd0d876d" category="sidebar">Queste note di release descrivono i recenti miglioramenti apportati ai servizi cloud che fanno parte di BlueXP  workload Factory.</block>
-  <block id="0fb18bb5f075569f125aa8add5a67dc2" category="sidebar">Note sulla release di BlueXP  workload Factory</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novità</block>
-  <block id="608c98c104593db43938566d31ac7d6e" category="sidebar">Recenti modifiche in workload Factory</block>
-  <block id="7cdd7814bbdae8c80aca5d088683d506" category="sidebar">Note sulla release di workload Factory</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">Modifiche recenti</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Supporto terraforme</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Utilizzare Terraform da Codebox</block>
@@ -36,8 +32,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Carichi di lavoro Genai</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Installazione e amministrazione</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Workload VMware</block>
-  <block id="7ff3a8c05743322eb30cf5ff925b4e8c" category="summary">Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della BlueXP  workload Factory.</block>
-  <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">Recenti modifiche nella fabbrica di workload BlueXP</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">4 agosto 2024</block>
   <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">7 luglio 2024</block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">Esplora i risparmi tramite la personalizzazione</block>
@@ -122,4 +116,8 @@
   <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
   <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">Scopri di più sulla classificazione BlueXP</block>
   <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
+  <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della fabbrica di carichi di lavoro BlueXP .</block>
+  <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Recenti cambiamenti nella fabbrica di workload BlueXP </block>
+  <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Queste note di release descrivono i recenti miglioramenti apportati ai servizi cloud che fanno parte della fabbrica di carichi di lavoro BlueXP .</block>
+  <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Note sulla release di fabbrica del carico di lavoro BlueXP </block>
 </blocks>
