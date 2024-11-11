@@ -14,6 +14,6 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Scop
 
 === Dalla home page, accedere al calcolatore dei risparmi
 
-È ora possibile accedere al calcolatore dei risparmi dalla link:https://console.workloads.netapp.com["Console di workload Factory"^]home page. Per iniziare, seleziona Elastic Block Store ed FSX for Windows file Server.
+È ora possibile accedere al calcolatore dei risparmi dalla link:https://console.workloads.netapp.com["console di fabbrica del carico di lavoro"^]home page. Per iniziare, seleziona Elastic Block Store ed FSX for Windows file Server.
 
-image:screenshot-explore-savings-home-small.png["Schermata della home page della console workload Factory. L'immagine mostra il riquadro dei database con un nuovo pulsante di risparmio Esplora. Fare clic sul pulsante per aprire un menu a discesa. Il menu a discesa presenta due opzioni: Microsoft SQL Server su EBS e Microsoft SQL Server su FSX per Windows file Server."]
+image:screenshot-explore-savings-home-small.png["schermata della home page della workload factory della console. L'immagine mostra il riquadro dei database con un nuovo pulsante di risparmio Esplora. Fare clic sul pulsante per aprire un menu a discesa. Il menu a discesa presenta due opzioni: Microsoft SQL Server su EBS e Microsoft SQL Server su FSX per Windows file Server."]
