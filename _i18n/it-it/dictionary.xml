@@ -35,11 +35,6 @@
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">Ora puoi personalizzare le impostazioni di configurazione per Microsoft SQL Server su Amazon EC2 con FSX per Windows file Server e storage Elastic Block Store nel calcolatore dei risparmi. In base ai tuoi requisiti di storage, potresti renderti conto che FSX per lo storage ONTAP è la più conveniente per i tuoi carichi di lavoro del database.</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">Dalla home page, accedere al calcolatore dei risparmi</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 settembre 2024</block>
-  <block id="f0881d896f399a09e86122a09c00b74d" category="doc">Supporto della modalità di lettura per la gestione dello storage</block>
-  <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">Ulteriori informazioni sulla modalità di lettura</block>
-  <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">Backup prima del supporto per l'eliminazione del volume</block>
-  <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">È ora possibile eseguire il backup di un volume prima di eliminarlo. Il backup rimarrà nel file system fino all'eliminazione.</block>
-  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">Eliminare un volume</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">Abbonamento RSS</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Supporto di una singola policy di autorizzazioni per ogni carico di lavoro</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Schermata della sezione di configurazione delle autorizzazioni nella pagina delle credenziali in cui puoi selezionare le policy di lettura o automazione delle autorizzazioni per la gestione dello storage, i carichi di lavoro ai, i carichi di lavoro dei database e i carichi di lavoro VMware.</block>
@@ -101,9 +96,6 @@
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Note sulla release di fabbrica del carico di lavoro BlueXP </block>
   <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">Workload factory per VMware ora supporta la migrazione ad Amazon EC2 utilizzando il Migration ADVISOR di VMware.</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Questa versione di workload Factory per VMware offre miglioramenti delle funzionalità e della stabilità, nonché la possibilità di importare ed esportare i piani di migrazione quando si utilizza VMware Migration Advisor.</block>
-  <block id="4f75f1e69acbf2cd38f0862ac2b212c7" category="paragraph">La modalità di lettura è disponibile per la gestione dello storage in workload Factory. La modalità di lettura migliora l'esperienza della modalità di base aggiungendo autorizzazioni di sola lettura in modo che i modelli Infrastructure-as-Code vengano riempiti con variabili specifiche. I modelli Infrastructure-as-Code possono essere eseguiti direttamente dal tuo account AWS senza fornire autorizzazioni di modifica alla fabbrica dei carichi di lavoro.</block>
-  <block id="f584ba5824f9f0b7bb3a173d45332dd3" category="paragraph"><block ref="f584ba5824f9f0b7bb3a173d45332dd3" category="inline-link-macro-rx"></block></block>
-  <block id="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="paragraph"><block ref="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="inline-link-macro-rx"></block></block>
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Visualizzatore Codebox: La codebox è ora integrata nel processo di creazione del collegamento. Puoi visualizzare e copiare il modello CloudFormation da Codebox in fabbrica dei carichi di lavoro prima di reindirizzare ad AWS per eseguire l'operazione.</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">Autorizzazioni richieste: Le autorizzazioni necessarie per eseguire la creazione del collegamento in AWS CloudFormation sono ora disponibili per la visualizzazione e la copia dalla procedura guidata Crea collegamento in fabbrica del carico di lavoro.</block>
   <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
@@ -123,4 +115,27 @@
   <block id="ab1e050e49bbc49befbca952f74f0443" category="inline-image-macro">schermata della home page della workload factory della console. L'immagine mostra il riquadro dei database con un nuovo pulsante di risparmio Esplora. Fare clic sul pulsante per aprire un menu a discesa. Il menu a discesa presenta due opzioni: Microsoft SQL Server su EBS e Microsoft SQL Server su FSX per Windows file Server.</block>
   <block id="923f11c15ceba3bc0e4d37309ab27ed2" category="paragraph"><block ref="923f11c15ceba3bc0e4d37309ab27ed2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
+  <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">Storage a blocchi per file system scale-out FSX per ONTAP</block>
+  <block id="152983842f852ef5bae46ac675caec95" category="paragraph">Ora puoi effettuare il provisioning dello storage a blocchi su FSX per ONTAP utilizzando un'implementazione scale-out del file system con un massimo di 6 coppie ha.</block>
+  <block id="88ece72bda0e38c0bdca32d19f42a979" category="inline-link-macro">Crea un file system FSX per ONTAP in una farm di workload BlueXP</block>
+  <block id="8cce6f6c21973d5dff1898076cddb209" category="paragraph"><block ref="8cce6f6c21973d5dff1898076cddb209" category="inline-link-macro-rx"></block></block>
+  <block id="609b2d9256f15ecb9d57d3f545d91174" category="section-title">Comando di montaggio disponibile</block>
+  <block id="67ba5d91692276a76737790f2df885ec" category="paragraph">I comandi mount sono ora disponibili per l'accesso NFS e CIFS a un volume. È possibile ottenere il punto di montaggio per un volume all'interno di un file system FSX per ONTAP selezionando *azioni di base* quindi *comando di montaggio vista*.</block>
+  <block id="f12470a0bbf95a722b70847640bd40c9" category="inline-image-macro">Schermata che mostra come visualizzare il comando mount accedendo a un file system fsx per ONTAP, selezionando il menu del volume, selezionando le azioni di base e quindi il comando view mount. Viene visualizzata la finestra di dialogo del comando mount che visualizza il comando mount per l'accesso CIFS o NFS.</block>
+  <block id="21817bf964617ea4f875252102707119" category="paragraph"><block ref="21817bf964617ea4f875252102707119" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0087bca38db021c2b14c65d5893a9339" category="inline-link-macro">Visualizzare il comando mount per un volume</block>
+  <block id="41cd808fdcb8411a8a73071649aca98e" category="paragraph"><block ref="41cd808fdcb8411a8a73071649aca98e" category="inline-link-macro-rx"></block></block>
+  <block id="70bf70871888ae321ee591627f1f149f" category="section-title">Aggiorna l'efficienza dello storage dopo la creazione del volume</block>
+  <block id="4b1987aeb3ee9f5859457d872de9697a" category="paragraph">È ora possibile abilitare o disabilitare l'efficienza dello storage per i volumi FlexVol dopo la creazione del volume. L'efficienza dello storage include deduplica, compressione e data compaction. Abilitando l'efficienza dello storage si ottengono risparmi di spazio ottimali su un FlexVol volume.</block>
+  <block id="b8ae90ddbb68f3303ee755cd1d9b5819" category="inline-link-macro">Update dell'efficienza dello storage per un volume</block>
+  <block id="d26d51c8a86d1db1cfe8dd0317cc6274" category="paragraph"><block ref="d26d51c8a86d1db1cfe8dd0317cc6274" category="inline-link-macro-rx"></block></block>
+  <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">Rilevamento e replica del cluster ONTAP on-premise</block>
+  <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">Rileva e replica i dati dei cluster ONTAP on-premise in un file system FSX per ONTAP in modo che possano essere utilizzati per arricchire le knowledge base di ai. Tutti i flussi di lavoro di rilevamento e replica on-premise sono possibili dalla nuova scheda *ONTAP on-premise* nell'inventario di archiviazione.</block>
+  <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">Scopri un cluster ONTAP on-premise</block>
+  <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
+  <block id="67e962050c9494ada1eab84c21826e3c" category="section-title">Le credenziali AWS migliorano l'analisi del calcolatore di risparmi</block>
+  <block id="81e738c909aeee7a4a781716391eae27" category="paragraph">Ora puoi aggiungere le credenziali AWS attraverso il calcolatore di risparmi. L'aggiunta di credenziali migliora la precisione dell'analisi del calcolatore di risparmi dei tuoi ambienti di storage Amazon Elastic Block Store, Elastic file Systems ed FSX per Windows file Server rispetto a FSX per ONTAP.</block>
+  <block id="dd0818ef84ecf338be3c795b4a57e5c4" category="inline-link-macro">Esplora i risparmi con FSX per ONTAP nella workload factory di BlueXP</block>
+  <block id="f98d47c0920e02232d981da56f082627" category="paragraph"><block ref="f98d47c0920e02232d981da56f082627" category="inline-link-macro-rx"></block></block>
+  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">1 dicembre 2024</block>
 </blocks>
