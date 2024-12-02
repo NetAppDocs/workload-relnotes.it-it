@@ -36,7 +36,6 @@
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Supporto di una singola policy di autorizzazioni per ogni carico di lavoro</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Schermata della sezione di configurazione delle autorizzazioni nella pagina delle credenziali in cui puoi selezionare le policy di lettura o automazione delle autorizzazioni per la gestione dello storage, i carichi di lavoro ai, i carichi di lavoro dei database e i carichi di lavoro VMware.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrazione ad Amazon EC2</block>
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Miglioramenti al Migration Advisor di VMware</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Crea un piano di implementazione per Amazon EC2 utilizzando il Migration Advisor</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
@@ -87,7 +86,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Recenti cambiamenti nella fabbrica di workload BlueXP </block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Queste note di release descrivono i recenti miglioramenti apportati ai servizi cloud che fanno parte della fabbrica di carichi di lavoro BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Note sulla release di fabbrica del carico di lavoro BlueXP </block>
-  <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">Workload factory per VMware ora supporta la migrazione ad Amazon EC2 utilizzando il Migration ADVISOR di VMware.</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Questa versione di workload Factory per VMware offre miglioramenti delle funzionalità e della stabilità, nonché la possibilità di importare ed esportare i piani di migrazione quando si utilizza VMware Migration Advisor.</block>
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Visualizzatore Codebox: La codebox è ora integrata nel processo di creazione del collegamento. Puoi visualizzare e copiare il modello CloudFormation da Codebox in fabbrica dei carichi di lavoro prima di reindirizzare ad AWS per eseguire l'operazione.</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">Autorizzazioni richieste: Le autorizzazioni necessarie per eseguire la creazione del collegamento in AWS CloudFormation sono ora disponibili per la visualizzazione e la copia dalla procedura guidata Crea collegamento in fabbrica del carico di lavoro.</block>
@@ -140,4 +138,9 @@
   <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">La fabbrica di carichi di lavoro BlueXP  per Genai ora supporta il cloning di una knowledge base da una snapshot. Ciò consente il rapido recupero delle basi di conoscenza e la creazione di nuove basi di conoscenza con fonti di dati esistenti, e contribuisce al recupero e allo sviluppo dei dati.</block>
   <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">Clonare una knowledge base</block>
   <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
+  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Miglioramenti al Migration ADVISOR di Amazon EC2</block>
+  <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">Questa release di BlueXP  workload Factory per VMware presenta diversi miglioramenti all'esperienza del Migration Advisor:</block>
+  <block id="80384840ba856b44e35be4918f28a26b" category="list-text">*Raccolta dati*: BlueXP  workload Factory per VMware supporta la capacità di raccogliere dati per un periodo di tempo specifico quando si utilizza il Migration ADVISOR.</block>
+  <block id="2e47bf0e10f6acdee08b3889dc872c4c" category="list-text">*Selezione VM*: BlueXP  workload Factory per VMware ora supporta la selezione delle VM che si desidera includere nella distribuzione della migrazione.</block>
+  <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*Esperienza rapida e avanzata*: Quando si utilizza il Migration ADVISOR, è ora possibile scegliere un'esperienza di migrazione rapida, utilizzando RVtools o l'esperienza avanzata, che utilizza il data collector del Migration ADVISOR.</block>
 </blocks>
