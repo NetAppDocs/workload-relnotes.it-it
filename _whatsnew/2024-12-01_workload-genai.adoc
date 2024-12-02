@@ -1,0 +1,19 @@
+= Clonare una knowledge base da uno snapshot
+:allow-uri-read: 
+
+
+
+
+=== Clonare una knowledge base da uno snapshot
+
+La fabbrica di carichi di lavoro BlueXP  per Genai ora supporta il cloning di una knowledge base da una snapshot. Ciò consente il rapido recupero delle basi di conoscenza e la creazione di nuove basi di conoscenza con fonti di dati esistenti, e contribuisce al recupero e allo sviluppo dei dati.
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["Clonare una knowledge base"]
+
+
+
+=== Rilevamento e replica del cluster ONTAP on-premise
+
+Rileva e replica i dati dei cluster ONTAP on-premise in un file system FSX per ONTAP in modo che possano essere utilizzati per arricchire le knowledge base di ai. Tutti i flussi di lavoro di rilevamento e replica on-premise sono possibili dalla nuova scheda *ONTAP on-premise* nell'inventario di archiviazione.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Scopri un cluster ONTAP on-premise"]
