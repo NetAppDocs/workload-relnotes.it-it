@@ -78,6 +78,34 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["Ge
 
 
 
+=== Carichi di lavoro Genai
+
+
+
+==== Nome istantanea personalizzata
+
+A questo punto è possibile fornire un nome di istantanea per uno snapshot ad-hoc.
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#protect-a-knowledge-base-with-snapshots["Proteggere una knowledge base con le snapshot"]
+
+
+
+==== Nome istanza motore ai personalizzato
+
+Ora puoi assegnare un nome personalizzato all'istanza del motore ai durante l'implementazione.
+
+link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["Implementare l'infrastruttura GenAI"]
+
+
+
+==== Ricostruire un'infrastruttura GenAI danneggiata o mancante
+
+Se l'istanza del motore di ai viene danneggiata o viene eliminata, puoi permettere alla fabbrica del carico di lavoro di ricrearla per te. Workload Factory ricollega automaticamente le knowledge base all'infrastruttura al termine della ricostruzione, in modo che siano pronte all'uso.
+
+link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["Risoluzione dei problemi"]
+
+
+
 == 1 dicembre 2024
 
 
@@ -264,40 +292,6 @@ Il carico di lavoro ai generativo introduce la funzionalità di data Guardrails,
 link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["Creare una knowledge base"]
 
 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Scopri di più sulla classificazione BlueXP"^]
-
-
-
-== 29 settembre 2024
-
-
-
-=== Carichi di lavoro Genai
-
-
-
-==== Supporto di Snapshot e ripristino per i volumi della Knowledge base
-
-Ora puoi proteggere i dati dei carichi di lavoro ai generici acquisendo una copia point-in-time di una knowledge base. Ciò consente di proteggere i dati da perdite accidentali o di verificare le modifiche alle impostazioni della knowledge base. È possibile ripristinare la versione precedente del volume della Knowledge base in qualsiasi momento.
-
-https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume["Creare un'istantanea del volume di una knowledge base"]
-
-https://review.docs.netapp.com/us-en/workload-genai_29-sept-24-release/manage-knowledgebase.html#restore-a-snapshot-of-a-knowledge-base-volume["Ripristinare uno snapshot di un volume della Knowledge base"]
-
-
-
-==== Sospendere le scansioni pianificate
-
-È ora possibile mettere in pausa le scansioni delle origini dati pianificate. Per impostazione predefinita, i carichi di lavoro ai generativi analizzano ogni origine dati ogni giorno per acquisire nuovi dati in ciascuna knowledge base. Se non si desidera acquisire le ultime modifiche (ad esempio durante il test o il ripristino di uno snapshot), è possibile sospendere le scansioni pianificate e riprenderle in qualsiasi momento.
-
-https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html["Gestire le knowledge base"]
-
-
-
-==== Volumi di protezione dei dati ora supportati per le basi di conoscenza
-
-Quando si seleziona un volume della Knowledge base, è ora possibile scegliere un volume di data Protection che fa parte di una relazione di replica NetApp SnapMirror. In questo modo è possibile archiviare knowledge base su volumi già protetti dalla replica SnapMirror.
-
-https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html["Identificare le origini dati da integrare nella propria knowledge base"]
 
 
 

@@ -1,0 +1,27 @@
+= Nome istantanea personalizzata
+:allow-uri-read: 
+
+
+
+
+=== Nome istantanea personalizzata
+
+A questo punto è possibile fornire un nome di istantanea per uno snapshot ad-hoc.
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#protect-a-knowledge-base-with-snapshots["Proteggere una knowledge base con le snapshot"]
+
+
+
+=== Nome istanza motore ai personalizzato
+
+Ora puoi assegnare un nome personalizzato all'istanza del motore ai durante l'implementazione.
+
+link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["Implementare l'infrastruttura GenAI"]
+
+
+
+=== Ricostruire un'infrastruttura GenAI danneggiata o mancante
+
+Se l'istanza del motore di ai viene danneggiata o viene eliminata, puoi permettere alla fabbrica del carico di lavoro di ricrearla per te. Workload Factory ricollega automaticamente le knowledge base all'infrastruttura al termine della ricostruzione, in modo che siano pronte all'uso.
+
+link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["Risoluzione dei problemi"]
