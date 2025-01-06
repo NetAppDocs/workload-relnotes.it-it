@@ -24,22 +24,18 @@
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Supporto terraforme</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Utilizzare Terraform da Codebox</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Il supporto per Terraform è disponibile per Amazon FSX per l'implementazione del file system NetApp ONTAP e la creazione delle VM di storage. La guida di installazione e amministrazione contiene ora le istruzioni per l'uso di Terraform dal Codebox.</block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">Workload dei database</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX per NetApp ONTAP</block>
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Carichi di lavoro Genai</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Installazione e amministrazione</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Workload VMware</block>
-  <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">4 agosto 2024</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 settembre 2024</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">Abbonamento RSS</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Supporto di una singola policy di autorizzazioni per ogni carico di lavoro</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Schermata della sezione di configurazione delle autorizzazioni nella pagina delle credenziali in cui puoi selezionare le policy di lettura o automazione delle autorizzazioni per la gestione dello storage, i carichi di lavoro ai, i carichi di lavoro dei database e i carichi di lavoro VMware.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Miglioramenti al Migration Advisor di VMware</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Crea un piano di implementazione per Amazon EC2 utilizzando il Migration Advisor</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
-  <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">19 settembre 2024</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Scopri i risparmi con FSX per ONTAP per i carichi di lavoro del database</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">Viste a schede nell'inventario dello storage</block>
@@ -66,7 +62,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Recenti cambiamenti nella fabbrica di workload BlueXP </block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Queste note di release descrivono i recenti miglioramenti apportati ai servizi cloud che fanno parte della fabbrica di carichi di lavoro BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Note sulla release di fabbrica del carico di lavoro BlueXP </block>
-  <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Questa versione di workload Factory per VMware offre miglioramenti delle funzionalità e della stabilità, nonché la possibilità di importare ed esportare i piani di migrazione quando si utilizza VMware Migration Advisor.</block>
   <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">console di fabbrica del carico di lavoro</block>
   <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">L'abbonamento RSS è disponibile sul sito <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. L'utilizzo di un feed RSS è un modo semplice per utilizzare e tenere conto delle modifiche apportate alla fabbrica di workload BlueXP .</block>
   <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Schermata del menu a discesa della guida della console workload Factory. Nel menu a discesa viene visualizzato un nuovo pulsante per la sottoscrizione a RSS.</block>
@@ -159,4 +154,10 @@
   <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">Se l'istanza del motore di ai viene danneggiata o viene eliminata, puoi permettere alla fabbrica del carico di lavoro di ricrearla per te. Workload Factory ricollega automaticamente le knowledge base all'infrastruttura al termine della ricostruzione, in modo che siano pronte all'uso.</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">Risoluzione dei problemi</block>
   <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
+  <block id="5baf4417d867f07ce7f16e7810f044d7" category="doc">Supporto degli account di servizio in fabbrica con carichi di lavoro BlueXP </block>
+  <block id="369af9c9eae8f9673850f588a7ed5272" category="paragraph">Gli account di servizio sono ora supportati nella fabbrica di workload BlueXP . Puoi creare account di servizio che fungano da utenti macchina che automatizzano le operazioni dell'infrastruttura.</block>
+  <block id="f932d2619edea0dc69b40e9be53abdc4" category="inline-link-macro">Creare e gestire gli account di servizio</block>
+  <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
+  <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Salvare o scaricare un piano di migrazione*: È ora possibile salvare o scaricare un piano di migrazione e caricare il piano di migrazione per popolare il consulente per la migrazione. Quando si salva un piano di migrazione, il piano viene salvato con l'account workload Factory.</block>
+  <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*Selezione VM migliorata*: BlueXP  workload Factory per VMware ora supporta il filtraggio e la ricerca nell'elenco delle VM che si desidera includere nella distribuzione della migrazione.</block>
 </blocks>

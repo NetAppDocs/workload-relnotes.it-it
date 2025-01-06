@@ -78,6 +78,22 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["Ge
 
 
 
+=== Workload VMware
+
+
+
+==== Miglioramenti al Migration ADVISOR di Amazon EC2
+
+Questa release di BlueXP  workload Factory per VMware presenta diversi miglioramenti all'esperienza del Migration Advisor:
+
+* *Salvare o scaricare un piano di migrazione*: È ora possibile salvare o scaricare un piano di migrazione e caricare il piano di migrazione per popolare il consulente per la migrazione. Quando si salva un piano di migrazione, il piano viene salvato con l'account workload Factory.
+* *Selezione VM migliorata*: BlueXP  workload Factory per VMware ora supporta il filtraggio e la ricerca nell'elenco delle VM che si desidera includere nella distribuzione della migrazione.
+
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Crea un piano di implementazione per Amazon EC2 utilizzando il Migration Advisor"]
+
+
+
 === Carichi di lavoro Genai
 
 
@@ -103,6 +119,18 @@ link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["Im
 Se l'istanza del motore di ai viene danneggiata o viene eliminata, puoi permettere alla fabbrica del carico di lavoro di ricrearla per te. Workload Factory ricollega automaticamente le knowledge base all'infrastruttura al termine della ricostruzione, in modo che siano pronte all'uso.
 
 link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["Risoluzione dei problemi"]
+
+
+
+=== Installazione e amministrazione
+
+
+
+==== Supporto degli account di servizio in fabbrica con carichi di lavoro BlueXP 
+
+Gli account di servizio sono ora supportati nella fabbrica di workload BlueXP . Puoi creare account di servizio che fungano da utenti macchina che automatizzano le operazioni dell'infrastruttura.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["Creare e gestire gli account di servizio"]
 
 
 
@@ -295,22 +323,6 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 
 
-== 19 settembre 2024
-
-
-
-=== Workload VMware
-
-
-
-==== Miglioramenti al Migration Advisor di VMware
-
-Questa versione di workload Factory per VMware offre miglioramenti delle funzionalità e della stabilità, nonché la possibilità di importare ed esportare i piani di migrazione quando si utilizza VMware Migration Advisor.
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Crea un piano di implementazione per Amazon EC2 utilizzando il Migration Advisor"]
-
-
-
 == 1 settembre 2024
 
 
@@ -334,19 +346,3 @@ Quando Aggiungi le credenziali AWS nella fabbrica dei workload, ora puoi selezio
 image:screenshot-single-permission-policy-support.png["Schermata della sezione di configurazione delle autorizzazioni nella pagina delle credenziali in cui puoi selezionare le policy di lettura o automazione delle autorizzazioni per la gestione dello storage, i carichi di lavoro ai, i carichi di lavoro dei database e i carichi di lavoro VMware."]
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Aggiungi le credenziali AWS alla fabbrica del workload"^]
-
-
-
-== 4 agosto 2024
-
-
-
-=== Installazione e amministrazione
-
-
-
-==== Supporto terraforme
-
-Il supporto per Terraform è disponibile per Amazon FSX per l'implementazione del file system NetApp ONTAP e la creazione delle VM di storage. La guida di installazione e amministrazione contiene ora le istruzioni per l'uso di Terraform dal Codebox.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilizzare Terraform da Codebox"^]
