@@ -43,9 +43,6 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Esplora i risparmi per i server Microsoft SQL rilevati in FSX per Windows file Server</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Ora puoi esplorare i risparmi derivanti dai Microsoft SQL Server rilevati su Amazon EC2 con storage FSX per Windows file Server nel calcolatore dei risparmi. A seconda dei tuoi requisiti di storage e server SQL, potresti renderti conto che FSX per lo storage ONTAP è la più conveniente per i tuoi carichi di lavoro del database.</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">29 settembre 2024</block>
-  <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">Aggiornamenti per la creazione del collegamento</block>
-  <block id="3721bd571f4111dad2c363436de34c51" category="list-text">Supporto per la creazione manuale dei link: Questa funzione consente la creazione standalone in AWS CloudFormation con registrazione manuale del link ARN. È utile quando un team di sicurezza o DevOps assiste nel processo di creazione dei collegamenti.</block>
-  <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">Creare un collegamento</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Scopri i risparmi con FSX per ONTAP per i carichi di lavoro del database</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Ora puoi proteggere i dati dei carichi di lavoro ai generici acquisendo una copia point-in-time di una knowledge base. Ciò consente di proteggere i dati da perdite accidentali o di verificare le modifiche alle impostazioni della knowledge base. È possibile ripristinare la versione precedente del volume della Knowledge base in qualsiasi momento.</block>
@@ -87,9 +84,6 @@
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Queste note di release descrivono i recenti miglioramenti apportati ai servizi cloud che fanno parte della fabbrica di carichi di lavoro BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Note sulla release di fabbrica del carico di lavoro BlueXP </block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Questa versione di workload Factory per VMware offre miglioramenti delle funzionalità e della stabilità, nonché la possibilità di importare ed esportare i piani di migrazione quando si utilizza VMware Migration Advisor.</block>
-  <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Visualizzatore Codebox: La codebox è ora integrata nel processo di creazione del collegamento. Puoi visualizzare e copiare il modello CloudFormation da Codebox in fabbrica dei carichi di lavoro prima di reindirizzare ad AWS per eseguire l'operazione.</block>
-  <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">Autorizzazioni richieste: Le autorizzazioni necessarie per eseguire la creazione del collegamento in AWS CloudFormation sono ora disponibili per la visualizzazione e la copia dalla procedura guidata Crea collegamento in fabbrica del carico di lavoro.</block>
-  <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
   <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">console di fabbrica del carico di lavoro</block>
   <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">L'abbonamento RSS è disponibile sul sito <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. L'utilizzo di un feed RSS è un modo semplice per utilizzare e tenere conto delle modifiche apportate alla fabbrica di workload BlueXP .</block>
   <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Schermata del menu a discesa della guida della console workload Factory. Nel menu a discesa viene visualizzato un nuovo pulsante per la sottoscrizione a RSS.</block>
@@ -145,4 +139,13 @@
   <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*Esperienza rapida e avanzata*: Quando si utilizza il Migration ADVISOR, è ora possibile scegliere un'esperienza di migrazione rapida, utilizzando RVtools o l'esperienza avanzata, che utilizza il data collector del Migration ADVISOR.</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">Fabbrica dei carichi di lavoro BlueXP</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
+  <block id="442b133d7d895a50d67d2f8514b6fc0a" category="doc">Miglioramenti alla condivisione CIFS dei volumi</block>
+  <block id="c67048e1717263df3fc8ffc894f40785" category="paragraph">Sono disponibili i seguenti miglioramenti per la gestione della CIFS share per i volumi in un file system Amazon FSX per ONTAP in una fabbrica di workload BlueXP :</block>
+  <block id="28ee2134fc1275e4f2052b7bd91a9f8d" category="list-text">Supporto di più condivisioni CIFS su un volume</block>
+  <block id="aa8a0747da321d7501a2f34bb5326b65" category="list-text">L'opzione per aggiornare utenti e gruppi in qualsiasi momento</block>
+  <block id="a85d37847efda31b7b7b0ee3ee3cd2ab" category="list-text">Opzione per aggiornare le autorizzazioni per utenti e gruppi in qualsiasi momento</block>
+  <block id="0c05c06c8c5abf5cf4956491502d212a" category="list-text">Eliminazione della condivisione CIFS</block>
+  <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">Gestire le condivisioni CIFS</block>
+  <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
+  <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">5 gennaio 2025</block>
 </blocks>
