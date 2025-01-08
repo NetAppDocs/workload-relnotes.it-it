@@ -50,7 +50,7 @@ link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["Mo
 
 Il calcolatore di risparmio valuta ora se Enterprise Edition è necessario per la distribuzione di Microsoft SQL Server. Se una licenza viene fornita in eccesso, il calcolatore consiglia di eseguire il downgrade. Sarà possibile eseguire automaticamente il downgrade della licenza nei database ottimizzando l'applicazione.
 
-* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di lavoro del database"^]
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di lavoro del database"]
 * link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Ottimizza i workload SQL Server"]
 
 
