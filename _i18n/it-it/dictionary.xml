@@ -38,12 +38,6 @@
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
   <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">Il rapporto di riduzione dei dati di VMware Migration Advisor aiuta</block>
   <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">Questa versione di workload Factory per VMware include un assistente al rapporto di riduzione dei dati. L'assistente rapporto di riduzione dei dati ti aiuta a decidere il rapporto migliore per il tuo inventario VMware e la tua proprietà di storage durante la preparazione per l'onboarding nel cloud AWS.</block>
-  <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">Mascherare le informazioni personali identificabili con le barriere di protezione dei dati</block>
-  <block id="0f21cd7bd10e747bca7894a609acc04b" category="paragraph">Il carico di lavoro ai generativo introduce la funzionalità di data Guardrails, con tecnologia di classificazione BlueXP . La funzione di protezione dei dati identifica e maschera le informazioni personali identificabili (PII, Personal Identifiable Information), contribuendo a mantenere la conformità e a rafforzare la sicurezza dei dati aziendali sensibili.</block>
-  <block id="0da805b7cc0727848a84e995ab36cd76" category="inline-link-macro">Creare una knowledge base</block>
-  <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
-  <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">Scopri di più sulla classificazione BlueXP</block>
-  <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della fabbrica di carichi di lavoro BlueXP .</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Recenti cambiamenti nella fabbrica di workload BlueXP </block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Queste note di release descrivono i recenti miglioramenti apportati ai servizi cloud che fanno parte della fabbrica di carichi di lavoro BlueXP .</block>
@@ -156,4 +150,17 @@
   <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">Ottimizza le configurazioni</block>
   <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
   <block id="b19ee84dca9cb059a9aa42ed54c05752" category="section-title">3 febbraio 2025</block>
+  <block id="77fd00559b8279b555e48d21e5e67c34" category="doc">Filtraggio del tipo di file per le origini dati</block>
+  <block id="47cf5538cc85b7acf0e24098fc5bbffd" category="paragraph">GenAI ora supporta la selezione di tipi di file specifici da includere nella scansione dell'origine dati quando si aggiunge un'origine dati.</block>
+  <block id="9bd079cbc91b32393983ae28a378c00c" category="inline-link-macro">Aggiungere fonti di dati alla knowledge base</block>
+  <block id="e57c1e86c82776cdcb9c50b4e82943f8" category="paragraph"><block ref="e57c1e86c82776cdcb9c50b4e82943f8" category="inline-link-macro-rx"></block></block>
+  <block id="f191d5f0a123d62966b3617a9d8c752c" category="section-title">Filtro della data di modifica del file per le origini dati</block>
+  <block id="b1be3e2e5ab05373dbf3927507ea84d2" category="paragraph">GenAI ora supporta il filtraggio dei file da includere nella scansione dell'origine dati per data di modifica quando si aggiunge un'origine dati. È possibile scegliere un intervallo di date di modifica per i file inclusi.</block>
+  <block id="7a7ba68ff13813a8c9d7413b67a91e34" category="section-title">Supporto per i file di immagine e supporto migliorato per i file PDF</block>
+  <block id="02edd7a4065e5f73535b550150fc46f2" category="paragraph">GenAI ora supporta la scansione di file di immagine e immagini all'interno di file PDF (noto anche come supporto di file multimodali). Se si scelgono i file immagine, il testo delle immagini viene acquisito nell'origine dati e utilizzato come dati. Questa funzionalità include immagini all'interno di documenti PDF; se si includono tipi di file PDF, le immagini all'interno di ciascun PDF vengono acquisite per il testo e tale testo viene incluso nelle informazioni provenienti dall'origine dati.</block>
+  <block id="b9a5ff8382cbb9f5609b8bff25344245" category="section-title">Ricerca ibrida e supporto di nuovo rank</block>
+  <block id="429b63d212adaceb6de8dae934d76ea4" category="paragraph">GenAI ora migliora la rilevanza dei risultati di ricerca utilizzando la ricerca ibrida e ri-classificando i risultati. La ricerca ibrida combina le ricerche per parola chiave con la ricerca vettoriale e semantica. I risultati della ricerca per parola chiave standard sono aumentati con corrispondenze ravvicinate e sfumature linguistiche, migliorando la rilevanza. GenAI riclassifica i risultati della ricerca e restituisce solo i risultati con la massima rilevanza.</block>
+  <block id="77c129bd3271a24d7bdf27f4904c52f4" category="inline-link-macro">Scopri la BlueXP  workload Factory per Genai</block>
+  <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
+  <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2 febbraio 2025</block>
 </blocks>

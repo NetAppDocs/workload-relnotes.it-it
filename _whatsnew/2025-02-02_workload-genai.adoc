@@ -1,0 +1,35 @@
+= Filtraggio del tipo di file per le origini dati
+:allow-uri-read: 
+
+
+
+
+=== Filtraggio del tipo di file per le origini dati
+
+GenAI ora supporta la selezione di tipi di file specifici da includere nella scansione dell'origine dati quando si aggiunge un'origine dati.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Aggiungere fonti di dati alla knowledge base"]
+
+
+
+=== Filtro della data di modifica del file per le origini dati
+
+GenAI ora supporta il filtraggio dei file da includere nella scansione dell'origine dati per data di modifica quando si aggiunge un'origine dati. È possibile scegliere un intervallo di date di modifica per i file inclusi.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Aggiungere fonti di dati alla knowledge base"]
+
+
+
+=== Supporto per i file di immagine e supporto migliorato per i file PDF
+
+GenAI ora supporta la scansione di file di immagine e immagini all'interno di file PDF (noto anche come supporto di file multimodali). Se si scelgono i file immagine, il testo delle immagini viene acquisito nell'origine dati e utilizzato come dati. Questa funzionalità include immagini all'interno di documenti PDF; se si includono tipi di file PDF, le immagini all'interno di ciascun PDF vengono acquisite per il testo e tale testo viene incluso nelle informazioni provenienti dall'origine dati.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Aggiungere fonti di dati alla knowledge base"]
+
+
+
+=== Ricerca ibrida e supporto di nuovo rank
+
+GenAI ora migliora la rilevanza dei risultati di ricerca utilizzando la ricerca ibrida e ri-classificando i risultati. La ricerca ibrida combina le ricerche per parola chiave con la ricerca vettoriale e semantica. I risultati della ricerca per parola chiave standard sono aumentati con corrispondenze ravvicinate e sfumature linguistiche, migliorando la rilevanza. GenAI riclassifica i risultati della ricerca e restituisce solo i risultati con la massima rilevanza.
+
+link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["Scopri la BlueXP  workload Factory per Genai"]
