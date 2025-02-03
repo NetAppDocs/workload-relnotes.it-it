@@ -84,6 +84,26 @@ link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#ben
 
 
 
+=== Installazione e amministrazione
+
+
+
+==== CloudShell disponibile nella console di fabbrica del workload BlueXP
+
+CloudShell è disponibile da qualsiasi luogo nella console della workload Factory di BlueXP . CloudShell ti consente di utilizzare le credenziali AWS e ONTAP fornite nel tuo account BlueXP  ed eseguire i comandi dell'interfaccia a riga di comando di AWS o i comandi dell'interfaccia a riga di comando di ONTAP in un ambiente simile alla shell.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Utilizzare CloudShell"]
+
+
+
+==== Aggiornamento delle autorizzazioni per i database
+
+Il seguente permesso è ora disponibile in modalità _Read_ per i database: `iam:SimulatePrincipalPolicy`.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Registro delle modifiche di riferimento delle autorizzazioni"]
+
+
+
 == 22 gennaio 2025
 
 
@@ -323,22 +343,6 @@ link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clon
 Rileva e replica i dati dei cluster ONTAP on-premise in un file system FSX per ONTAP in modo che possano essere utilizzati per arricchire le knowledge base di ai. Tutti i flussi di lavoro di rilevamento e replica on-premise sono possibili dalla nuova scheda *ONTAP on-premise* nell'inventario di archiviazione.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Scopri un cluster ONTAP on-premise"]
-
-
-
-== 11 novembre 2024
-
-
-
-=== Installazione e amministrazione
-
-
-
-==== Integrazione della fabbrica del carico di lavoro nella console BlueXP
-
-È ora possibile utilizzare workload Factory da link:https://console.bluexp.netapp.com["Console BlueXP"^]. L'esperienza della console BlueXP  offre le stesse funzionalità della console workload Factory.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Scopri come accedere a workload Factory dalla console BlueXP"]
 
 
 
