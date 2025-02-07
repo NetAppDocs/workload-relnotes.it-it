@@ -1,6 +1,14 @@
-= Filtraggio del tipo di file per le origini dati
+= Supporto dei modelli di base di Amazon Nova
 :allow-uri-read: 
 
+
+
+
+=== Supporto dei modelli di base di Amazon Nova
+
+Genai ora supporta i modelli di base Amazon Nova. Sono supportati Amazon Nova Micro, Amazon Nova Lite e Amazon Nova Pro.
+
+link:https://docs.netapp.com/us-en/workload-genai/requirements.html["Requisiti Genai"]
 
 
 
