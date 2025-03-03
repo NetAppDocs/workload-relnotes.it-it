@@ -15,6 +15,61 @@ Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della fabb
 
 
 
+== 2025-03-02
+
+
+
+=== Amazon FSX per NetApp ONTAP
+
+
+
+==== Miglioramenti alla gestione automatica della capacità
+
+Quando la gestione automatica della capacità è attivata, la fabbrica del carico di lavoro BlueXP  ora controlla se un file system ha raggiunto la propria soglia di capacità ogni 30 minuti invece che ogni 2 ore.
+
+Workload Factory analizza inoltre la presenza di inode disponibili nei volumi e ne aumenta il conteggio in base alle soglie di gestione automatica della capacità configurate.
+
+L'impostazione IOPS di provisioning non viene più influenzata dal raggiungimento della soglia di capacità.
+
+
+
+==== Snapshot immutabili
+
+Ora è possibile bloccare gli snapshot, rendendoli immutabili, per un periodo di conservazione specifico. Il blocco impedisce l'accesso non autorizzato e l'eliminazione dannosa degli snapshot. È possibile attivare snapshot immutabili durante la creazione di policy di snapshot, durante la creazione di snapshot manuali e dopo la creazione di snapshot.
+
+
+
+==== Aggiornamento dei file immutabili
+
+Ora puoi apportare le seguenti modifiche alla configurazione dei file immutabili: Policy di conservazione, periodo di conservazione, periodo di autocommit e modalità di aggiunta del volume.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Gestire i file immutabili"^]
+
+
+
+==== Miglioramenti alla replica dei dati
+
+* Replica tra account diversi: La replica tra due account AWS è supportata nella console factory del carico di lavoro BlueXP  nonché nella gestione della replica.
+* Replica di un volume di data Protection: I volumi di data Protection ora supportano la replica a cascata, quando i volumi vengono replicati da volumi replicati.
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["Replica di un volume di data Protection"]
+
+* Pausa e ripresa della replica: È possibile mettere in pausa (disattivare) gli aggiornamenti di replica pianificati dal volume di origine al volume di destinazione e quindi riprendere la pianificazione della replica quando si è pronti. Durante la pausa, i volumi di origine e destinazione diventano indipendenti, mentre il volume di destinazione passa da sola lettura a lettura e scrittura.
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/pause-resume-replication.html["Sospendere e riprendere una relazione di replica"]
+
+
+
+
+
+==== Eventi CloudShell in Tracker
+
+Ora puoi tenere traccia degli eventi CloudShell in Tracker.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Scopri come monitorare e monitorare le operazioni con Tracker"]
+
+
+
 == 3 febbraio 2025
 
 
@@ -315,52 +370,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.
 
 
 == 1 dicembre 2024
-
-
-
-=== Amazon FSX per NetApp ONTAP
-
-
-
-==== Storage a blocchi per file system scale-out FSX per ONTAP
-
-Ora puoi effettuare il provisioning dello storage a blocchi su FSX per ONTAP utilizzando un'implementazione scale-out del file system con un massimo di 6 coppie ha.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Crea un file system FSX per ONTAP in una farm di workload BlueXP"]
-
-
-
-==== Comando di montaggio disponibile
-
-I comandi mount sono ora disponibili per l'accesso NFS e CIFS a un volume. È possibile ottenere il punto di montaggio per un volume all'interno di un file system FSX per ONTAP selezionando *azioni di base* quindi *comando di montaggio vista*.
-
-image:screenshot-view-mount-command.png["Schermata che mostra come visualizzare il comando mount accedendo a un file system fsx per ONTAP, selezionando il menu del volume, selezionando le azioni di base e quindi il comando view mount. Viene visualizzata la finestra di dialogo del comando mount che visualizza il comando mount per l'accesso CIFS o NFS."]
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/access-data.html["Visualizzare il comando mount per un volume"]
-
-
-
-==== Aggiorna l'efficienza dello storage dopo la creazione del volume
-
-È ora possibile abilitare o disabilitare l'efficienza dello storage per i volumi FlexVol dopo la creazione del volume. L'efficienza dello storage include deduplica, compressione e data compaction. Abilitando l'efficienza dello storage si ottengono risparmi di spazio ottimali su un FlexVol volume.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/update-storage-efficiency.html["Update dell'efficienza dello storage per un volume"]
-
-
-
-==== Rilevamento e replica del cluster ONTAP on-premise
-
-Rileva e replica i dati dei cluster ONTAP on-premise in un file system FSX per ONTAP in modo che possano essere utilizzati per arricchire le knowledge base di ai. Tutti i flussi di lavoro di rilevamento e replica on-premise sono possibili dalla nuova scheda *ONTAP on-premise* nell'inventario di archiviazione.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Scopri un cluster ONTAP on-premise"]
-
-
-
-==== Le credenziali AWS migliorano l'analisi del calcolatore di risparmi
-
-Ora puoi aggiungere le credenziali AWS attraverso il calcolatore di risparmi. L'aggiunta di credenziali migliora la precisione dell'analisi del calcolatore di risparmi dei tuoi ambienti di storage Amazon Elastic Block Store, Elastic file Systems ed FSX per Windows file Server rispetto a FSX per ONTAP.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["Esplora i risparmi con FSX per ONTAP nella workload factory di BlueXP"]
 
 
 
