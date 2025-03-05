@@ -95,7 +95,7 @@ Ora è possibile bloccare gli snapshot, rendendoli immutabili, per un periodo di
 
 Ora puoi apportare le seguenti modifiche alla configurazione dei file immutabili: Policy di conservazione, periodo di conservazione, periodo di autocommit e modalità di aggiunta del volume.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Gestire i file immutabili"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Gestire i file immutabili"]
 
 
 
@@ -213,7 +213,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 CloudShell è una funzionalità CLI integrata disponibile all'interno della fabbrica di workload BlueXP  per lo storage. Puoi utilizzare CloudShell per creare, condividere ed eseguire comandi CLI ONTAP o AWS da più sessioni in un ambiente simile a una shell dall'interno della console della workload factory.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Scopri di più su CloudShell nella fabbrica di workload BlueXP"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Scopri di più su CloudShell nella fabbrica di workload BlueXP"]
 
 
 
