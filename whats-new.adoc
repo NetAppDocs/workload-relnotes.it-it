@@ -100,10 +100,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.htm
 ==== Miglioramenti alla replica dei dati
 
 * Replica tra account diversi: La replica tra due account AWS è supportata nella console factory del carico di lavoro BlueXP  nonché nella gestione della replica.
-* Replica di un volume di data Protection: I volumi di data Protection ora supportano la replica a cascata, quando i volumi vengono replicati da volumi replicati.
-+
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["Replica di un volume di data Protection"]
-
 * Pausa e ripresa della replica: È possibile mettere in pausa (disattivare) gli aggiornamenti di replica pianificati dal volume di origine al volume di destinazione e quindi riprendere la pianificazione della replica quando si è pronti. Durante la pausa, i volumi di origine e destinazione diventano indipendenti, mentre il volume di destinazione passa da sola lettura a lettura e scrittura.
 +
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/pause-resume-replication.html["Sospendere e riprendere una relazione di replica"]
