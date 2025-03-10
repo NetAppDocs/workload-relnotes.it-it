@@ -8,8 +8,6 @@
 
 Quando la gestione automatica della capacità è attivata, la fabbrica del carico di lavoro BlueXP  ora controlla se un file system ha raggiunto la propria soglia di capacità ogni 30 minuti invece che ogni 2 ore.
 
-Workload Factory analizza inoltre la presenza di inode disponibili nei volumi e ne aumenta il conteggio in base alle soglie di gestione automatica della capacità configurate.
-
 L'impostazione IOPS di provisioning non viene più influenzata dal raggiungimento della soglia di capacità.
 
 
