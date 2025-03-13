@@ -1,16 +1,12 @@
-= PostgreSQL configurazione ad alta disponibilità e creazione rapida
+= PostgreSQL configurazione ad alta disponibilità
 :allow-uri-read: 
 
 
 
 
-=== PostgreSQL configurazione ad alta disponibilità e creazione rapida
+=== PostgreSQL configurazione ad alta disponibilità
 
-Sono supportate due nuove aree di funzionalità nella farm dei carichi di lavoro BlueXP  per i database:
-
-* Configurazione ad alta disponibilità (ha) PostgreSQL: È ora possibile distribuire una configurazione ha per PostgreSQL Server.
-* Creazione rapida: È possibile utilizzare questa opzione di distribuzione rapida per creare un server PostgreSQL con configurazione ha e procedure consigliate incorporate.
-
+È ora possibile distribuire una configurazione ad alta disponibilità (ha) per PostgreSQL Server.
 
 link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["Creare un server PostgreSQL"]
 

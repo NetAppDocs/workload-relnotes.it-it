@@ -159,7 +159,6 @@
   <block id="5ddfb412189af7bcce0a056c9fcef326" category="paragraph"><block ref="5ddfb412189af7bcce0a056c9fcef326" category="inline-link-macro-rx"></block></block>
   <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">Miglioramenti alla gestione automatica della capacità</block>
   <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">Quando la gestione automatica della capacità è attivata, la fabbrica del carico di lavoro BlueXP  ora controlla se un file system ha raggiunto la propria soglia di capacità ogni 30 minuti invece che ogni 2 ore.</block>
-  <block id="b8f4f574565ae3f9b004976be6075660" category="paragraph">Workload Factory analizza inoltre la presenza di inode disponibili nei volumi e ne aumenta il conteggio in base alle soglie di gestione automatica della capacità configurate.</block>
   <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">L'impostazione IOPS di provisioning non viene più influenzata dal raggiungimento della soglia di capacità.</block>
   <block id="c21bf517f636f8492b01232a674a8d2e" category="section-title">Snapshot immutabili</block>
   <block id="525386f4531b9b4bbd2b84ae92c59c07" category="paragraph">Ora è possibile bloccare gli snapshot, rendendoli immutabili, per un periodo di conservazione specifico. Il blocco impedisce l'accesso non autorizzato e l'eliminazione dannosa degli snapshot. È possibile attivare snapshot immutabili durante la creazione di policy di snapshot, durante la creazione di snapshot manuali e dopo la creazione di snapshot.</block>
@@ -168,19 +167,12 @@
   <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">Gestire i file immutabili</block>
   <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">Miglioramenti alla replica dei dati</block>
   <block id="114e60d7d0f811f597761cf833328a96" category="list-text">Replica tra account diversi: La replica tra due account AWS è supportata nella console factory del carico di lavoro BlueXP  nonché nella gestione della replica.</block>
-  <block id="6fa19d46a9961be1aeabe428c8550d2f" category="list-text">Replica di un volume di data Protection: I volumi di data Protection ora supportano la replica a cascata, quando i volumi vengono replicati da volumi replicati.</block>
-  <block id="699cadf384181ae5970ed8c0de60e0ff" category="inline-link-macro">Replica di un volume di data Protection</block>
-  <block id="f4ae9aa33f99746ec1459126f50c3db7" category="paragraph"><block ref="f4ae9aa33f99746ec1459126f50c3db7" category="inline-link-macro-rx"></block></block>
   <block id="0348e63af5ee6958b15125648a1ecae7" category="list-text">Pausa e ripresa della replica: È possibile mettere in pausa (disattivare) gli aggiornamenti di replica pianificati dal volume di origine al volume di destinazione e quindi riprendere la pianificazione della replica quando si è pronti. Durante la pausa, i volumi di origine e destinazione diventano indipendenti, mentre il volume di destinazione passa da sola lettura a lettura e scrittura.</block>
   <block id="38485996f06c5e13eed5605901b52530" category="inline-link-macro">Sospendere e riprendere una relazione di replica</block>
   <block id="fc81b1e4233a48b719520033e56b4194" category="paragraph"><block ref="fc81b1e4233a48b719520033e56b4194" category="inline-link-macro-rx"></block></block>
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Eventi CloudShell in Tracker</block>
   <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">Ora puoi tenere traccia degli eventi CloudShell in Tracker.</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025-03-02</block>
-  <block id="e1e5f5c3c58578921409fc2e6d5eedd8" category="doc">PostgreSQL configurazione ad alta disponibilità e creazione rapida</block>
-  <block id="ed9e60a4e06d1c99d8eb3562ecbf8b63" category="paragraph">Sono supportate due nuove aree di funzionalità nella farm dei carichi di lavoro BlueXP  per i database:</block>
-  <block id="c657a4dd8aa01cb30f32e751a8482131" category="list-text">Configurazione ad alta disponibilità (ha) PostgreSQL: È ora possibile distribuire una configurazione ha per PostgreSQL Server.</block>
-  <block id="d86f1a99d557ac15f85400fdfbdb8b14" category="list-text">Creazione rapida: È possibile utilizzare questa opzione di distribuzione rapida per creare un server PostgreSQL con configurazione ha e procedure consigliate incorporate.</block>
   <block id="f57c49a06b4a8a20d9a723cd677b9655" category="inline-link-macro">Creare un server PostgreSQL</block>
   <block id="d3420539383bb38c88221d86000226d1" category="paragraph"><block ref="d3420539383bb38c88221d86000226d1" category="inline-link-macro-rx"></block></block>
   <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">Supporto terraform per la creazione di server PostgreSQL</block>
@@ -215,4 +207,6 @@
   <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
   <block id="95712b1074d83e6727c42aa16be5af5a" category="paragraph"><block ref="95712b1074d83e6727c42aa16be5af5a" category="inline-link-macro-rx"></block></block>
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
+  <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQL configurazione ad alta disponibilità</block>
+  <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">È ora possibile distribuire una configurazione ad alta disponibilità (ha) per PostgreSQL Server.</block>
 </blocks>
