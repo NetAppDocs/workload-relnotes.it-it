@@ -19,6 +19,45 @@ Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della fabb
 
 
 
+=== Amazon FSX per NetApp ONTAP
+
+
+
+==== Gestione automatica della capacità per sistemi scale-out
+
+Workload Factory ora ricerca gli inode disponibili nei volumi e ne aumenta il conteggio in base alle soglie di gestione automatica della capacità configurate. Questa funzionalità supporta la gestione automatica della capacità per sistemi scale-out. È possibile abilitare la gestione inodes come parte della gestione automatica della capacità.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Consentire la gestione automatica della capacità"]
+
+
+
+==== API di ribilanciamento FlexGroup
+
+BlueXP  workload Factory rilascia l'API di ribilanciamento di FlexGroup che ti consente di eseguire un piano per ribilanciare i dati in un FlexGroup. Il ribilanciamento ridistribuisce i dati in modo uniforme nei volumi degli elementi.
+
+link:https://console.workloads.netapp.com/api-doc["Documentazione dell'API di fabbrica del carico di lavoro BlueXP"]
+
+
+
+==== Il modulo di replica dei dati include i casi d'utilizzo
+
+Il modulo di replica dei dati include ora casi d'utilizzo che semplificano la compilazione del modulo. Per la replica dei dati, seleziona uno dei seguenti casi d'utilizzo: Migrazione, disaster recovery hot, disaster recovery cold, archivio o altro. Dopo aver selezionato un caso di utilizzo, workload Factory consiglia i valori conformemente alle Best practice. È possibile accettare i valori preselezionati o personalizzare i valori nel modulo.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Replicare i dati"]
+
+
+
+==== Modifiche alla terminologia delle policy relative al tiering dei dati
+
+Ora, quando selezioni una policy di tiering durante la creazione di volumi, la replica dei dati o gli aggiornamenti delle policy di tiering esistenti, troverai nuovi termini per descrivere le policy di tiering.
+
+* _Bilanciato (automatico)_
+* _Costi ottimizzati (tutti)_
+* _Prestazioni ottimizzate (solo Snapshot)_
+
+
+
+
 === Installazione e amministrazione
 
 
@@ -408,24 +447,6 @@ Il calcolatore di risparmio valuta ora se Enterprise Edition è necessario per l
 
 
 == 5 gennaio 2025
-
-
-
-=== Amazon FSX per NetApp ONTAP
-
-
-
-==== Miglioramenti alla condivisione CIFS dei volumi
-
-Sono disponibili i seguenti miglioramenti per la gestione della CIFS share per i volumi in un file system Amazon FSX per ONTAP in una fabbrica di workload BlueXP :
-
-* Supporto di più condivisioni CIFS su un volume
-* L'opzione per aggiornare utenti e gruppi in qualsiasi momento
-* Opzione per aggiornare le autorizzazioni per utenti e gruppi in qualsiasi momento
-* Eliminazione della condivisione CIFS
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["Gestire le condivisioni CIFS"]
 
 
 
