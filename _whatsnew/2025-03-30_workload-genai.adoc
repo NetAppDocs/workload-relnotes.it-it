@@ -32,6 +32,8 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Cre
 
 Utilizzando l'API della farm dei workload, ora puoi aggiungere un'origine dati da una condivisione generica NFSv3, NFSv4 o SMB. Quando Aggiungi un'origine dati da una condivisione NFS o SMB, il volume della Knowledge base rimane su un volume Amazon FSX per NetApp ONTAP. L'interfaccia utente Web di workload Factory supporterà questa funzione in una versione futura.
 
+link:https://console.workloads.netapp.com/api-doc["Utilizza l'API della fabbrica del carico di lavoro"^]
+
 
 
 === Supporto peering VPC
