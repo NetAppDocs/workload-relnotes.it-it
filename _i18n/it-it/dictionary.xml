@@ -80,10 +80,6 @@
   <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">Se l'istanza del motore di ai viene danneggiata o viene eliminata, puoi permettere alla fabbrica del carico di lavoro di ricrearla per te. Workload Factory ricollega automaticamente le knowledge base all'infrastruttura al termine della ricostruzione, in modo che siano pronte all'uso.</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">Risoluzione dei problemi</block>
   <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
-  <block id="5baf4417d867f07ce7f16e7810f044d7" category="doc">Supporto degli account di servizio in fabbrica con carichi di lavoro BlueXP </block>
-  <block id="369af9c9eae8f9673850f588a7ed5272" category="paragraph">Gli account di servizio sono ora supportati nella fabbrica di workload BlueXP . Puoi creare account di servizio che fungano da utenti macchina che automatizzano le operazioni dell'infrastruttura.</block>
-  <block id="f932d2619edea0dc69b40e9be53abdc4" category="inline-link-macro">Creare e gestire gli account di servizio</block>
-  <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Salvare o scaricare un piano di migrazione*: È ora possibile salvare o scaricare un piano di migrazione e caricare il piano di migrazione per popolare il consulente per la migrazione. Quando si salva un piano di migrazione, il piano viene salvato con l'account workload Factory.</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*Selezione VM migliorata*: BlueXP  workload Factory per VMware ora supporta il filtraggio e la ricerca nell'elenco delle VM che si desidera includere nella distribuzione della migrazione.</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
@@ -209,4 +205,9 @@
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQL configurazione ad alta disponibilità</block>
   <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">È ora possibile distribuire una configurazione ad alta disponibilità (ha) per PostgreSQL Server.</block>
+  <block id="42bc8432872c22cf4fdbb156ae58a17e" category="doc">CloudShell riporta errori generati da ai per i comandi CLI di ONTAP</block>
+  <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Quando si utilizza CloudShell, ogni volta che si invia un comando CLI di ONTAP e si verifica un errore, è possibile ottenere risposte agli errori generate dall'intelligenza artificiale che includono una descrizione del guasto, la causa del guasto e una risoluzione dettagliata.</block>
+  <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">iam:aggiornamento autorizzazioni SimulatePermissionPolicy</block>
+  <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Ora puoi gestire<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> il permesso dalla console workload Factory quando Aggiungi ulteriori credenziali di account AWS o Aggiungi una nuova funzionalità del workload come il workload Genai.</block>
+  <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025-03-30</block>
 </blocks>
