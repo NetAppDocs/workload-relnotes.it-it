@@ -181,7 +181,6 @@
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQL configurazione ad alta disponibilità</block>
   <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">È ora possibile distribuire una configurazione ad alta disponibilità (ha) per PostgreSQL Server.</block>
-  <block id="42bc8432872c22cf4fdbb156ae58a17e" category="doc">CloudShell riporta errori generati da ai per i comandi CLI di ONTAP</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Quando si utilizza CloudShell, ogni volta che si invia un comando CLI di ONTAP e si verifica un errore, è possibile ottenere risposte agli errori generate dall'intelligenza artificiale che includono una descrizione del guasto, la causa del guasto e una risoluzione dettagliata.</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">iam:aggiornamento autorizzazioni SimulatePermissionPolicy</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Ora puoi gestire<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> il permesso dalla console workload Factory quando Aggiungi ulteriori credenziali di account AWS o Aggiungi una nuova funzionalità del workload come il workload Genai.</block>
@@ -221,4 +220,5 @@
   <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">*Miglioramenti all'efficienza degli script di raccolta dati*: Lo script di raccolta dati del Migration ADVISOR EC2 ottimizza l'utilizzo della CPU durante la raccolta dei dati per implementazioni VM di dimensioni inferiori.</block>
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">Utilizza l'API della fabbrica del carico di lavoro</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
+  <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell riporta risposte di errore generate dall'ai per i comandi CLI di ONTAP</block>
 </blocks>
