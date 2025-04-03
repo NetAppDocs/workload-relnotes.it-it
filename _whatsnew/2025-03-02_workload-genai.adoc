@@ -26,7 +26,7 @@ Questa versione di GenAI fornisce un supporto file migliorato:
 
 * I modelli di chat sono dotati di un supporto CSV migliorato. Ciò consente risposte più utili quando si eseguono query sui dati da file CSV.
 * Genai ora può acquisire i file Apache Parquet dalle origini dei dati.
-* GenAI ora supporta l'acquisizione di file Microsoft Word DOCX che includono immagini.
+* GenAI ora supporta l'acquisizione di file Microsoft Word DOCX che includono immagini. Le immagini incorporate nei documenti DOCX vengono sottoposte a scansione e le informazioni sul testo delle immagini incorporate vengono incluse nelle risposte alle query della Knowledge base.
 
 
 link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formati di file origine dati supportati"]

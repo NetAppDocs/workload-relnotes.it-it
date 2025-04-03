@@ -30,7 +30,7 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-
 
 === Supporto per i file di immagine e supporto migliorato per i file PDF
 
-GenAI ora supporta la scansione di file di immagine e immagini all'interno di file PDF (noto anche come supporto di file multimodali). Se si scelgono i file immagine, il testo delle immagini viene acquisito nell'origine dati e utilizzato come dati. Questa funzionalità include immagini all'interno di documenti PDF; se si includono tipi di file PDF, le immagini all'interno di ciascun PDF vengono acquisite per il testo e tale testo viene incluso nelle informazioni provenienti dall'origine dati.
+GenAI ora supporta il miglioramento delle risposte alle query della knowledge base con approfondimenti dalle immagini e dalle descrizioni dei grafici, oltre al testo dei documenti, per ottenere risposte più ricche e di qualità superiore. GenAI può ora eseguire la scansione di file e immagini di immagini all'interno di file PDF (noti anche come supporto di file multimodali). Se si sceglie di eseguire la scansione di immagini o file PDF, il testo delle immagini (comprese le immagini incorporate nei documenti PDF) viene sottoposto a scansione nell'origine dati e le informazioni acquisite dalle scansioni vengono incluse nelle risposte alle query della Knowledge base.
 
 link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Aggiungere fonti di dati alla knowledge base"]
 
@@ -38,6 +38,6 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-
 
 === Ricerca ibrida e supporto di nuovo rank
 
-GenAI ora migliora la rilevanza dei risultati di ricerca utilizzando la ricerca ibrida e ri-classificando i risultati. La ricerca ibrida combina le ricerche per parola chiave con la ricerca vettoriale e semantica. I risultati della ricerca per parola chiave standard sono aumentati con corrispondenze ravvicinate e sfumature linguistiche, migliorando la rilevanza. GenAI riclassifica i risultati della ricerca e restituisce solo i risultati con la massima rilevanza.
+GenAI può ora migliorare significativamente la pertinenza e la precisione dei risultati di ricerca utilizzando la ricerca ibrida e ri-classificando i risultati. La ricerca ibrida combina i punti di forza della ricerca tradizionale basata su parole chiave con tecniche di ricerca semantica avanzate basate su vettori densi. I risultati della ricerca per parola chiave standard sono aumentati con corrispondenze ravvicinate e sfumature linguistiche, migliorando la rilevanza. GenAI perfeziona ulteriormente questi risultati utilizzando modelli avanzati di re-classifica, come Cohere Rank e Amazon Rank, e restituisce i risultati più rilevanti. Questa funzionalità è disponibile per le nuove basi di conoscenza create.
 
 link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["Scopri la BlueXP  workload Factory per Genai"]
