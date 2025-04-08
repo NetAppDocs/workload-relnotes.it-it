@@ -15,6 +15,66 @@ Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della fabb
 
 
 
+== 2025-04-04
+
+
+
+=== Workload dei database
+
+
+
+==== Miglioramenti all'ottimizzazione
+
+Per ottimizzare gli ambienti di database sono disponibili nuove valutazioni di ottimizzazione, correzioni e visualizzazione di più risorse.
+
+
+
+===== Valutazioni della resilienza
+
+I miglioramenti includono nuove valutazioni della resilienza per controllare che le funzionalità di ridondanza dei dati e disaster recovery siano configurate per i vostri ambienti di database.
+
+* Backup di FSX per ONTAP: Analizza se i file system FSX per ONTAP che servono i volumi dell'istanza di SQL Server sono configurati con FSX per ONTAP pianificato.
+* Replica tra aree: Valuta se FSX per i file system ONTAP che servono le istanze di Microsoft SQL Server è configurato con la replica tra aree.
+
+
+
+
+===== Correzione del calcolo
+
+La correzione RSS (Receive Side Scaling) configura RSS per distribuire l'elaborazione di rete tra più processori e assicurare una distribuzione efficiente del carico.
+
+
+
+===== Correzione locale delle snapshot
+
+La correzione locale delle snapshot imposta le policy di snapshot per i volumi per le istanze di Microsoft SQL Server per mantenere resilienti gli ambienti di database in caso di perdita di dati.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Ottimizza le configurazioni"]
+
+
+
+===== Supporto per la selezione di più risorse
+
+Quando si ottimizzano le configurazioni dei database, sarà ora possibile selezionare risorse specifiche invece di tutte le risorse.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Ottimizza le configurazioni"]
+
+
+
+==== Vista inventario migliorata
+
+La scheda inventario nella console workload factory è stata semplificata in modo da contenere solo server SQL in esecuzione su Amazon FSX per NetApp ONTAP. Ora troverai SQL Server on-premise ed in esecuzione su Amazon Elastic Block Store e Amazon FSX per Windows file Server nella scheda Esplora risparmi.
+
+
+
+==== Creazione rapida disponibile per la distribuzione di PostgreSQL Server
+
+È possibile utilizzare questa opzione di distribuzione rapida per creare un server PostgreSQL con configurazione ha e procedure consigliate incorporate.
+
+link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Creare un server PostgreSQL in fabbrica carichi di lavoro BlueXP"]
+
+
+
 == 2025-03-30
 
 
@@ -470,47 +530,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 Ora puoi vedere le autorizzazioni utilizzate dalla fabbrica del carico di lavoro BlueXP  per eseguire varie operazioni a partire dal rilevamento degli ambienti storage fino all'implementazione di risorse AWS come file system in storage o knowledge base per i carichi di lavoro Genai. Puoi visualizzare le policy e i permessi IAM per i workload Storage, Database, VMware e Genai.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Autorizzazioni predefinite per i workload BlueXP"]
-
-
-
-== 6 gennaio 2025
-
-
-
-=== Workload dei database
-
-
-
-==== Miglioramenti al dashboard dei database
-
-Un nuovo design del Dashboard include le seguenti immagini e miglioramenti:
-
-* Il grafico della distribuzione dell'host mostra il numero di host Microsoft SQL Server e di host PostgreSQL
-* I dettagli di distribuzione delle istanze includono il numero totale di istanze rilevate e il numero di istanze gestite di Microsoft SQL Server e PostgreSQL
-* I dettagli di distribuzione dei database includono il numero totale di database e il numero di database Microsoft SQL Server e PostgreSQL gestiti
-* Punteggio e stati di ottimizzazione per le istanze gestite e online
-* Dettagli di ottimizzazione per categorie di applicazioni, calcolo e storage
-* Dettagli di ottimizzazione per configurazioni delle istanze di Microsoft SQL Server come dimensionamento dello storage, layout dello storage, storage ONTAP, calcolo e applicazioni
-* Potenziali risparmi per i carichi di lavoro dei database in esecuzione su Amazon Elastic Block Store e FSX per ambienti di storage Windows file Server rispetto ad Amazon FSX per lo storage NetApp ONTAP
-
-
-
-
-==== Nuovo stato "completato con problemi" in monitoraggio lavoro
-
-La funzione di monitoraggio dei lavori per i database fornisce ora il nuovo stato "completato con problemi" in modo da poter conoscere quali lavori secondari presentano problemi e quali sono i problemi.
-
-link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["Monitorare i database"]
-
-
-
-==== Valutazione e ottimizzazione per le licenze Microsoft SQL Server con overprovisioning
-
-Il calcolatore di risparmio valuta ora se Enterprise Edition è necessario per la distribuzione di Microsoft SQL Server. Se una licenza viene fornita in eccesso, il calcolatore consiglia di eseguire il downgrade. Sarà possibile eseguire automaticamente il downgrade della licenza nei database ottimizzando l'applicazione.
-
-* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Scopri i risparmi con FSX per ONTAP per i carichi di lavoro del database"]
-* link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Ottimizza i workload SQL Server"]
-
 
 
 
