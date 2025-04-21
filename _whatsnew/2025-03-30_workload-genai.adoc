@@ -8,7 +8,7 @@
 
 Questa versione di GenAI introduce il supporto dei formati di file JSON e JSONP durante l'acquisizione di file `.json` da origini dati. Sono supportati i file JSON con oggetti nidificati, con supporto limitato per gli array nidificati.
 
-link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formati di file origine dati supportati"]
+link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["Formati di file origine dati supportati"]
 
 
 
