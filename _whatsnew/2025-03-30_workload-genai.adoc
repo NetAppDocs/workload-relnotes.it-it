@@ -8,7 +8,7 @@
 
 Questa versione di GenAI introduce il supporto dei formati di file JSON e JSONP durante l'acquisizione di file `.json` da origini dati. Sono supportati i file JSON con oggetti nidificati, con supporto limitato per gli array nidificati.
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["Formati di file origine dati supportati"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["Formati di file origine dati supportati"]
 
 
 
@@ -24,7 +24,7 @@ link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-Chat
 
 GenAI ora include il supporto per il modello di chat antropico Claude 3,7 Sonnet. Le funzionalità beta di Claude 3,7 Sonnet consentono fino a 128K token di output per richiesta e supportano nuove azioni di utilizzo del computer. Claude 3,7 Sonnet Extended Thinking Mode sarà supportato in una futura versione di GenAI.
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Creare una knowledge base GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Creare una knowledge base GenAI"]
 
 
 
@@ -40,4 +40,4 @@ link:https://console.workloads.netapp.com/api-doc["Utilizza l'API della fabbrica
 
 Ora puoi implementare un'infrastruttura Genai link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["Cloud privati virtuali (VPC) in peering"^]nella stessa area e utilizzare il medesimo account AWS. Puoi implementare il motore ai in un VPC e quindi creare una knowledge base in un VPC con peered e selezionare i file system Amazon FSX per NetApp ONTAP che risiedono in un VPC con peered.
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Creare una knowledge base GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Creare una knowledge base GenAI"]
