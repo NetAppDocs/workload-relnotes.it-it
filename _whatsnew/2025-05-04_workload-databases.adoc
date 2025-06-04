@@ -48,4 +48,4 @@ Dopo aver esaminato i risparmi per un host on-premise di Microsoft SQL Server, Ã
 
 === Terminologia aggiornata per le autorizzazioni
 
-L'interfaccia utente di fabbrica del carico di lavoro e la documentazione ora utilizzano "sola lettura" per fare riferimento alle autorizzazioni di lettura e "lettura-scrittura" per fare riferimento all'automazione delle autorizzazioni.
+L'interfaccia utente e la documentazione della Workload Factory ora utilizzano "sola lettura" per fare riferimento alle autorizzazioni di lettura e "lettura/scrittura" per fare riferimento alle autorizzazioni di automazione.
