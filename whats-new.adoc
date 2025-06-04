@@ -19,6 +19,50 @@ Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della fabb
 
 
 
+=== Amazon FSX per NetApp ONTAP
+
+
+
+==== Miglioramento dell'aumento automatico del volume
+
+Ora puoi impostare l'aumento automatico delle dimensioni dei tuoi volumi in modo che le dimensioni del volume possano aumentare oltre le dimensioni previste in base alle esigenze aziendali e ai requisiti delle applicazioni.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-volume-autogrow.html["Attiva la crescita automatica del volume"]
+
+
+
+==== Aggiornamento dell'analisi ben progettata
+
+Workload Factory ora analizza i file system FSx for ONTAP per verificare se le efficienze di storage, tra cui compattazione dei dati, compressione e deduplicazione, vengono sfruttate. L'efficienza di storage misura l'efficacia con cui i file system utilizzano lo spazio disponibile.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Visualizza lo stato ben progettato delle efficienze di archiviazione"]
+
+
+
+==== Miglioramenti della dashboard di archiviazione
+
+A partire da oggi, aprendo il carico di lavoro Storage dalla console di Workload Factory, verrà visualizzata la *Dashboard*. La dashboard di nuova progettazione offre una visione olistica dei sistemi FSx for ONTAP, inclusi il numero di file system, la capacità totale degli SSD, la panoramica dello stato di architettura, la panoramica della protezione dei dati e lo stato della relazione di replica.
+
+
+
+==== Miglioramenti della scheda Volumi
+
+Il carico di lavoro Storage ha apportato miglioramenti alla scheda Volumi all'interno di un file system FSx for ONTAP nella console della factory del carico di lavoro. I miglioramenti includono:
+
+* *Nuove schede*: capacità SSD, pool di capacità e protezione autonoma da ransomware (ARP)
+* *Nuove colonne*: Distribuzione della capacità, Capacità SSD utilizzata, Pool di capacità utilizzata ed Efficienza SSD
+
+
+
+
+==== Aggiornamento dell'efficienza di archiviazione per la creazione di volumi
+
+Quando si crea un nuovo volume, le efficienze di archiviazione, tra cui la compattazione dei dati, la compressione e la deduplicazione, sono abilitate per impostazione predefinita.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crea un nuovo volume nella fabbrica dei carichi di lavoro"]
+
+
+
 === Workload dei database
 
 
@@ -513,51 +557,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 
 == 2025-03-02
-
-
-
-=== Amazon FSX per NetApp ONTAP
-
-
-
-==== Miglioramenti alla gestione automatica della capacità
-
-Quando la gestione automatica della capacità è attivata, la fabbrica del carico di lavoro BlueXP  ora controlla se un file system ha raggiunto la propria soglia di capacità ogni 30 minuti invece che ogni 2 ore.
-
-L'impostazione IOPS di provisioning non viene più influenzata dal raggiungimento della soglia di capacità.
-
-
-
-==== Snapshot immutabili
-
-Ora è possibile bloccare gli snapshot, rendendoli immutabili, per un periodo di conservazione specifico. Il blocco impedisce l'accesso non autorizzato e l'eliminazione dannosa degli snapshot. È possibile attivare snapshot immutabili durante la creazione di policy di snapshot, durante la creazione di snapshot manuali e dopo la creazione di snapshot.
-
-
-
-==== Aggiornamento dei file immutabili
-
-Ora puoi apportare le seguenti modifiche alla configurazione dei file immutabili: Policy di conservazione, periodo di conservazione, periodo di autocommit e modalità di aggiunta del volume.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Gestire i file immutabili"]
-
-
-
-==== Miglioramenti alla replica dei dati
-
-* Replica tra account diversi: La replica tra due account AWS è supportata nella console factory del carico di lavoro BlueXP  nonché nella gestione della replica.
-* Pausa e ripresa della replica: È possibile mettere in pausa (disattivare) gli aggiornamenti di replica pianificati dal volume di origine al volume di destinazione e quindi riprendere la pianificazione della replica quando si è pronti. Durante la pausa, i volumi di origine e destinazione diventano indipendenti, mentre il volume di destinazione passa da sola lettura a lettura e scrittura.
-+
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/pause-resume-replication.html["Sospendere e riprendere una relazione di replica"]
-
-
-
-
-
-==== Eventi CloudShell in Tracker
-
-Ora puoi tenere traccia degli eventi CloudShell in Tracker.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Scopri come monitorare e monitorare le operazioni con Tracker"]
 
 
 
