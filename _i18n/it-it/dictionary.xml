@@ -66,38 +66,13 @@
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Eventi CloudShell in Tracker</block>
   <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">Ora puoi tenere traccia degli eventi CloudShell in Tracker.</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025-03-02</block>
-  <block id="f57c49a06b4a8a20d9a723cd677b9655" category="inline-link-macro">Creare un server PostgreSQL</block>
-  <block id="d3420539383bb38c88221d86000226d1" category="paragraph"><block ref="d3420539383bb38c88221d86000226d1" category="inline-link-macro-rx"></block></block>
-  <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">Supporto terraform per la creazione di server PostgreSQL</block>
-  <block id="9156ac6cc60e32ed114af1a49af0ffed" category="paragraph">È ora possibile utilizzare Terraform dal Codebox per distribuire PostgreSQL.</block>
-  <block id="7a5745faeabd31c33609adf25373d8a1" category="inline-link-macro">Creare un server di database PostgreSQL</block>
-  <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Utilizzare Terraform da Codebox</block>
-  <block id="6a7893eb24462b3da7dd0a66586c5738" category="section-title">Valutazione della resilienza per la pianificazione locale delle snapshot</block>
-  <block id="677bceea5ebbea10cf85a91ebf42050e" category="paragraph">Per i carichi di lavoro del database è disponibile una nuova valutazione della resilienza. Valutiamo se i volumi delle istanze di Microsoft SQL Server dispongono di policy di Snapshot pianificate valide. Le snapshot sono copie dei tuoi dati in un determinato momento e contribuiscono a mantenere resilienti gli ambienti di database in caso di perdita di dati.</block>
-  <block id="90814442b7f0694d712f43efffe9c178" category="section-title">Ripristino MAXDOP per i carichi di lavoro del database</block>
-  <block id="3231190e9014bf678d835272ec7c9234" category="paragraph">BlueXP  workload factory per database supporta ora il ripristino della configurazione del server MAXDOP (Maximum grado di parallelismo). Quando la configurazione di MAXDOP non è ottimale, è possibile consentire a BlueXP  workload Factory di ottimizzare la configurazione.</block>
-  <block id="4a21bedf189bb26f9f4aeb26c0dc26a2" category="section-title">Report di analisi sui risparmi delle email</block>
-  <block id="5b89ef008454fd9a61723d3572865363" category="paragraph">Quando esplori i risparmi offerti dal tuo Amazon Elastic Block Store e da FSX per Windows file Server rispetto a FSX per ONTAP, adesso puoi inviare il report di suggerimento via email a te, ai membri del team e ai clienti.</block>
-  <block id="22f6de27f80cdc30dc0dd58f113f7c70" category="section-title">2025-03-03</block>
-  <block id="ca5a05186a2f243eb84efcf08152a8f2" category="doc">Miglioramenti del chatbot integrato</block>
-  <block id="362c473fe2757bda1e0d68b3c2cdfbc8" category="paragraph">A questo punto è possibile copiare domande e risposte direttamente negli Appunti, regolare le dimensioni della finestra di chat e modificarne il titolo. Inoltre, le risposte della chat possono ora includere tabelle, che sono anche copyable.</block>
-  <block id="d9965afe654edc6d99fd1a5080f10f27" category="inline-link-macro">Testare una knowledge base GenAI</block>
-  <block id="4842fdf5dae1e7a3fb7ea049a091be73" category="section-title">Supporto citazione risposta chat</block>
-  <block id="c010ca64710d07e36327c27318c0303f" category="paragraph">Le risposte della chat ora includono citazioni che elencano i file e i frammenti di dati che sono stati utilizzati per generare la risposta.</block>
   <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">Supporto avanzato dei tipi di file</block>
-  <block id="cb1c6d98111a4dc0f10d1914aabf97ff" category="paragraph">Questa versione di GenAI fornisce un supporto file migliorato:</block>
-  <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">I modelli di chat sono dotati di un supporto CSV migliorato. Ciò consente risposte più utili quando si eseguono query sui dati da file CSV.</block>
-  <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">Genai ora può acquisire i file Apache Parquet dalle origini dei dati.</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">Formati di file origine dati supportati</block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">Questa release della fabbrica di workload BlueXP  per VMware presenta diversi miglioramenti all'esperienza del Migration Advisor di Amazon EC2:</block>
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*Tipo di istanza stimato*: Il Migration ADVISOR può ora esaminare i requisiti dell'ambiente e fornire un tipo di istanza Amazon EC2 stimato per ogni VM. Puoi scegliere di includere il tipo di istanza stimata per ogni macchina virtuale durante la fase di ambito del Migration Advisor.</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">*Capacità di consigliare i volumi Amazon EBS*: Il Migration ADVISOR può ora consigliare la migrazione dei volumi di dati ad Amazon Elastic Block Store (EBS) invece di Amazon FSX per NetApp ONTAP a causa di specifiche esigenze di capacità o performance di una determinata regione.</block>
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*Assegnazione automatica avanzata del filesystem*: L'assegnazione del filesystem Amazon FSX for NetApp ONTAP è stata migliorata per ottimizzare meglio i costi e ridurre al minimo la velocità di trasmissione.</block>
-  <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
-  <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
-  <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQL configurazione ad alta disponibilità</block>
-  <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">È ora possibile distribuire una configurazione ad alta disponibilità (ha) per PostgreSQL Server.</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Quando si utilizza CloudShell, ogni volta che si invia un comando CLI di ONTAP e si verifica un errore, è possibile ottenere risposte agli errori generate dall'intelligenza artificiale che includono una descrizione del guasto, la causa del guasto e una risoluzione dettagliata.</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">iam:aggiornamento autorizzazioni SimulatePermissionPolicy</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Ora puoi gestire<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> il permesso dalla console workload Factory quando Aggiungi ulteriori credenziali di account AWS o Aggiungi una nuova funzionalità del workload come il workload Genai.</block>
@@ -142,7 +117,6 @@
   <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">Viene creato un gruppo di sicurezza come parte del processo di creazione del file system FSX per ONTAP. Sono ora disponibili i dettagli dei gruppi di sicurezza, inclusi protocolli, porte e ruoli.</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">Creare un file system</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
-  <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">GenAI ora supporta l'acquisizione di file Microsoft Word DOCX che includono immagini. Le immagini incorporate nei documenti DOCX vengono sottoposte a scansione e le informazioni sul testo delle immagini incorporate vengono incluse nelle risposte alle query della Knowledge base.</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">Miglioramenti all'ottimizzazione</block>
   <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">Per ottimizzare gli ambienti di database sono disponibili nuove valutazioni di ottimizzazione, correzioni e visualizzazione di più risorse.</block>
   <block id="3cde2cfbcdbdd79a3c1d3d6b547ab80d" category="section-title">Valutazioni della resilienza</block>
@@ -162,7 +136,6 @@
   <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">Creare un server PostgreSQL in fabbrica carichi di lavoro BlueXP</block>
   <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
   <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">2025-04-04</block>
-  <block id="77a89cd0e5a14d8b8709467f579b8edc" category="paragraph"><block ref="77a89cd0e5a14d8b8709467f579b8edc" category="inline-link-macro-rx"></block></block>
   <block id="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="paragraph"><block ref="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="inline-link-macro-rx"></block></block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">Miglioramenti alla dashboard</block>
@@ -253,4 +226,21 @@
   <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">Questa release della fabbrica di workload BlueXP  per VMware presenta i seguenti miglioramenti per l'esperienza con il Migration ADVISOR di Amazon EC2:</block>
   <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">*Informazioni sull'infrastruttura dati NetApp come origine dati*: Workload Factory si connette direttamente con NetApp Data Infrastructure Insights per raccogliere informazioni sulla distribuzione VMware quando si utilizza il data collector del Migration ADVISOR EC2.</block>
   <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">2025-05-04</block>
+  <block id="938691193541892254da342a65418ef3" category="doc">Rilevamento di PostgreSQL e Oracle</block>
+  <block id="a35833d039b2504ef8c787b30e723967" category="paragraph">Ora puoi individuare le istanze che eseguono database PostgreSQL e distribuzioni di database Oracle nel tuo account AWS all'interno della console di Workload Factory. Le istanze individuate appariranno nell'inventario dei database.</block>
+  <block id="fd1fe4efcf471a552598d4396db84a26" category="section-title">Aggiornata la terminologia "Ottimizzazione"</block>
+  <block id="a832a618559e9b6325bfe90eb3e86587" category="paragraph">Precedentemente chiamata "Ottimizzazione", la Workload Factory ora utilizza "problemi ben progettati" e "stato ben progettato" per descrivere l'analisi delle configurazioni del database e "correzione" per descrivere la soluzione per le opportunità di migliorare le configurazioni del database al fine di soddisfare le raccomandazioni delle best practice.</block>
+  <block id="c551233916d554410ddca9f767142b1a" category="inline-link-macro">Analisi della configurazione per ambienti di database nella fabbrica dei carichi di lavoro</block>
+  <block id="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="paragraph"><block ref="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="inline-link-macro-rx"></block></block>
+  <block id="f0b8560f05681c5a0a0de7a2cb0d761e" category="section-title">Miglioramento dell'onboarding per le istanze host</block>
+  <block id="2acb806aac138a6758718c6f833095ab" category="paragraph">Invece di utilizzare i termini "non rilevato", "non gestito" o "gestito" per la gestione delle istanze host, Workload Factory ora utilizza "registra" per l'onboarding delle istanze host. Il nuovo processo di registrazione include l'autenticazione e la preparazione delle istanze host, in modo da poter creare, monitorare, analizzare e correggere le risorse nelle configurazioni del database all'interno della console di Workload Factory. La fase di preparazione del processo di registrazione indica se le istanze host sono pronte per la gestione.</block>
+  <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">Gestione delle istanze</block>
+  <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
+  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">Tracker disponibile per il monitoraggio e il monitoraggio delle operazioni</block>
+  <block id="8daed4c7913162875cceb19ef5e0bf4c" category="paragraph">La funzionalità di monitoraggio Tracker è ora disponibile in GenAI. È possibile utilizzare Tracker per monitorare e tracciare l'avanzamento e lo stato delle operazioni in sospeso, in corso e completate, rivedere i dettagli delle attività e delle sottoattività delle operazioni, diagnosticare eventuali problemi o errori, modificare i parametri per le operazioni non riuscite e riprovare le operazioni non riuscite.</block>
+  <block id="27e9b8493c313885af8902ac1ae67e24" category="inline-link-macro">Monitorare le operazioni del carico di lavoro con Tracker nella fabbrica del carico di lavoro BlueXP</block>
+  <block id="6cfb11211ef97bba3b2359a766b22994" category="paragraph"><block ref="6cfb11211ef97bba3b2359a766b22994" category="inline-link-macro-rx"></block></block>
+  <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">Scegli un modello di riclassificazione per una knowledge base</block>
+  <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">Ora puoi aumentare la pertinenza dei risultati delle query riclassificate selezionando un modello di riclassificazione specifico da utilizzare con una knowledge base. GenAI supporta i modelli Cohere Rerank e Amazon Rerank.</block>
+  <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025-06-03</block>
 </blocks>
