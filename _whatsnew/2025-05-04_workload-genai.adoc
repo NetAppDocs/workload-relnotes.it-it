@@ -1,14 +1,14 @@
-= Supporto per NetApp ONTAP Connector per Amazon Q
+= Supporto per NetApp Connector per Amazon Q Business
 :allow-uri-read: 
 
 
 
 
-=== Supporto per NetApp ONTAP Connector per Amazon Q
+=== Supporto per NetApp Connector per Amazon Q Business
 
-Questa versione di GenAI introduce il supporto per NetApp ONTAP Connector per Amazon Q, consentendo di creare connettori per Amazon Q Business. Sfrutta in modo rapido e semplice l'assistente ai aziendale Amazon Q con una configurazione iniziale inferiore rispetto alla creazione di una knowledge base Genai per Amazon Bedrock.
+Questa versione di GenAI introduce il supporto per NetApp Connector per Amazon Q Business, consentendo di creare connettori per Amazon Q Business. Sfrutta in modo rapido e semplice l'assistente ai aziendale Amazon Q con una configurazione iniziale inferiore rispetto alla creazione di una knowledge base Genai per Amazon Bedrock.
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Creare un connettore GenAI per Amazon Q Business"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Crea un connettore NetApp per Amazon Q Business"]
 
 
 
@@ -26,7 +26,7 @@ GenAI supporta ora i seguenti modelli di chat aggiuntivi per le knowledge base:
 
 GenAI supporta i modelli di ciascun provider supportati da Amazon Bedrock: link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Modelli di base supportati in Amazon Bedrock"^]
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Creare una knowledge base GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Creare una knowledge base GenAI"]
 
 
 
