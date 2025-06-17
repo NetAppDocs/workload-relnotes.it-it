@@ -239,4 +239,9 @@
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">La release iniziale include la capacità di gestire progetti e aree di lavoro e automatizzare azioni con Codebox. È inoltre possibile integrare i costruttori con Perforce Helix Core, in modo da poter gestire diverse versioni di ciascun progetto e passare rapidamente da un progetto all'altro.</block>
   <block id="e562428972beeca78a1b44b300444717" category="paragraph">Direttiva non risolta in &lt;stdin&gt; - include::_include/workload-builders.adoc[] :leveloffset: +1</block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024-12-01</block>
+  <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">Supporto per clonazione</block>
+  <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">Ora è possibile clonare un progetto nella fabbrica di carichi di lavoro BlueXP per Builders. Quando si clona un progetto, Builders crea un nuovo progetto da uno snapshot, con la stessa configurazione dell'originale. La clonazione è utile per creare rapidamente progetti simili o per scopi di test. È possibile montare il nuovo clone del progetto seguendo le istruzioni in Builders.</block>
+  <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">Gestisci le versioni della fabbrica di carichi di lavoro BlueXP per i progetti Builder</block>
+  <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
+  <block id="918963c77ef42064702ac721d5a06ebb" category="section-title">2025-06-16</block>
 </blocks>
