@@ -150,6 +150,18 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 
 
+=== Installazione e amministrazione
+
+
+
+==== Supporto del servizio di notifica di fabbrica del carico di lavoro BlueXP
+
+Il servizio di notifica di BlueXP Workload Factory consente a Workload Factory di inviare notifiche al servizio di avvisi BlueXP o a un argomento Amazon SNS. Le notifiche inviate agli avvisi BlueXP vengono visualizzate nel pannello degli avvisi BlueXP. Quando la Workload Factory pubblica notifiche su un argomento Amazon SNS, i sottoscrittori dell'argomento (ad esempio persone o altre applicazioni) ricevono le notifiche sugli endpoint configurati per l'argomento (ad esempio, tramite e-mail o SMS).
+
+https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurare le notifiche di fabbrica del carico di lavoro BlueXP"]
+
+
+
 == 2025-05-04
 
 
@@ -576,30 +588,6 @@ Questa release della fabbrica di workload BlueXP  per VMware presenta diversi m
 
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Crea un piano di implementazione per Amazon EC2 utilizzando il Migration Advisor"]
-
-
-
-== 2 febbraio 2025
-
-
-
-=== Installazione e amministrazione
-
-
-
-==== CloudShell disponibile nella console di fabbrica del workload BlueXP
-
-CloudShell è disponibile da qualsiasi luogo nella console della workload Factory di BlueXP . CloudShell ti consente di utilizzare le credenziali AWS e ONTAP fornite nel tuo account BlueXP  ed eseguire i comandi dell'interfaccia a riga di comando di AWS o i comandi dell'interfaccia a riga di comando di ONTAP in un ambiente simile alla shell.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Utilizzare CloudShell"]
-
-
-
-==== Aggiornamento delle autorizzazioni per i database
-
-Il seguente permesso è ora disponibile in modalità _Read_ per i database: `iam:SimulatePrincipalPolicy`.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Registro delle modifiche di riferimento delle autorizzazioni"]
 
 
 
