@@ -232,7 +232,6 @@
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">Rilascio iniziale del carico di lavoro dei costruttori</block>
   <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">BlueXP  workload Factory for Builders semplifica l'utilizzo e l'accesso delle versioni software, eliminando la necessità di strumenti o script personalizzati. Consente di utilizzare le versioni software come cloni istantanei integrati con Perforce Helix Core come spazio di lavoro comodo per i processi di sviluppo, risparmiando tempo e risorse.</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">La release iniziale include la capacità di gestire progetti e aree di lavoro e automatizzare azioni con Codebox. È inoltre possibile integrare i costruttori con Perforce Helix Core, in modo da poter gestire diverse versioni di ciascun progetto e passare rapidamente da un progetto all'altro.</block>
-  <block id="e562428972beeca78a1b44b300444717" category="paragraph">Direttiva non risolta in &lt;stdin&gt; - include::_include/workload-builders.adoc[] :leveloffset: +1</block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024-12-01</block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">Supporto per clonazione</block>
   <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">Ora è possibile clonare un progetto nella fabbrica di carichi di lavoro BlueXP per Builders. Quando si clona un progetto, Builders crea un nuovo progetto da uno snapshot, con la stessa configurazione dell'originale. La clonazione è utile per creare rapidamente progetti simili o per scopi di test. È possibile montare il nuovo clone del progetto seguendo le istruzioni in Builders.</block>
@@ -244,4 +243,5 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">Aggiornamento delle autorizzazioni per i database</block>
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">Il seguente permesso è ora disponibile in modalità _Read_ per i database:<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025-02-02</block>
+  <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">Carichi di lavoro dei costruttori</block>
 </blocks>

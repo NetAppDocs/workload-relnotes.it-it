@@ -17,11 +17,13 @@ Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della fabb
 
 == 2025-06-16
 
-Direttiva non risolta in <stdin> - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+=== Carichi di lavoro dei costruttori
 
 
 
-=== Supporto per clonazione
+==== Supporto per clonazione
 
 Ora è possibile clonare un progetto nella fabbrica di carichi di lavoro BlueXP per Builders. Quando si clona un progetto, Builders crea un nuovo progetto da uno snapshot, con la stessa configurazione dell'originale. La clonazione è utile per creare rapidamente progetti simili o per scopi di test. È possibile montare il nuovo clone del progetto seguendo le istruzioni in Builders.
 
@@ -404,11 +406,13 @@ Quando si utilizza la fabbrica CloudShell del carico di lavoro di BlueXP , è p
 
 L'interfaccia utente e la documentazione della Workload Factory ora utilizzano "sola lettura" per fare riferimento alle autorizzazioni di lettura e "lettura/scrittura" per fare riferimento alle autorizzazioni di automazione.
 
-Direttiva non risolta in <stdin> - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+=== Carichi di lavoro dei costruttori
 
 
 
-=== Terminologia aggiornata per le autorizzazioni
+==== Terminologia aggiornata per le autorizzazioni
 
 L'interfaccia utente e la documentazione della Workload Factory ora utilizzano "sola lettura" per fare riferimento alle autorizzazioni di lettura e "lettura/scrittura" per fare riferimento alle autorizzazioni di automazione.
 
@@ -605,11 +609,13 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 == 2024-12-01
 
-Direttiva non risolta in <stdin> - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+=== Carichi di lavoro dei costruttori
 
 
 
-=== Rilascio iniziale del carico di lavoro dei costruttori
+==== Rilascio iniziale del carico di lavoro dei costruttori
 
 BlueXP  workload Factory for Builders semplifica l'utilizzo e l'accesso delle versioni software, eliminando la necessità di strumenti o script personalizzati. Consente di utilizzare le versioni software come cloni istantanei integrati con Perforce Helix Core come spazio di lavoro comodo per i processi di sviluppo, risparmiando tempo e risorse.
 
