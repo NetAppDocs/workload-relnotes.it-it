@@ -239,8 +239,9 @@
   <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">Gestisci le versioni della fabbrica di carichi di lavoro BlueXP per i progetti Builder</block>
   <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
   <block id="918963c77ef42064702ac721d5a06ebb" category="section-title">2025-06-16</block>
-  <block id="64c17706e0528a5c44c7beee628cc101" category="doc">Supporto del servizio di notifica di fabbrica del carico di lavoro BlueXP</block>
-  <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">Il servizio di notifica di BlueXP Workload Factory consente a Workload Factory di inviare notifiche al servizio di avvisi BlueXP o a un argomento Amazon SNS. Le notifiche inviate agli avvisi BlueXP vengono visualizzate nel pannello degli avvisi BlueXP. Quando la Workload Factory pubblica notifiche su un argomento Amazon SNS, i sottoscrittori dell'argomento (ad esempio persone o altre applicazioni) ricevono le notifiche sugli endpoint configurati per l'argomento (ad esempio, tramite e-mail o SMS).</block>
-  <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">Configurare le notifiche di fabbrica del carico di lavoro BlueXP</block>
-  <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
+  <block id="e2cc7d8ef2a865dce7c7e225dd72d92c" category="doc">CloudShell disponibile nella console di fabbrica del workload BlueXP</block>
+  <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">CloudShell è disponibile da qualsiasi luogo nella console della workload Factory di BlueXP . CloudShell ti consente di utilizzare le credenziali AWS e ONTAP fornite nel tuo account BlueXP  ed eseguire i comandi dell'interfaccia a riga di comando di AWS o i comandi dell'interfaccia a riga di comando di ONTAP in un ambiente simile alla shell.</block>
+  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">Aggiornamento delle autorizzazioni per i database</block>
+  <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">Il seguente permesso è ora disponibile in modalità _Read_ per i database:<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
+  <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025-02-02</block>
 </blocks>
