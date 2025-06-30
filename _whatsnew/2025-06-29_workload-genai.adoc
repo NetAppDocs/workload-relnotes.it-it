@@ -1,0 +1,13 @@
+= Supporto per fonti di dati ospitate su file system NFS/SMB generici
+:allow-uri-read: 
+
+
+
+
+=== Supporto per fonti di dati ospitate su file system NFS/SMB generici
+
+Ora è possibile aggiungere un'origine dati da una condivisione SMB o NFS generica. Ciò consente di includere file archiviati su volumi ospitati da file system diversi da Amazon FSx per NetApp ONTAP.
+
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Aggiungere fonti di dati a una knowledge base"]
+
+https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["Aggiungere origini dati a un connettore"]
