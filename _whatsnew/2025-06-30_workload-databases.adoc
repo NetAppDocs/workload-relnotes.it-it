@@ -1,0 +1,50 @@
+= Supporto del servizio di notifica di fabbrica del carico di lavoro BlueXP
+:allow-uri-read: 
+
+
+
+
+=== Supporto del servizio di notifica di fabbrica del carico di lavoro BlueXP
+
+Il servizio di notifica di BlueXP Workload Factory consente a Workload Factory di inviare notifiche al servizio di avvisi BlueXP o a un argomento Amazon SNS. Le notifiche inviate agli avvisi BlueXP vengono visualizzate nel pannello degli avvisi BlueXP. Quando la Workload Factory pubblica notifiche su un argomento Amazon SNS, i sottoscrittori dell'argomento (ad esempio persone o altre applicazioni) ricevono le notifiche sugli endpoint configurati per l'argomento (ad esempio, tramite e-mail o SMS).
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurare le notifiche di fabbrica del carico di lavoro BlueXP"^]
+
+Workload Factory fornisce le seguenti notifiche per i database:
+
+* Rapporto ben progettato
+* Distribuzione host
+* Protezione
+
+
+
+
+=== Miglioramento dell'onboarding per la registrazione delle istanze
+
+Workload Factory per Database ha migliorato il processo di onboarding per la registrazione delle istanze in esecuzione su Amazon FSx per lo storage NetApp ONTAP. Ora è possibile selezionare le istanze in blocco per la registrazione. Una volta registrata un'istanza, è possibile creare e gestire le risorse host del database all'interno della console di Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gestione delle istanze"]
+
+
+
+=== Analisi e correzione per l'impostazione del timeout di Microsoft Multipath I/O
+
+Lo stato "Well Architectured" per le istanze host del database ora include l'analisi e la correzione per l'impostazione di timeout di Microsoft Multipath I/O (MPIO). L'impostazione del timeout MPIO a 60 secondi garantisce la connettività e la stabilità dello storage FSx for ONTAP durante i failover. Se l'impostazione MPIO non è impostata correttamente, Workload Factory fornirà una correzione per impostare il valore di timeout MPIO a 60 secondi.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementare configurazioni di database ben progettate nella fabbrica dei carichi di lavoro"]
+
+
+
+=== Miglioramenti alla grafica nell'inventario host
+
+Dalla schermata dell'inventario host, diversi grafici sull'utilizzo delle risorse, come throughput e IOPS, ora mostrano i dati degli ultimi 7 giorni, consentendo di monitorare le prestazioni dei nodi SQL dalla console di Workload Factory in modo più efficiente. I parametri delle prestazioni raccolti dai nodi SQL verranno salvati in Amazon CloudWatch e potranno essere utilizzati per Logs Insights o per l'integrazione con altri servizi di analisi nel tuo ambiente.
+
+Nelle schede Istanze e Database all'interno dell'inventario host, abbiamo migliorato la descrizione e la visualizzazione per la protezione host.
+
+
+
+=== Supporto per l'autenticazione di Windows nella fabbrica dei carichi di lavoro
+
+Ora Workload Factory supporta l'autenticazione di SQL Server utilizzando utenti autenticati Windows per registrare istanze host e trarre vantaggio dalle funzionalità di gestione host.
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["Registra le istanze host nella fabbrica dei carichi di lavoro per i database"]
