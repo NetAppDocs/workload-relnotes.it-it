@@ -233,4 +233,7 @@
   <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">Il servizio di notifica di BlueXP Workload Factory consente a Workload Factory di inviare notifiche al servizio di avvisi BlueXP o a un argomento Amazon SNS. Le notifiche inviate agli avvisi BlueXP vengono visualizzate nel pannello degli avvisi BlueXP. Quando la Workload Factory pubblica notifiche su un argomento Amazon SNS, i sottoscrittori dell'argomento (ad esempio persone o altre applicazioni) ricevono le notifiche sugli endpoint configurati per l'argomento (ad esempio, tramite e-mail o SMS).</block>
   <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">Configurare le notifiche di fabbrica del carico di lavoro BlueXP</block>
   <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
+  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">Aggiornamento delle autorizzazioni per i database</block>
+  <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">La seguente autorizzazione è ora disponibile in modalità _sola lettura_ per i database: <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> .</block>
+  <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
 </blocks>
