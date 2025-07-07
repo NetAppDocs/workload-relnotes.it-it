@@ -64,20 +64,8 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["S
 
 
 
-=== Miglioramenti nella creazione di link
-
-Sono stati apportati i seguenti miglioramenti al processo di creazione dei collegamenti nella console Workload Factory.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Connettersi a un file system FSX per ONTAP con un collegamento Lambda"]
-
-
-
-==== Gestire il ruolo e le autorizzazioni di esecuzione IAM durante la creazione del collegamento
+=== Gestire il ruolo e le autorizzazioni di esecuzione IAM durante la creazione del collegamento
 
 Ora puoi gestire il ruolo di esecuzione IAM e la relativa policy di autorizzazione quando crei un collegamento nella console della Workload Factory. Un collegamento stabilisce la connettività tra il tuo account della Workload Factory e uno o più file system FSx for ONTAP. Sono disponibili due opzioni per l'assegnazione del ruolo di esecuzione IAM e delle autorizzazioni di collegamento: automaticamente o tramite l'utente. Gestire il ruolo di esecuzione e la relativa policy di autorizzazione nella Workload Factory significa che non è più necessario utilizzare codice di terze parti.
 
-
-
-==== Supporto Terraform per la creazione di collegamenti
-
-Ora è possibile utilizzare Terraform dal Codebox per creare un collegamento da associare a un file system FSx for ONTAP. Questa funzionalità è riservata agli utenti che creano collegamenti manualmente.
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Connettersi a un file system FSX per ONTAP con un collegamento Lambda"]
