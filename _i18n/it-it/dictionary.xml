@@ -45,19 +45,7 @@
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025-03-30</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">Creare una knowledge base GenAI</block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell riporta risposte di errore generate dall'ai per i comandi CLI di ONTAP</block>
-  <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">Miglioramenti all'ottimizzazione</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
-  <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">Miglioramenti alla dashboard</block>
-  <block id="04f9acced28b52e064ba8ccb957a615c" category="list-text">Le viste per account e aree multiple sono disponibili mentre si naviga tra le schede nella console di fabbrica del carico di lavoro di BlueXP . Le nuove viste migliorano la gestione, il monitoraggio e l'ottimizzazione delle risorse.</block>
-  <block id="6e21267988cadc818dd398393c695465" category="list-text">Dal riquadro *potenziali risparmi* della dashboard, potrai rivedere rapidamente ciò che potresti risparmiare passando ad FSX per ONTAP da Amazon Elastic Block Store o Amazon FSX per Windows file Server.</block>
-  <block id="255a96bb0a74416846fbad7e40f8ddf4" category="section-title">Scansione ad hoc disponibile per le configurazioni di database</block>
-  <block id="2b1a16b6cd72c9555872ec61d3334af5" category="paragraph">La farm di workload BlueXP  per i database analizza automaticamente le istanze gestite di Microsoft SQL Server con FSX per lo storage ONTAP per rilevare potenziali problemi di configurazione. Ora, oltre alla scansione giornaliera, è possibile eseguire la scansione in qualsiasi momento.</block>
-  <block id="365d8fe4130e8c12f4a3defc920178dd" category="section-title">Rimozione dei record di valutazione in loco</block>
-  <block id="c4fd25bd6650f0eaedfd01e29fbecddd" category="paragraph">Dopo aver esaminato i risparmi per un host on-premise di Microsoft SQL Server, è possibile rimuovere il record dell'host on-premise dalla fabbrica dei workload BlueXP .</block>
-  <block id="ae548505379d0043460d8c15540cb546" category="section-title">Pulitura dei cloni</block>
-  <block id="0d003b1e16a8cf8a4b6c0774ee3a0f41" category="paragraph">La valutazione e la correzione del cleanup dei cloni identificano e gestiscono cloni vecchi e costosi. I cloni più vecchi di 60 giorni possono essere aggiornati o eliminati dalla console della workload Factory di BlueXP .</block>
-  <block id="6da89f0beda0fbec41b06125b0b7ad32" category="section-title">Posticipare e respingere l'analisi della configurazione</block>
-  <block id="4a9a50cea48d9e2ded3becc284af4e41" category="paragraph">Alcune configurazioni potrebbero non essere applicabili agli ambienti di database in uso. È ora possibile posticipare di 30 giorni una particolare analisi della configurazione o chiudere l'analisi.</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">Terminologia aggiornata per le autorizzazioni</block>
   <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">Supporto di modelli di chat avanzati</block>
   <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">GenAI supporta ora i seguenti modelli di chat aggiuntivi per le knowledge base:</block>
@@ -231,4 +219,15 @@
   <block id="b1da4fce8da5117e3a9e1041d1749074" category="paragraph">Ora puoi scoprire i potenziali risparmi derivanti dalla migrazione dei tuoi carichi di lavoro VMware ad Amazon Elastic VMware Service (EVS). Il calcolatore dei risparmi consente di confrontare i costi di utilizzo di Amazon EVS con e senza Amazon FSx for NetApp ONTAP come storage sottostante. Il calcolatore mostra i potenziali risparmi in tempo reale man mano che si adattano le caratteristiche dell'ambiente.</block>
   <block id="b5ddf28fa6b1419129cc60c87384d5f3" category="inline-link">Scopri i risparmi per Amazon Elastic VMware Service con BlueXP workload factory</block>
   <block id="e5201134512b46a1979954f15ddb8c25" category="paragraph"><block ref="e5201134512b46a1979954f15ddb8c25" category="inline-link-rx"></block></block>
+  <block id="65bff5c812b0782e85c3554a907e01d2" category="doc">Un'analisi ben progettata include la convalida del cluster ad alta disponibilità</block>
+  <block id="bdd55244a112c438dfe30c6c85a4fcb1" category="paragraph">L'analisi ben progettata ora include la convalida per cluster ad alta disponibilità. Questa convalida controlla tutte le configurazioni relative al cluster dal lato server, tra cui la disponibilità e la configurazione del disco su entrambi i nodi, la configurazione del cluster Windows e la predisposizione al failover. Ciò garantisce che il cluster Windows sia configurato correttamente e possa eseguire correttamente il failover quando necessario.</block>
+  <block id="ad229ca0142680e057d4328835a9c1ef" category="section-title">Menu multilivello disponibile per le istanze</block>
+  <block id="de0915fdab5af6d02111d53dcfd6ccb3" category="paragraph">La console Workload Factory ora include un menu multilivello per le istanze. Questa modifica fornisce una struttura di navigazione più organizzata e intuitiva per la gestione delle istanze. Le opzioni di menu per la gestione delle istanze includono la visualizzazione della dashboard delle istanze, la visualizzazione dei database, la creazione di un database e la creazione di un clone sandbox.</block>
+  <block id="8d79c3f1283ecc54b044e383580c41e0" category="inline-image-macro">Uno screenshot del menu della tabella delle istanze con una struttura di menu multilivello. Selezionare il menu della tabella delle istanze e quindi gestire le istanze per visualizzare i database, creare un database e creare un clone sandbox.</block>
+  <block id="6f3cad43f8bb61ac11ebd8e87e6d6240" category="paragraph"><block ref="6f3cad43f8bb61ac11ebd8e87e6d6240" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5892d833ba074396906362cfc3ad6370" category="section-title">Nuova opzione di autenticazione per esplorare i risparmi</block>
+  <block id="3035f336d9539562dbf5355f26c10a4f" category="paragraph">Quando il<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> l'utente non dispone di autorizzazioni sufficienti su Microsoft SQL Server, è possibile autenticarsi con le credenziali di SQL Server o aggiungere le autorizzazioni mancanti di SQL Server a<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> .</block>
+  <block id="79717347a64fe25d0ea054d1670b04c6" category="inline-link-macro">Esplora i potenziali risparmi per i tuoi ambienti di database con Amazon FSx for NetApp ONTAP</block>
+  <block id="0c99e0e3525f8446afe1107c5294bead" category="paragraph"><block ref="0c99e0e3525f8446afe1107c5294bead" category="inline-link-macro-rx"></block></block>
+  <block id="a76bbcc12fcf5f723f1560cd99c60ab3" category="section-title">2025-08-04</block>
 </blocks>

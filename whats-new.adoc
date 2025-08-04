@@ -15,6 +15,38 @@ Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della fabb
 
 
 
+== 2025-08-04
+
+
+
+=== Workload dei database
+
+
+
+==== Un'analisi ben progettata include la convalida del cluster ad alta disponibilità
+
+L'analisi ben progettata ora include la convalida per cluster ad alta disponibilità. Questa convalida controlla tutte le configurazioni relative al cluster dal lato server, tra cui la disponibilità e la configurazione del disco su entrambi i nodi, la configurazione del cluster Windows e la predisposizione al failover. Ciò garantisce che il cluster Windows sia configurato correttamente e possa eseguire correttamente il failover quando necessario.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementare configurazioni di database ben progettate nella fabbrica dei carichi di lavoro"]
+
+
+
+==== Menu multilivello disponibile per le istanze
+
+La console Workload Factory ora include un menu multilivello per le istanze. Questa modifica fornisce una struttura di navigazione più organizzata e intuitiva per la gestione delle istanze. Le opzioni di menu per la gestione delle istanze includono la visualizzazione della dashboard delle istanze, la visualizzazione dei database, la creazione di un database e la creazione di un clone sandbox.
+
+image:manage-instance-table-menu.png["Uno screenshot del menu della tabella delle istanze con una struttura di menu multilivello. Selezionare il menu della tabella delle istanze e quindi gestire le istanze per visualizzare i database, creare un database e creare un clone sandbox."]
+
+
+
+==== Nuova opzione di autenticazione per esplorare i risparmi
+
+Quando il `NT Authority\SYSTEM` l'utente non dispone di autorizzazioni sufficienti su Microsoft SQL Server, è possibile autenticarsi con le credenziali di SQL Server o aggiungere le autorizzazioni mancanti di SQL Server a `NT Authority\SYSTEM` .
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Esplora i potenziali risparmi per i tuoi ambienti di database con Amazon FSx for NetApp ONTAP"]
+
+
+
 == 2025-08-03
 
 
@@ -390,58 +422,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 
 == 2025-05-04
-
-
-
-=== Workload dei database
-
-
-
-==== Miglioramenti alla dashboard
-
-* Le viste per account e aree multiple sono disponibili mentre si naviga tra le schede nella console di fabbrica del carico di lavoro di BlueXP . Le nuove viste migliorano la gestione, il monitoraggio e l'ottimizzazione delle risorse.
-* Dal riquadro *potenziali risparmi* della dashboard, potrai rivedere rapidamente ciò che potresti risparmiare passando ad FSX per ONTAP da Amazon Elastic Block Store o Amazon FSX per Windows file Server.
-
-
-
-
-==== Scansione ad hoc disponibile per le configurazioni di database
-
-La farm di workload BlueXP  per i database analizza automaticamente le istanze gestite di Microsoft SQL Server con FSX per lo storage ONTAP per rilevare potenziali problemi di configurazione. Ora, oltre alla scansione giornaliera, è possibile eseguire la scansione in qualsiasi momento.
-
-
-
-==== Rimozione dei record di valutazione in loco
-
-Dopo aver esaminato i risparmi per un host on-premise di Microsoft SQL Server, è possibile rimuovere il record dell'host on-premise dalla fabbrica dei workload BlueXP .
-
-
-
-==== Miglioramenti all'ottimizzazione
-
-
-
-===== Pulitura dei cloni
-
-La valutazione e la correzione del cleanup dei cloni identificano e gestiscono cloni vecchi e costosi. I cloni più vecchi di 60 giorni possono essere aggiornati o eliminati dalla console della workload Factory di BlueXP .
-
-
-
-===== Posticipare e respingere l'analisi della configurazione
-
-Alcune configurazioni potrebbero non essere applicabili agli ambienti di database in uso. È ora possibile posticipare di 30 giorni una particolare analisi della configurazione o chiudere l'analisi.
-
-
-
-==== Rimozione dei record di valutazione in loco
-
-Dopo aver esaminato i risparmi per un host on-premise di Microsoft SQL Server, è possibile rimuovere il record dell'host on-premise dalla fabbrica dei workload BlueXP .
-
-
-
-==== Terminologia aggiornata per le autorizzazioni
-
-L'interfaccia utente e la documentazione della Workload Factory ora utilizzano "sola lettura" per fare riferimento alle autorizzazioni di lettura e "lettura/scrittura" per fare riferimento alle autorizzazioni di automazione.
 
 
 
