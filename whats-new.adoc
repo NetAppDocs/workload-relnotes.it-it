@@ -15,6 +15,24 @@ Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della fabb
 
 
 
+== 2025-08-12
+
+
+
+=== Workload dei database
+
+
+
+==== Il BlueXP backup and recovery ora supportano il carico di lavoro di Microsoft SQL Server
+
+Il BlueXP backup and recovery consentono di eseguire il backup, il ripristino, la verifica e la clonazione di database e gruppi di disponibilità di Microsoft SQL Server. Dalla console di Workload Factory è possibile accedere e utilizzare il BlueXP backup and recovery per proteggere i carichi di lavoro di Microsoft SQL Server.
+
+link:protect-sql-server.html["Scopri come proteggere i carichi di lavoro di Microsoft SQL Server tramite la console Workload Factory"^] .
+
+Per i dettagli sul BlueXP backup and recovery, fare riferimento alink:https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-mssql-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro Microsoft SQL con BlueXP backup and recovery"^] .
+
+
+
 == 2025-08-04
 
 
@@ -392,32 +410,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.htm
 
 
 == 2025-06-03
-
-
-
-=== Workload dei database
-
-
-
-==== Rilevamento di PostgreSQL e Oracle
-
-Ora puoi individuare le istanze che eseguono database PostgreSQL e distribuzioni di database Oracle nel tuo account AWS all'interno della console di Workload Factory. Le istanze individuate appariranno nell'inventario dei database.
-
-
-
-==== Aggiornata la terminologia "Ottimizzazione"
-
-Precedentemente chiamata "Ottimizzazione", la Workload Factory ora utilizza "problemi ben progettati" e "stato ben progettato" per descrivere l'analisi delle configurazioni del database e "correzione" per descrivere la soluzione per le opportunità di migliorare le configurazioni del database al fine di soddisfare le raccomandazioni delle best practice.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["Analisi della configurazione per ambienti di database nella fabbrica dei carichi di lavoro"]
-
-
-
-==== Miglioramento dell'onboarding per le istanze
-
-Invece di utilizzare i termini "non rilevato", "non gestito" o "gestito" per la gestione delle istanze, Workload Factory ora utilizza "registra" per l'onboarding delle istanze. Il nuovo processo di registrazione include l'autenticazione e la preparazione delle istanze, in modo da poter creare, monitorare, analizzare e correggere le risorse nelle configurazioni del database all'interno della console di Workload Factory. La fase di preparazione nel processo di registrazione indica se le istanze sono pronte per la gestione.
-
-link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gestione delle istanze"]
 
 
 
