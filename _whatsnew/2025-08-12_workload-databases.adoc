@@ -1,10 +1,10 @@
-= Il BlueXP backup and recovery ora supportano il carico di lavoro di Microsoft SQL Server
+= Il BlueXP backup and recovery ora supportano i carichi di lavoro di Microsoft SQL Server
 :allow-uri-read: 
 
 
 
 
-=== Il BlueXP backup and recovery ora supportano il carico di lavoro di Microsoft SQL Server
+=== Il BlueXP backup and recovery ora supportano i carichi di lavoro di Microsoft SQL Server
 
 Il BlueXP backup and recovery consentono di eseguire il backup, il ripristino, la verifica e la clonazione di database e gruppi di disponibilità di Microsoft SQL Server. Dalla console di Workload Factory è possibile accedere e utilizzare il BlueXP backup and recovery per proteggere i carichi di lavoro di Microsoft SQL Server.
 

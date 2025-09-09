@@ -1,0 +1,41 @@
+= Analizzatore di log degli errori basato sull'intelligenza artificiale
+:allow-uri-read: 
+
+
+
+
+=== Analizzatore di log degli errori basato sull'intelligenza artificiale
+
+L'analizzatore del registro degli errori basato sull'intelligenza artificiale Agentic è una nuova funzionalità che sfrutta algoritmi di apprendimento automatico avanzati per rilevare e analizzare automaticamente gli errori nei file di registro. Questo strumento mira a semplificare il processo di risoluzione dei problemi fornendo agli sviluppatori informazioni e consigli pratici basati sui modelli identificati nei log.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Scopri di più sull'analizzatore di log degli errori basato sull'intelligenza artificiale Agentic"]
+
+
+
+=== Supporto Oracle
+
+Workload Factory include il supporto per i database Oracle. Nella console di Workload Factory è possibile visualizzare i database Oracle dall'inventario, registrare i database per utilizzare le funzionalità avanzate di Workload Factory e analizzare i database Oracle per verificarne l'allineamento con le best practice utilizzando la funzionalità ben progettata. Un'analisi ben strutturata determina se le configurazioni di archiviazione per i database Oracle sono ottimizzate. È possibile utilizzare queste informazioni per prendere decisioni consapevoli sulle distribuzioni del database e assicurarsi che vengano eseguite in modo efficiente.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementare configurazioni di database ben progettate nella fabbrica dei carichi di lavoro"]
+
+
+
+=== Supporto per le distribuzioni di Microsoft SQL Server su file system FSx di seconda generazione per ONTAP
+
+Workload Factory supporta le distribuzioni di Microsoft SQL Server sui file system FSx for ONTAP di seconda generazione. Questo miglioramento consente di sfruttare le funzionalità più recenti e i miglioramenti delle prestazioni disponibili nei file system di seconda generazione durante la gestione dei carichi di lavoro di SQL Server.
+
+
+
+=== Autenticazione di Windows per la protezione di SQL Server
+
+L'autenticazione delle istanze di Microsoft SQL Server con credenziali Windows è integrata nel flusso di lavoro per preparare gli host di Microsoft SQL Server alla protezione con BlueXP backup and recovery. In passato questo era un passaggio preliminare da completare manualmente. Se non hai registrato gli host in Workload Factory utilizzando le credenziali di Windows, ti verrà invece richiesto di condividere le credenziali di Windows con accesso amministrativo.
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Scopri come proteggere i carichi di lavoro di Microsoft SQL Server tramite la console Workload Factory"] .
+
+
+
+=== L'analisi ben progettata include l'allineamento MTU per SQL Server
+
+L'analisi ben progettata valuta e corregge il disallineamento dell'unità di trasmissione massima (MTU) tra gli endpoint per Microsoft SQL Server su FSx per l'archiviazione ONTAP . L'allineamento delle impostazioni MTU consente di ottimizzare le prestazioni di rete e di ridurre la latenza per i carichi di lavoro di SQL Server.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementare configurazioni di database ben progettate nella fabbrica dei carichi di lavoro"]
