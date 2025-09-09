@@ -15,6 +15,56 @@ Scopri le modifiche più recenti ai carichi di lavoro che fanno parte della fabb
 
 
 
+== 2025-09-09
+
+
+
+=== Amazon FSX per NetApp ONTAP
+
+
+
+==== Miglioramenti del report sull'inventario di magazzino
+
+Workload Factory ha migliorato i dati segnalati per i file system FSx for ONTAP . Il report scaricabile dalla pagina dell'inventario FSx per ONTAP include le seguenti nuove colonne:
+
+* SSD utilizzato: mostra il valore della capacità SSD utilizzata
+* Utilizzo SSD: mostra la percentuale di capacità SSD in uso
+* Utilizzo della capacità: mostra l'utilizzo medio e massimo degli ultimi 30 giorni
+* Utilizzo della IO: mostra l'utilizzo medio e massimo della IO negli ultimi 30 giorni
+* Utilizzo della CPU: mostra l'utilizzo medio e massimo della CPU negli ultimi 30 giorni
+
+
+
+
+==== Miglioramenti nella gestione degli snapshot
+
+Workload Factory ha apportato diversi miglioramenti per visualizzare i dettagli degli snapshot del volume e gestirli. Questi miglioramenti semplificano la comprensione dello stato degli snapshot e la protezione dei dati.
+
+image:screenshot-menu-view-volume-details.png["Screenshot che mostra il menu del volume FSx per ONTAP con azioni di base e quindi visualizza i dettagli del volume."]
+
+Ulteriori elementi vengono visualizzati nei dettagli del volume nella scheda Protezione:
+
+* Nome della policy snapshot
+* Prenotazione dello spazio snapshot
+* Capacità di prenotazione dello spazio snapshot
+
+
+image:screenshot-volume-details-protection.png["Screenshot che mostra i dettagli del volume FSx per ONTAP con la scheda di protezione aperta."]
+
+La nuova schermata di gestione degli snapshot è accessibile da un volume; fornisce informazioni sui criteri di snapshot per il volume e include una tabella con tutti gli snapshot del volume. Nella tabella vengono visualizzati i seguenti dettagli dello snapshot: ora di creazione, dimensione, ora di scadenza, protezione dello snapshot immutabile ed etichette. Dalla schermata di gestione è possibile modificare i criteri di snapshot per il volume, creare manualmente uno snapshot e modificare, accedere, ripristinare ed eliminare gli snapshot.
+
+image:screenshot-manage-snapshots-screen.png["Screenshot che mostra la schermata di gestione degli snapshot."]
+
+
+
+==== Riduzione della capacità di archiviazione SSD disponibile
+
+Workload Factory supporta la riduzione della capacità dell'unità SSD (Solid State Drive) dei file system di prima e seconda generazione. Grazie alla capacità elastica del file system, puoi adattare dinamicamente la capacità dei tuoi file system alle esigenze dei tuoi carichi di lavoro.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["Regola la capacità del file system"]
+
+
+
 == 2025-09-01
 
 
@@ -371,33 +421,6 @@ https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html[
 Ora è possibile clonare un progetto nella fabbrica di carichi di lavoro BlueXP per Builders. Quando si clona un progetto, Builders crea un nuovo progetto da uno snapshot, con la stessa configurazione dell'originale. La clonazione è utile per creare rapidamente progetti simili o per scopi di test. È possibile montare il nuovo clone del progetto seguendo le istruzioni in Builders.
 
 https://docs.netapp.com/us-en/workload-builders/version-projects.html["Gestisci le versioni della fabbrica di carichi di lavoro BlueXP per i progetti Builder"]
-
-
-
-== 2025-06-08
-
-
-
-=== Amazon FSX per NetApp ONTAP
-
-
-
-==== Nuova analisi ben progettata e supporto per la risoluzione dei problemi
-
-La gestione automatica della capacità per i file system FSx per ONTAP è ora inclusa come analisi della configurazione nella dashboard dello stato ben progettata.
-
-Inoltre, Workload Factory ora supporta la correzione dei seguenti problemi di configurazione:
-
-* Soglia di capacità SSD
-* Tiering dei dati
-* Istantanee locali pianificate
-* FSx per backup ONTAP
-* Replica remota dei dati
-* Efficienza dello storage
-* Gestione automatica della capacità
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Risolvi i problemi di configurazione"]
 
 
 

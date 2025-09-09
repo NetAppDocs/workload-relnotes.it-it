@@ -61,19 +61,6 @@
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025-06-03</block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">Miglioramenti della dashboard di archiviazione</block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">L'interfaccia utente e la documentazione della Workload Factory ora utilizzano "sola lettura" per fare riferimento alle autorizzazioni di lettura e "lettura/scrittura" per fare riferimento alle autorizzazioni di automazione.</block>
-  <block id="2423cc9c7b9124d70e9fba7ab98b53df" category="doc">Nuova analisi ben progettata e supporto per la risoluzione dei problemi</block>
-  <block id="b03b65ae167fa7999b9020739117ae19" category="paragraph">La gestione automatica della capacità per i file system FSx per ONTAP è ora inclusa come analisi della configurazione nella dashboard dello stato ben progettata.</block>
-  <block id="5a5b21f778da0dbaf4794873b0deb067" category="paragraph">Inoltre, Workload Factory ora supporta la correzione dei seguenti problemi di configurazione:</block>
-  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="list-text">Soglia di capacità SSD</block>
-  <block id="396928510e06818ef017921022cce2af" category="list-text">Tiering dei dati</block>
-  <block id="aff279b636a9024db3b44375d88e80eb" category="list-text">Istantanee locali pianificate</block>
-  <block id="667bda9d5b08fe1666f3fe061ce424aa" category="list-text">FSx per backup ONTAP</block>
-  <block id="887673b402c7bbc141e56321e277605f" category="list-text">Replica remota dei dati</block>
-  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">Efficienza dello storage</block>
-  <block id="f2be69b635c39988351f6636a52c66bd" category="list-text">Gestione automatica della capacità</block>
-  <block id="6745decee5065276cebd3695be1fb7bd" category="inline-link-macro">Risolvi i problemi di configurazione</block>
-  <block id="347dbce3139b58110904a187913fc7e1" category="paragraph"><block ref="347dbce3139b58110904a187913fc7e1" category="inline-link-macro-rx"></block></block>
-  <block id="b818e29403f1ec2f62ad7db43da773e1" category="section-title">2025-06-08</block>
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">Rilascio iniziale del carico di lavoro dei costruttori</block>
   <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">BlueXP  workload Factory for Builders semplifica l'utilizzo e l'accesso delle versioni software, eliminando la necessità di strumenti o script personalizzati. Consente di utilizzare le versioni software come cloni istantanei integrati con Perforce Helix Core come spazio di lavoro comodo per i processi di sviluppo, risparmiando tempo e risorse.</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">La release iniziale include la capacità di gestire progetti e aree di lavoro e automatizzare azioni con Codebox. È inoltre possibile integrare i costruttori con Perforce Helix Core, in modo da poter gestire diverse versioni di ciascun progetto e passare rapidamente da un progetto all'altro.</block>
@@ -211,4 +198,29 @@
   <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">L'analisi ben progettata include l'allineamento MTU per SQL Server</block>
   <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">L'analisi ben progettata valuta e corregge il disallineamento dell'unità di trasmissione massima (MTU) tra gli endpoint per Microsoft SQL Server su FSx per l'archiviazione ONTAP . L'allineamento delle impostazioni MTU consente di ottimizzare le prestazioni di rete e di ridurre la latenza per i carichi di lavoro di SQL Server.</block>
   <block id="38a5777d2aaca4d9102a019c09e0009c" category="section-title">2025-09-01</block>
+  <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">Miglioramenti del report sull'inventario di magazzino</block>
+  <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">Workload Factory ha migliorato i dati segnalati per i file system FSx for ONTAP . Il report scaricabile dalla pagina dell'inventario FSx per ONTAP include le seguenti nuove colonne:</block>
+  <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">SSD utilizzato: mostra il valore della capacità SSD utilizzata</block>
+  <block id="a1a4ea0fabd62225adb4786dd703d1a7" category="list-text">Utilizzo SSD: mostra la percentuale di capacità SSD in uso</block>
+  <block id="c016cb9916988a0ea698d070fd6b702a" category="list-text">Utilizzo della capacità: mostra l'utilizzo medio e massimo degli ultimi 30 giorni</block>
+  <block id="197af635c10bcbf35ba56184f54cb088" category="list-text">Utilizzo della IO: mostra l'utilizzo medio e massimo della IO negli ultimi 30 giorni</block>
+  <block id="92bce71ffaebc031ec78d565e6ad7032" category="list-text">Utilizzo della CPU: mostra l'utilizzo medio e massimo della CPU negli ultimi 30 giorni</block>
+  <block id="95851c89a4d869fdb94916625564bb6c" category="section-title">Miglioramenti nella gestione degli snapshot</block>
+  <block id="fbb3322fb25c1109310e7be3bcc20fd5" category="paragraph">Workload Factory ha apportato diversi miglioramenti per visualizzare i dettagli degli snapshot del volume e gestirli. Questi miglioramenti semplificano la comprensione dello stato degli snapshot e la protezione dei dati.</block>
+  <block id="3ecb130f0ffe2d8e485cb11c629b90b5" category="inline-image-macro">Screenshot che mostra il menu del volume FSx per ONTAP con azioni di base e quindi visualizza i dettagli del volume.</block>
+  <block id="d26eb7e0d00b2e5069d790d2b9be49ba" category="paragraph"><block ref="d26eb7e0d00b2e5069d790d2b9be49ba" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb34ab44253ae9c736786f23dc173879" category="paragraph">Ulteriori elementi vengono visualizzati nei dettagli del volume nella scheda Protezione:</block>
+  <block id="6d4b26be686dd37e202e23010a22bf04" category="list-text">Nome della policy snapshot</block>
+  <block id="a81cec6ec43470b1419a033e0457112d" category="list-text">Prenotazione dello spazio snapshot</block>
+  <block id="c04d4554f0391d80036dceaa0e930ee2" category="list-text">Capacità di prenotazione dello spazio snapshot</block>
+  <block id="06fd2134099fd30808caa961b2bc9b21" category="inline-image-macro">Screenshot che mostra i dettagli del volume FSx per ONTAP con la scheda di protezione aperta.</block>
+  <block id="b52491919b24cba6fd1efad7447c7798" category="paragraph"><block ref="b52491919b24cba6fd1efad7447c7798" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e987130d3b26cda391ff2f1e5149f444" category="paragraph">La nuova schermata di gestione degli snapshot è accessibile da un volume; fornisce informazioni sui criteri di snapshot per il volume e include una tabella con tutti gli snapshot del volume. Nella tabella vengono visualizzati i seguenti dettagli dello snapshot: ora di creazione, dimensione, ora di scadenza, protezione dello snapshot immutabile ed etichette. Dalla schermata di gestione è possibile modificare i criteri di snapshot per il volume, creare manualmente uno snapshot e modificare, accedere, ripristinare ed eliminare gli snapshot.</block>
+  <block id="ad8f55b88a50703984e58a23e36e9026" category="inline-image-macro">Screenshot che mostra la schermata di gestione degli snapshot.</block>
+  <block id="404a59509c6a806310ecbd1d601e0ee6" category="paragraph"><block ref="404a59509c6a806310ecbd1d601e0ee6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="52574bdc9ce79e7e568096fa39264d72" category="section-title">Riduzione della capacità di archiviazione SSD disponibile</block>
+  <block id="0cc6e64eaa35165d8791def1903c483a" category="paragraph">Workload Factory supporta la riduzione della capacità dell'unità SSD (Solid State Drive) dei file system di prima e seconda generazione. Grazie alla capacità elastica del file system, puoi adattare dinamicamente la capacità dei tuoi file system alle esigenze dei tuoi carichi di lavoro.</block>
+  <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">Regola la capacità del file system</block>
+  <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
+  <block id="a68e5a2143abf532b515a7b3b1734351" category="section-title">2025-09-09</block>
 </blocks>
