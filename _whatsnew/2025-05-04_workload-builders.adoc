@@ -1,9 +1,0 @@
-= Terminologia aggiornata per le autorizzazioni
-:allow-uri-read: 
-
-
-
-
-=== Terminologia aggiornata per le autorizzazioni
-
-L'interfaccia utente e la documentazione della Workload Factory ora utilizzano "sola lettura" per fare riferimento alle autorizzazioni di lettura e "lettura/scrittura" per fare riferimento alle autorizzazioni di automazione.
