@@ -40,6 +40,6 @@ image:screenshot-manage-snapshots-screen.png["Screenshot che mostra la schermata
 
 === Riduzione della capacità di archiviazione SSD disponibile
 
-Workload Factory supporta la riduzione della capacità dell'unità SSD (Solid State Drive) dei file system di prima e seconda generazione. Grazie alla capacità elastica del file system, puoi adattare dinamicamente la capacità dei tuoi file system alle esigenze dei tuoi carichi di lavoro.
+Workload Factory supporta la riduzione della capacità dell'unità SSD (Solid State Drive) dei file system di seconda generazione. Grazie alla capacità elastica del file system, puoi adattare dinamicamente la capacità dei tuoi file system alle esigenze dei tuoi carichi di lavoro.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["Regola la capacità del file system"]

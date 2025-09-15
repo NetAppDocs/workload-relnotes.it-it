@@ -36,10 +36,6 @@
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">Creare una knowledge base GenAI</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">Miglioramenti della dashboard di archiviazione</block>
-  <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">Supporto per clonazione</block>
-  <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">Ora è possibile clonare un progetto nella fabbrica di carichi di lavoro BlueXP per Builders. Quando si clona un progetto, Builders crea un nuovo progetto da uno snapshot, con la stessa configurazione dell'originale. La clonazione è utile per creare rapidamente progetti simili o per scopi di test. È possibile montare il nuovo clone del progetto seguendo le istruzioni in Builders.</block>
-  <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">Gestisci le versioni della fabbrica di carichi di lavoro BlueXP per i progetti Builder</block>
-  <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">Carichi di lavoro dei costruttori</block>
   <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">Supporto per fonti di dati ospitate su file system NFS/SMB generici</block>
   <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">Ora è possibile aggiungere un'origine dati da una condivisione SMB o NFS generica. Ciò consente di includere file archiviati su volumi ospitati da file system diversi da Amazon FSx per NetApp ONTAP.</block>
@@ -184,7 +180,6 @@
   <block id="ad8f55b88a50703984e58a23e36e9026" category="inline-image-macro">Screenshot che mostra la schermata di gestione degli snapshot.</block>
   <block id="404a59509c6a806310ecbd1d601e0ee6" category="paragraph"><block ref="404a59509c6a806310ecbd1d601e0ee6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="52574bdc9ce79e7e568096fa39264d72" category="section-title">Riduzione della capacità di archiviazione SSD disponibile</block>
-  <block id="0cc6e64eaa35165d8791def1903c483a" category="paragraph">Workload Factory supporta la riduzione della capacità dell'unità SSD (Solid State Drive) dei file system di prima e seconda generazione. Grazie alla capacità elastica del file system, puoi adattare dinamicamente la capacità dei tuoi file system alle esigenze dei tuoi carichi di lavoro.</block>
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">Regola la capacità del file system</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
   <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">Workload Factory fornisce le seguenti notifiche per i database:</block>
@@ -210,5 +205,5 @@
   <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">03 agosto 2025</block>
   <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">30 giugno 2025</block>
   <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">29 giugno 2025</block>
-  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">16 giugno 2025</block>
+  <block id="edfbca9622799a953a48987a288fe283" category="paragraph">Workload Factory supporta la riduzione della capacità dell'unità SSD (Solid State Drive) dei file system di seconda generazione. Grazie alla capacità elastica del file system, puoi adattare dinamicamente la capacità dei tuoi file system alle esigenze dei tuoi carichi di lavoro.</block>
 </blocks>
