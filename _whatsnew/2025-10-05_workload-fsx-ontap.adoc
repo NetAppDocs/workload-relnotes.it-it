@@ -1,0 +1,55 @@
+= Ottimizza i risparmi nel calcolatore di archiviazione per Amazon Elastic Block Store (EBS)
+:allow-uri-read: 
+
+
+
+
+=== Ottimizza i risparmi nel calcolatore di archiviazione per Amazon Elastic Block Store (EBS)
+
+Workload Factory può analizzare l'utilizzo delle prestazioni EBS e quindi suggerire la configurazione FSx for ONTAP migliore e più conveniente, in modo da consentirti di risparmiare di più passando a FSx for ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html#explore-savings-for-detected-storage-environments["Esplora i risparmi per gli ambienti di archiviazione rilevati nella console Workload Factory"]
+
+
+
+=== Accesso rapido alla schermata delle risorse dall'inventario del file system
+
+È possibile accedere rapidamente alla schermata delle risorse del file system FSx for ONTAP selezionando il nome del file system, ora un collegamento ipertestuale, dall'inventario di FSx for ONTAP .
+
+
+
+=== Scopri le relazioni della cache nella console Workload Factory
+
+Se sono presenti relazioni _cache_ tra il file system FSx for ONTAP e un altro tipo di storage ONTAP (sistema locale, Cloud Volumes ONTAP e FSx for ONTAP), è possibile individuarle e visualizzarle dalla console Workload Factory. Ciò consente di comprendere meglio i flussi di dati, ottimizzare l'utilizzo della cache e migliorare l'efficienza negli ambienti distribuiti.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/discover-cache-volumes.html["Scopri e visualizza le relazioni della cache nella console Workload Factory"]
+
+
+
+=== Aggiornamento dell'analisi ben progettata
+
+Workload Factory ora analizza i file system FSx for ONTAP per la seguente configurazione:
+
+Soglia di utilizzo della capacità del file del volume: verifica se le soglie di capacità del file sono impostate all'80% o meno. In questo modo eviterai di esaurire lo spazio sui tuoi file system.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Visualizza lo stato ben progettato dei tuoi file system FSx per ONTAP"]
+
+
+
+==== Miglioramenti alle azioni per problemi di configurazione
+
+Dalla scheda *Analisi ben progettata* nella dashboard per un file system FSx for ONTAP , anziché ignorare un'intera configurazione per un file system, è anche possibile selezionare uno o più volumi all'interno di un file system da correggere, ignorare o riattivare.
+
+
+
+=== Notifica aggiuntiva per l'archiviazione
+
+Il servizio di notifica NetApp Workload Factory include la notifica settimanale di problemi di configurazione ben progettati.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html#notification-types-and-messages["Tipi di notifica e messaggi nella documentazione di configurazione e amministrazione di Workload Factory"]
+
+
+
+=== I file immutabili supportano l'eliminazione privilegiata
+
+Con questa funzionalità è possibile configurare l'accesso privilegiato all'eliminazione per i file immutabili nei file system FSx per ONTAP . Ciò consente di proteggere i dati critici da eliminazioni accidentali o dolose, consentendo comunque agli utenti autorizzati di ignorare il blocco ed eliminare questi file secondo necessità. L'abilitazione dell'eliminazione privilegiata è disponibile durante la creazione del volume o per i volumi esistenti.
