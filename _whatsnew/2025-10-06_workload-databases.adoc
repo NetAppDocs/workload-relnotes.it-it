@@ -1,0 +1,49 @@
+= La BlueXP workload factory ora è NetApp Workload Factory
+:allow-uri-read: 
+
+
+
+
+=== La BlueXP workload factory ora è NetApp Workload Factory
+
+BlueXP è stato rinominato e riprogettato per riflettere meglio il ruolo che svolge nella gestione dell'infrastruttura dati. Di conseguenza, BlueXP workload factory è stato rinominato NetApp Workload Factory.
+
+
+
+=== Miglioramenti per Oracle nella console Workload Factory
+
+
+
+==== Schermata delle risorse del database Oracle
+
+Ogni database Oracle ha una propria schermata di risorse dedicata, disponibile nell'inventario dei database. La schermata delle risorse fornisce una panoramica con il nome del database, lo stato (online o offline), la locazione e il tipo di distribuzione. Sono inclusi anche grafici con i seguenti dati su un periodo di tre mesi: utilizzo della CPU, latenza, IOPS e throughput. L'utilizzo della capacità fornisce la dimensione totale del database, la dimensione dei dati scritti, la capacità dell'unità a stato solido utilizzata e la capacità di archiviazione del pool utilizzata.
+
+Dalla schermata delle risorse, è possibile visualizzare informazioni sul server Oracle (modello di distribuzione, sistema operativo, edizione, versione e altro), posizione (account AWS, regione, zona di disponibilità e subnet), archiviazione ed elaborazione (dettagli del file system FSx for ONTAP , tipo di istanza del database e LUN e volumi associati) e connettività (VPC e protocollo di accesso). È inoltre possibile verificare lo stato di corretta architettura delle configurazioni del database e visualizzare i database collegabili (PDB) associati al database.
+
+
+
+==== Supporto per database Oracle collegabili
+
+I database Oracle collegabili sono visualizzabili nell'inventario dei database e dalla schermata delle risorse del database contenitore padre. Sono disponibili le seguenti informazioni sui PDB: nome CDB, nome host, stato di protezione, dimensione del database, file system FSx for ONTAP , credenziali AWS, account AWS e regione.
+
+
+
+==== Analisi ben progettata per Oracle
+
+L'analisi ben strutturata include valutazioni dei problemi di configurazione con il layout di archiviazione per i database Oracle su NFS o su iSCSI con o senza Automatic Storage Management (ASM) e problemi di configurazione dell'archiviazione sul sistema operativo per Oracle su LUN iSCSI. È possibile utilizzare queste informazioni per prendere decisioni consapevoli sulle distribuzioni del database e assicurarsi che vengano eseguite in modo efficiente.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementare configurazioni di database ben progettate in Workload Factory"]
+
+
+
+=== Miglioramenti dell'inventario dei database
+
+Dalla schermata dell'istanza nell'inventario dei database, le opzioni per correggere, posticipare e ignorare un problema di configurazione sono disponibili per una o più istanze per Microsoft SQL Server o per uno o più database per Oracle.
+
+
+
+=== Ottimizza i risparmi nel calcolatore di archiviazione per Amazon Elastic Block Store (EBS)
+
+Workload Factory può analizzare l'utilizzo delle prestazioni EBS e quindi suggerire la configurazione FSx for ONTAP migliore e più conveniente, in modo da consentirti di risparmiare di più passando a FSx for ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Esplora i risparmi per gli ambienti di archiviazione rilevati nella console Workload Factory"]
