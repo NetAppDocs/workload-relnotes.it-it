@@ -90,9 +90,6 @@
   <block id="1d92da78b598707dec3df4d7281f1ec3" category="doc">Archiviazione sicura per risultati di dati strutturati</block>
   <block id="c4b4739fe392b8cae69417a08008577b" category="paragraph">Se i risultati delle query del chatbot contengono dati strutturati, GenAI può archiviare i risultati in un bucket Amazon S3. Quando questi risultati vengono archiviati in un bucket S3, è possibile scaricarli utilizzando il collegamento per il download all'interno della sessione di chat.</block>
   <block id="9a0737b14158e601f99b4265c5bd3e5a" category="section-title">Disponibilità del server MCP</block>
-  <block id="7577ac9e07061812bfe5cec74bafd782" category="paragraph">NetApp fornisce ora un server Model Context Protocol (MCP) con BlueXP workload factory per GenAI. È possibile installare il server localmente per consentire ai client MCP esterni di scoprire e recuperare i risultati delle query da una knowledge base GenAI.</block>
-  <block id="6ce9fdd00e9870d205a0b965e8d376fd" category="inline-link-macro">Server GenAI MCP della fabbrica di carichi di lavoro NetApp</block>
-  <block id="499a63951a1faf063a1d481e63ba0fd9" category="paragraph"><block ref="499a63951a1faf063a1d481e63ba0fd9" category="inline-link-macro-rx"></block></block>
   <block id="412038dfc7c530b95fd4f54ca173992c" category="paragraph">Il BlueXP backup and recovery consentono di eseguire il backup, il ripristino, la verifica e la clonazione di database e gruppi di disponibilità di Microsoft SQL Server. Dalla console di Workload Factory è possibile accedere e utilizzare il BlueXP backup and recovery per proteggere i carichi di lavoro di Microsoft SQL Server.</block>
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">Scopri come proteggere i carichi di lavoro di Microsoft SQL Server tramite la console Workload Factory</block>
   <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">Panoramica sulla protezione dei carichi di lavoro Microsoft SQL con BlueXP backup and recovery</block>
@@ -149,4 +146,16 @@
   <block id="2bbead322f2dd5c4a40fbd66537e304f" category="doc">La BlueXP workload factory ora è NetApp Workload Factory</block>
   <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP è stato rinominato e riprogettato per riflettere meglio il ruolo che svolge nella gestione dell'infrastruttura dati. Di conseguenza, BlueXP workload factory è stato rinominato NetApp Workload Factory.</block>
   <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">05 ottobre 2025</block>
+  <block id="e834ab03ab8af25bc66f7565fe0c683b" category="paragraph">NetApp fornisce ora un server Model Context Protocol (MCP) con NetApp Workload Factory per GenAI. È possibile installare il server localmente per consentire ai client MCP esterni di scoprire e recuperare i risultati delle query da una knowledge base GenAI.</block>
+  <block id="45b9616656c01be55aaa7cb75d3a7215" category="inline-link-macro">Server MCP GenAI di NetApp Workload Factory</block>
+  <block id="272cce890c7aade4de2a42d9e414cf3e" category="paragraph"><block ref="272cce890c7aade4de2a42d9e414cf3e" category="inline-link-macro-rx"></block></block>
+  <block id="3ddc651759568c7b8f0de7c7f9a41828" category="section-title">Supporto per l'aggiunta di origini dati NFS/SMB generiche nei connettori NetApp per Amazon Q Business</block>
+  <block id="a0689e9e0b6114698a732a2dc7c3c921" category="paragraph">Utilizzando l'API Workload Factory, ora puoi aggiungere un'origine dati da una condivisione NFSv3, NFSv4 o SMB generica a un connettore NetApp per Amazon Q Business. Ciò consente di includere file archiviati su volumi ospitati da file system diversi da Amazon FSx for NetApp ONTAP.</block>
+  <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Creare un connettore NetApp per Amazon Q Business</block>
+  <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
+  <block id="b6016044adc61a2efcd415d2be8b12bc" category="paragraph"><block ref="b6016044adc61a2efcd415d2be8b12bc" category="inline-link-macro-rx"></block></block>
+  <block id="b0462077e62a0ea67b3f53638651e833" category="section-title">Configurazione avanzata della chat per le basi di conoscenza</block>
+  <block id="5335798f91a37df8ffc1be273ef666fa" category="paragraph">Ora puoi configurare impostazioni di chat avanzate applicabili al modello di chat per la knowledge base, come la lunghezza della risposta, la temperatura, le impostazioni di ragionamento e altro ancora. Alcune di queste impostazioni, come quelle relative alla data di recenza e all'ora di modifica, le impostazioni di recupero avanzate e il prompt di sistema, sono disponibili solo tramite l'API Workload Factory.</block>
+  <block id="7ff7a0c83b9f68a4add0d263a7292e9c" category="section-title">Selezione del tipo di inferenza ora supportata per modelli di incorporamento, chat e riclassificazione</block>
+  <block id="a4c5c24aeea4d68e48565188546da1a5" category="paragraph">Se il modello di incorporamento, chat o riclassificazione scelto dispone di impostazioni di inferenza, ora è possibile selezionare un tipo di inferenza. Ciò ti consente di adattare meglio le prestazioni del chatbot e i requisiti delle risorse alle tue esigenze.</block>
 </blocks>
