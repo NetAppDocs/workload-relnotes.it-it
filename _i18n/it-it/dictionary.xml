@@ -163,4 +163,11 @@
   <block id="2dd03fc740a72e1c5fc0daf9be122249" category="paragraph">Il centro di pianificazione dei carichi di lavoro VMware consente di visualizzare e gestire l'inventario delle VM e i piani di migrazione da un'unica posizione. È possibile caricare e salvare più inventari di VM da ambienti diversi e iniziare a pianificare una migrazione verso AWS EC2 o il servizio Amazon Elastic VMware per ciascuno di essi. È anche possibile creare e salvare piani di migrazione AWS EC2 o EVS.</block>
   <block id="420ac911d98022d5289d3f00ff38ea84" category="inline-link">Esplora il centro di pianificazione dei carichi di lavoro VMware</block>
   <block id="81ee9955f68100a5e460b3f794e65e9b" category="paragraph"><block ref="81ee9955f68100a5e460b3f794e65e9b" category="inline-link-rx"></block></block>
+  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="doc">Nuova notifica per Storage</block>
+  <block id="09ef633d09a9d5e5cf3ab27b167cac1b" category="paragraph">Il servizio di notifica NetApp Workload Factory include la notifica per problemi ben progettati per l'archiviazione.</block>
+  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">Notifiche per NetApp Workload Factory</block>
+  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
+  <block id="8d1adece5e8b196b0a88b0589326fdf6" category="section-title">Integrazione Ask Me con MCP</block>
+  <block id="979df5bd82476afb53055b0675f703a3" category="paragraph">Ask Me, l'assistente AI di Workload Factory, è integrato con il Model Context Protocol (MCP). Utilizzando MCP, Ask Me interagisce in modo sicuro con ambienti esterni e interroga gli strumenti API per fornire risposte personalizzate in base al tuo specifico ambiente di archiviazione.</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">06 ottobre 2025</block>
 </blocks>
