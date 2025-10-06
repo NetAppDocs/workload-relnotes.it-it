@@ -16,7 +16,7 @@ Utilizzando l'API Workload Factory, ora puoi aggiungere un'origine dati da una c
 
 link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Creare un connettore NetApp per Amazon Q Business"]
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["6320af7d92cd5d357460c5cbc5f642a9"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["Aggiungere origini dati a un connettore"]
 
 
 
