@@ -1,0 +1,9 @@
+= La BlueXP workload factory ora è NetApp Workload Factory
+:allow-uri-read: 
+
+
+
+
+=== La BlueXP workload factory ora è NetApp Workload Factory
+
+BlueXP è stato rinominato e riprogettato per riflettere meglio il ruolo che svolge nella gestione dell'infrastruttura dati. Di conseguenza, BlueXP workload factory è stato rinominato NetApp Workload Factory.
