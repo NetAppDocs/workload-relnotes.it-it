@@ -1,0 +1,59 @@
+= Miglioramenti della dashboard
+:allow-uri-read: 
+
+
+
+
+=== Miglioramenti della dashboard
+
+La nuova dashboard è semplificata e meglio organizzata per fornire una panoramica più chiara delle risorse del database e delle funzionalità chiave di Workload Factory in un'unica schermata; una scheda evidenzia le risorse del database, una scheda fornisce informazioni sul punteggio e sull'analisi ben strutturati, una scheda visualizza l'analisi degli errori, due schede visualizzano i costi mensili e i potenziali risparmi e una scheda visualizza informazioni sulle sandbox.
+
+
+
+=== Analisi ben progettata per Oracle
+
+L'analisi ben progettata include le seguenti valutazioni e correzioni per le configurazioni Oracle:
+
+* Sistema operativo di configurazione dell'archiviazione mediante protocollo NFS: valuta e risolve i problemi di configurazione con la configurazione NFS per le distribuzioni di database Oracle esistenti.
+* Sistema operativo di configurazione dell'archiviazione mediante protocollo iSCSI: valuta e risolve i problemi di configurazione con la configurazione iSCSI per le distribuzioni di database Oracle esistenti.
+* Sistema operativo di configurazione dell'archiviazione mediante Automatic Storage Management (ASM): valuta i problemi di configurazione con la configurazione ASM per le distribuzioni di database Oracle esistenti.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementare configurazioni di database ben progettate in Workload Factory"]
+
+
+
+=== Modifiche alle autorizzazioni per Workload Factory per database
+
+Workload Factory for Databases ha aggiornato i criteri di autorizzazione per fornire maggiore chiarezza su ciò che richiede per azioni specifiche e granularità per selezionare solo le autorizzazioni necessarie. Quando aggiungi le credenziali, avrai tre opzioni di autorizzazioni tra cui scegliere, anziché il precedente modello di autorizzazioni che era _sola lettura_ e _lettura/scrittura_. Il nuovo modello di autorizzazioni suddivide le policy di autorizzazione come segue:
+
+* _Visualizzazione, pianificazione e analisi_: visualizza l'inventario delle risorse del database, scopri lo stato di salute delle tue risorse, esamina l'analisi ben progettata delle configurazioni del tuo database, ottieni l'analisi del registro degli errori ed esplora i risparmi
+* _Operazioni e risoluzione_: esegui attività operative per le risorse del tuo database e risolvi problemi per le configurazioni del database e l'archiviazione del file system FSx for ONTAP sottostante
+* _Creazione host database_: distribuire host database e FSx sottostante per l'archiviazione del file system ONTAP secondo le best practice
+
+
+Quando si aggiungono le credenziali, è possibile selezionare una o più di queste policy di autorizzazione in base al livello di accesso che si desidera fornire a Workload Factory for Databases.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Riferimento alle autorizzazioni di Workload Factory"^]
+
+
+
+=== Aggiunta schermata dashboard ben progettata
+
+Una nuova schermata del dashboard _Well-architected_ è stata aggiunta al menu Database. Da questa schermata è possibile ottenere una visualizzazione aggregata dello stato di configurazione dell'intero database.
+
+
+
+=== Protezione delle modifiche per le distribuzioni di database in NetApp Backup and Recovery
+
+Dalla console Workload Factory, puoi scegliere di modificare la protezione per una risorsa protetta e poi verrai reindirizzato a Backup e ripristino nella NetApp Console , dove potrai modificare la policy o la pianificazione della protezione.
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Protezione delle modifiche per le distribuzioni di database"]
+
+
+
+=== Filtraggio degli errori tramite tag disponibile per la funzionalità di analisi degli errori
+
+È possibile filtrare e visualizzare i log degli errori di Microsoft SQL Server in base a tag orientati all'infrastruttura quando si utilizza la funzionalità di analisi degli errori in Workload Factory. Questo miglioramento ti aiuta a individuare, risolvere e risolvere rapidamente i problemi.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Analizza i registri degli errori con il filtraggio dei tag"^]
