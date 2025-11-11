@@ -560,21 +560,3 @@ link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["S
 L'analisi ben progettata valuta e corregge il disallineamento dell'unità di trasmissione massima (MTU) tra gli endpoint per Microsoft SQL Server su FSx per l'archiviazione ONTAP . L'allineamento delle impostazioni MTU consente di ottimizzare le prestazioni di rete e di ridurre la latenza per i carichi di lavoro di SQL Server.
 
 link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementare configurazioni di database ben progettate nella fabbrica dei carichi di lavoro"]
-
-
-
-== 12 agosto 2025
-
-
-
-=== Workload dei database
-
-
-
-==== Il BlueXP backup and recovery ora supportano i carichi di lavoro di Microsoft SQL Server
-
-Il BlueXP backup and recovery consentono di eseguire il backup, il ripristino, la verifica e la clonazione di database e gruppi di disponibilità di Microsoft SQL Server. Dalla console di Workload Factory è possibile accedere e utilizzare il BlueXP backup and recovery per proteggere i carichi di lavoro di Microsoft SQL Server.
-
-link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Scopri come proteggere i carichi di lavoro di Microsoft SQL Server tramite la console Workload Factory"] .
-
-Per i dettagli sul BlueXP backup and recovery, fare riferimento alink:https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-mssql-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro Microsoft SQL con BlueXP backup and recovery"^] .
