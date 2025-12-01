@@ -233,4 +233,26 @@
   <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">Scopri di più sull'analizzatore di log degli errori basato sull'intelligenza artificiale Agentic</block>
   <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
   <block id="08b4436fffbd9bb2227d03f1cf33889b" category="paragraph">L'analisi ben progettata include due nuove configurazioni di dimensionamento dello storage. L'analisi valuta e risolve i problemi di configurazione relativi all'allocazione dello spazio di swap e al margine di spazio del file system per le distribuzioni di database Oracle esistenti.</block>
+  <block id="081af9c5870a1e2b72453c8137d7fc73" category="doc">Supporto dei dispositivi a blocchi in NetApp Workload Factory</block>
+  <block id="41c0f3170443e12c1081a0a411a2c7a4" category="paragraph">Gestisci i tuoi dispositivi a blocchi in modo più efficace con il nuovo supporto per dispositivi a blocchi introdotto in NetApp Workload Factory. Questa funzionalità consente di visualizzare i dettagli e di aumentare la capacità delle LUN iSCSI, garantendo maggiore flessibilità per le esigenze di archiviazione.</block>
+  <block id="83fd7a4dba0970697d173ce4398c1b71" category="inline-link-macro">Gestisci i dispositivi a blocchi in Workload Factory</block>
+  <block id="e739cb7976f49d4295e9ffa8e259037b" category="paragraph"><block ref="e739cb7976f49d4295e9ffa8e259037b" category="inline-link-macro-rx"></block></block>
+  <block id="90b40f16cf91d89fc22fbcc0a38efa7c" category="list-text">Eliminazione snapshot non necessari: verifica se i volumi contengono snapshot obsoleti e non necessari che possono essere eliminati per ridurre i costi.</block>
+  <block id="2945c0b218624e42ee523aefde446d66" category="list-text">Ribilanciamento dei volumi FlexGroup : verifica se i volumi FlexGroup sono bilanciati uniformemente tra i volumi dei loro membri per garantire prestazioni ottimali.</block>
+  <block id="0f80b197268947adedcc0297fc4a4efd" category="section-title">Analizzatore AI per eventi EMS in NetApp Workload Factory</block>
+  <block id="b0e5de397c4ec9c39df271c0f4cf05e1" category="paragraph">NetApp Workload Factory introduce un analizzatore basato sull'intelligenza artificiale per gli eventi ONTAP Event Management System (EMS). Questa funzionalità ti aiuta a identificare e risolvere rapidamente i problemi fornendo informazioni e consigli basati sull'analisi dei dati degli eventi EMS.</block>
+  <block id="a661f5e2ef22dbf468d0f8427ad8323e" category="inline-link-macro">Analizza gli eventi EMS in Workload Factory</block>
+  <block id="8121ebebfc076bea222c1f4c838b09ec" category="paragraph"><block ref="8121ebebfc076bea222c1f4c838b09ec" category="inline-link-macro-rx"></block></block>
+  <block id="1df24a9e91a6f6d01b5ce32608b6f3f7" category="section-title">Monitorare i trend di costo e utilizzo per i file system FSx per ONTAP</block>
+  <block id="56a2825e2abb3758584b94544cfdba40" category="paragraph">È possibile monitorare i trend di costo e utilizzo dei file system FSx for ONTAP direttamente dalla console NetApp Workload Factory . Questa funzionalità fornisce metriche sui consumi e sui costi di archiviazione, nonché costi dettagliati, aiutandoti a ottimizzare l'allocazione delle risorse e la pianificazione del budget.</block>
+  <block id="bd89bba18a943a5ad32117396fcdea90" category="inline-link-macro">Tieni traccia dei costi per i file system FSx per ONTAP in Workload Factory</block>
+  <block id="d5905c9d9cba2248871f04654e4f9b1d" category="paragraph"><block ref="d5905c9d9cba2248871f04654e4f9b1d" category="inline-link-macro-rx"></block></block>
+  <block id="5b58af6390ae44b5a39c726b4820fffb" category="section-title">Gestire i tag FSx per un file system in NetApp Workload Factory</block>
+  <block id="543e684a4a914d6bef4f91873d32e315" category="paragraph">Gestisci facilmente i tag FSx per un file system direttamente dalla console NetApp Workload Factory . Questa funzionalità consente di aggiungere, modificare o rimuovere tag, consentendo una migliore organizzazione e categorizzazione dei file system FSx per ONTAP .</block>
+  <block id="8945587d036e5b09c39322767239857a" category="inline-link-macro">Gestisci i tag FSx in Workload Factory</block>
+  <block id="3c57420160e53dc4967d9ca75a5d5d06" category="paragraph"><block ref="3c57420160e53dc4967d9ca75a5d5d06" category="inline-link-macro-rx"></block></block>
+  <block id="1b931c0909a42d2dd6b1b28eeb36252c" category="section-title">Regola la capacità della cache per FSx per i file system ONTAP</block>
+  <block id="aed1296ef373ba8df468af355d85d3ce" category="paragraph">È possibile aumentare e diminuire la capacità dei volumi di cache dalla console Workload Factory.</block>
+  <block id="012110073acf8459d2a77ef54f547130" category="inline-link-macro">Gestire i volumi di cache in Workload Factory</block>
+  <block id="cfd839007fdba7ba7d7a5a35de4aa55a" category="paragraph"><block ref="cfd839007fdba7ba7d7a5a35de4aa55a" category="inline-link-macro-rx"></block></block>
 </blocks>
