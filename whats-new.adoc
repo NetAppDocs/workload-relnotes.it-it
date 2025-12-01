@@ -19,6 +19,44 @@ Scopri le modifiche più recenti apportate ai carichi di lavoro che fanno parte 
 
 
 
+=== Workload dei database
+
+
+
+==== Ottimizza i risparmi nel calcolatore dei database per Amazon Elastic Block Store (EBS)
+
+Due nuove funzionalità della calcolatrice migliorano l'analisi del risparmio sui costi quando si eseguono più istanze con storage EBS, in modo da poter risparmiare di più passando a FSx per ONTAP.
+
+* Workload Factory fornisce una soluzione di archiviazione consolidata per diversi host di database su un file system FSx for ONTAP . Questo consolidamento ottimizza i costi di archiviazione riducendo il numero di file system necessari per più host di database, con conseguente maggiore risparmio sui costi.
+* Workload Factory analizza l'utilizzo delle prestazioni EBS e suggerisce la configurazione FSx per ONTAP migliore e più conveniente.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Esplora i risparmi per gli host EBS rilevati"]
+
+
+
+==== Report Excel disponibile per la dashboard ben progettata
+
+È possibile scaricare un report Excel della dashboard ben progettata. Il report fornisce lo stato di buona progettazione della risorsa del database e raccomandazioni per tutte le configurazioni delle risorse, comprese le sottoconfigurazioni per il sistema operativo e ONTAP.
+
+
+
+==== Analizzatore del registro degli errori disponibile per i database Oracle
+
+L'analizzatore del registro degli errori basato sull'intelligenza artificiale Agentic è disponibile per i database Oracle. La funzionalità sfrutta algoritmi avanzati di apprendimento automatico per rilevare e analizzare automaticamente gli errori nei file di registro. Questo strumento mira a semplificare il processo di risoluzione dei problemi fornendo agli sviluppatori informazioni e consigli pratici basati sui modelli identificati nei log.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Scopri di più sull'analizzatore di log degli errori basato sull'intelligenza artificiale Agentic"]
+
+
+
+==== Analisi ben progettata per Oracle
+
+L'analisi ben progettata include due nuove configurazioni di dimensionamento dello storage. L'analisi valuta e risolve i problemi di configurazione relativi all'allocazione dello spazio di swap e al margine di spazio del file system per le distribuzioni di database Oracle esistenti.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementare configurazioni di database ben progettate in Workload Factory"]
+
+
+
 === Workload VMware
 
 
