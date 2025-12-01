@@ -30,25 +30,9 @@
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">Carichi di lavoro dei costruttori</block>
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">Crea un piano di distribuzione per Amazon EVS utilizzando il consulente per la migrazione</block>
-  <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">Implementare configurazioni di database ben progettate nella fabbrica dei carichi di lavoro</block>
-  <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">Aggiornamenti di analisi ben progettati</block>
   <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">Visualizza lo stato ben progettato dei tuoi file system FSx per ONTAP</block>
   <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
-  <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">Scopri come proteggere i carichi di lavoro di Microsoft SQL Server tramite la console Workload Factory</block>
-  <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> .</block>
-  <block id="c66ae4617a5e7b903fa49494f6025fe3" category="doc">Analizzatore di log degli errori basato sull'intelligenza artificiale</block>
-  <block id="9d9b1a38d2c7c04daeaa22b4ab5a3d5d" category="paragraph">L'analizzatore del registro degli errori basato sull'intelligenza artificiale Agentic è una nuova funzionalità che sfrutta algoritmi di apprendimento automatico avanzati per rilevare e analizzare automaticamente gli errori nei file di registro. Questo strumento mira a semplificare il processo di risoluzione dei problemi fornendo agli sviluppatori informazioni e consigli pratici basati sui modelli identificati nei log.</block>
-  <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">Scopri di più sull'analizzatore di log degli errori basato sull'intelligenza artificiale Agentic</block>
-  <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
-  <block id="87b85aff45217080ba500a992ada602c" category="section-title">Supporto Oracle</block>
-  <block id="74ddb3b25ce5cc41642c58d46e3e527b" category="paragraph">Workload Factory include il supporto per i database Oracle. Nella console di Workload Factory è possibile visualizzare i database Oracle dall'inventario, registrare i database per utilizzare le funzionalità avanzate di Workload Factory e analizzare i database Oracle per verificarne l'allineamento con le best practice utilizzando la funzionalità ben progettata. Un'analisi ben strutturata determina se le configurazioni di archiviazione per i database Oracle sono ottimizzate. È possibile utilizzare queste informazioni per prendere decisioni consapevoli sulle distribuzioni del database e assicurarsi che vengano eseguite in modo efficiente.</block>
-  <block id="0c32ff88af8d87b6ac8198432d56bd75" category="section-title">Supporto per le distribuzioni di Microsoft SQL Server su file system FSx di seconda generazione per ONTAP</block>
-  <block id="6f4eab6394c8d6b2b9c2f5990b195f88" category="paragraph">Workload Factory supporta le distribuzioni di Microsoft SQL Server sui file system FSx for ONTAP di seconda generazione. Questo miglioramento consente di sfruttare le funzionalità più recenti e i miglioramenti delle prestazioni disponibili nei file system di seconda generazione durante la gestione dei carichi di lavoro di SQL Server.</block>
-  <block id="4b0e4c53f590f96c7ae9dbd2af881643" category="section-title">Autenticazione di Windows per la protezione di SQL Server</block>
-  <block id="66eac601a6b6ad939034aba1005b0d1f" category="paragraph">L'autenticazione delle istanze di Microsoft SQL Server con credenziali Windows è integrata nel flusso di lavoro per preparare gli host di Microsoft SQL Server alla protezione con BlueXP backup and recovery. In passato questo era un passaggio preliminare da completare manualmente. Se non hai registrato gli host in Workload Factory utilizzando le credenziali di Windows, ti verrà invece richiesto di condividere le credenziali di Windows con accesso amministrativo.</block>
-  <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">L'analisi ben progettata include l'allineamento MTU per SQL Server</block>
-  <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">L'analisi ben progettata valuta e corregge il disallineamento dell'unità di trasmissione massima (MTU) tra gli endpoint per Microsoft SQL Server su FSx per l'archiviazione ONTAP . L'allineamento delle impostazioni MTU consente di ottimizzare le prestazioni di rete e di ridurre la latenza per i carichi di lavoro di SQL Server.</block>
   <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">Miglioramenti del report sull'inventario di magazzino</block>
   <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">Workload Factory ha migliorato i dati segnalati per i file system FSx for ONTAP . Il report scaricabile dalla pagina dell'inventario FSx per ONTAP include le seguenti nuove colonne:</block>
   <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">SSD utilizzato: mostra il valore della capacità SSD utilizzata</block>
@@ -73,7 +57,6 @@
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">Regola la capacità del file system</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
   <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">09 settembre 2025</block>
-  <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">01 settembre 2025</block>
   <block id="edfbca9622799a953a48987a288fe283" category="paragraph">Workload Factory supporta la riduzione della capacità dell'unità SSD (Solid State Drive) dei file system di seconda generazione. Grazie alla capacità elastica del file system, puoi adattare dinamicamente la capacità dei tuoi file system alle esigenze dei tuoi carichi di lavoro.</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">Fabbrica di carichi di lavoro NetApp</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
@@ -231,4 +214,10 @@
   <block id="bd926a6dc82c9eb9135d58e6c5a33568" category="paragraph">Questa versione di NetApp Workload Factory per VMware presenta diversi miglioramenti all'esperienza di consulenza sulla migrazione:</block>
   <block id="62057df0ae6e346379f483246f31203b" category="list-text">*Salva o scarica un piano di migrazione*: ora puoi salvare o scaricare un piano di migrazione come file PDF o CSV. Quando salvi un piano di migrazione, il piano viene salvato con il tuo account Workload Factory.</block>
   <block id="d0892726ec1e74441a4a801494ed29bb" category="paragraph">Quando si aggiungono le credenziali, è possibile selezionare una o più di queste policy di autorizzazione in base al livello di accesso che si desidera fornire a Workload Factory for Databases.</block>
+  <block id="e738192b7a8dc90f6d5e566ceb909da3" category="doc">Calcola il risparmio sui costi della migrazione ad Amazon Elastic VMware Service per regioni specifiche</block>
+  <block id="d4a40d01192a627963ffd40503ef4713" category="paragraph">Ora puoi esplorare il valore delle diverse opzioni di distribuzione per la migrazione al cloud, ottimizzare gli sforzi investiti nella valutazione delle soluzioni e approfondire le soluzioni che hanno il potenziale per offrire valore e risparmi nel cloud.</block>
+  <block id="de480346f69aff69cc4e4e1e5d52ea98" category="paragraph">È inoltre possibile esaminare i risparmi di core vCPU ottenibili utilizzando FSx per ONTAP per una distribuzione EVS.</block>
+  <block id="122a56eb4649431a7f2dbb8886f047cc" category="inline-link">Scopri i risparmi per Amazon Elastic VMware Service con NetApp Workload Factory</block>
+  <block id="389870bd93c88ff4cb5e7f6216054ce2" category="paragraph"><block ref="389870bd93c88ff4cb5e7f6216054ce2" category="inline-link-rx"></block></block>
+  <block id="815e75619b370a1b845eccec6979ed74" category="section-title">27 novembre 2025</block>
 </blocks>
