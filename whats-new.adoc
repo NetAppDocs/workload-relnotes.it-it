@@ -91,14 +91,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html[
 
 
 
-==== Supporto per punti di accesso AWS S3 per FSx per ONTAP
-
-Con questa funzionalità è possibile creare volumi utilizzando punti di accesso S3 dalla console Workload Factory. Utilizzando un punto di accesso S3, è possibile accedere ai dati dei file residenti su volumi SMB/CIFS o NFS tramite le API AWS S3. Ciò consente di integrare i dati esistenti con GenAI, ML e analisi dai servizi AWS che supportano i punti di accesso S3.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crea un volume"]
-
-
-
 === Workload dei database
 
 
