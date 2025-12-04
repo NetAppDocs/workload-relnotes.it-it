@@ -264,9 +264,8 @@
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Registro delle modifiche di riferimento delle autorizzazioni</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="01f76f754caa3b688233762c1b9391f6" category="section-title">Supporto per punti di accesso AWS S3 per FSx per ONTAP</block>
-  <block id="3b8b774c9a2fdbcd783a971c096ca5f2" category="paragraph">Con questa funzionalità è possibile creare volumi utilizzando punti di accesso S3 dalla console Workload Factory. Utilizzando un punto di accesso S3, è possibile accedere ai dati dei file residenti su volumi SMB/CIFS o NFS tramite le API AWS S3. Ciò consente di integrare i dati esistenti con GenAI, ML e analisi dai servizi AWS che supportano i punti di accesso S3.</block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="inline-link-macro">Crea un volume</block>
   <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
   <block id="d30cb805d7270ac0b7cc06375888e47f" category="paragraph">NetApp Workload Factory supporta i punti di accesso AWS S3 per i file system FSx for ONTAP . È possibile creare volumi utilizzando punti di accesso S3, assegnare punti di accesso S3 a un volume esistente e gestire i punti di accesso S3 dalla console Workload Factory. Utilizzando un punto di accesso S3, è possibile accedere ai dati dei file residenti su volumi SMB/CIFS o NFS tramite le API AWS S3. Ciò consente di integrare i dati esistenti con GenAI, ML e analisi dai servizi AWS che supportano i punti di accesso S3.</block>
-  <block id="788c421d379c47cc27e8fdc18771f4c7" category="section-title">02 dicembre 2025</block>
+  <block id="ef6c8d59ba70b1efd5437dd31e63efcb" category="section-title">04 dicembre 2025</block>
 </blocks>
