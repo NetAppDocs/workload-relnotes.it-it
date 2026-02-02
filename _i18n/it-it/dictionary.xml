@@ -141,4 +141,21 @@
   <block id="3ac4be70f27829fbadc2c932a5b029e4" category="inline-link-macro">Implementare configurazioni ben architettate</block>
   <block id="0f39698d75936e2b93022b9c574c0eb3" category="paragraph"><block ref="0f39698d75936e2b93022b9c574c0eb3" category="inline-link-macro-rx"></block></block>
   <block id="d1fabbd85b7cc34641739e525d26f652" category="section-title">01 febbraio 2026</block>
+  <block id="efc6f47d5e8620dbd993bbf5427fa876" category="doc">Filtraggio della dashboard migliorato con tag personalizzabili</block>
+  <block id="1c074117512c813d0d3c5474c6839792" category="paragraph">Ora puoi configurare fino a cinque filtri personalizzati sulla dashboard EDA in base ai tuoi tag AWS. Ogni filtro personalizzato include un nome etichetta, una chiave di tag AWS e un tipo di selezione (singola o multipla).</block>
+  <block id="a290a89777e8fd7db6061c83affdbda9" category="paragraph">La selezione multipla consente di selezionare più valori contemporaneamente, mentre la selezione singola limita la selezione a un solo valore alla volta. I filtri personalizzati vengono visualizzati nell'ordine in cui li configuri, rendendo facile organizzare i filtri utilizzati più frequentemente.</block>
+  <block id="a9f4d955c73322ea2697149d48ca3230" category="paragraph">Se non configuri filtri personalizzati, i filtri predefiniti (file system, tipo di volume e intervallo di tempo) rimangono disponibili così puoi continuare a visualizzare e interagire con i tuoi dashboard.</block>
+  <block id="7f599cf351ac708ac51a573f45f1adfe" category="inline-link">Scopri di più sulla configurazione dei filtri personalizzati</block>
+  <block id="b4d8b5d35eb5ad238c4bc40c7bfa5cc8" category="paragraph"><block ref="0fffea6d188f5a3a46b25be10dcf1dca" category="inline-link-rx"></block>.</block>
+  <block id="5908526b06383bf6b835d957813a0a5b" category="section-title">Visualizzazione dei dettagli del volume per un'analisi granulare delle performance</block>
+  <block id="be14699d8f808150c6e3ec8fd5f5fb6f" category="paragraph">La dashboard ora offre due modalità di visualizzazione: Total view e Volume view. La Total view mostra metriche aggregate su tutti i volumi, mentre la Volume view mostra le performance individuali dei primi 10 volumi nel tempo.</block>
+  <block id="6828b4aa70bf0499581d68bc0a737c8a" category="paragraph">Nella vista Volume, i suggerimenti interattivi al passaggio del mouse forniscono informazioni dettagliate per ciascun volume, inclusi nome del volume, metriche e valori specifici per il tempo. Quando gli stessi volumi sono presenti in più componenti, la codifica a colori coerente semplifica il monitoraggio di volumi specifici tra diverse metriche.</block>
+  <block id="b7259cf0b1b93b9f8f56fd85b8a2075f" category="inline-link">Scopri di più sulla visualizzazione dei dettagli del volume</block>
+  <block id="3d218b60cf53ed75572aecfde4c1d233" category="paragraph"><block ref="fdc27d3397a23552fa2bc2b42dee0c76" category="inline-link-rx"></block>.</block>
+  <block id="a63dd8c708227f66adf2e93b1b973bfe" category="section-title">Analisi della latenza per il monitoraggio proattivo delle performance</block>
+  <block id="4eca5955b4d0f7b664a2f65c49306dcf" category="paragraph">L'analisi della latenza consente di monitorare la latenza di lettura e scrittura dei volumi nei file system FSx for ONTAP. È possibile configurare soglie personalizzabili di avviso e di evento critico per identificare in modo proattivo i colli di bottiglia delle performance prima che influiscano sui carichi di lavoro EDA.</block>
+  <block id="40a74d0e93037927ed8b742952444782" category="paragraph">La tabella degli eventi di latenza visualizza tutti gli eventi di avviso e critici, consentendo di monitorare le performance del volume e di identificare i volumi che richiedono ottimizzazione.</block>
+  <block id="40599551b14b033049a0306f8d7e0da2" category="paragraph">Questa funzionalità richiede le credenziali AWS ed è accessibile dal menu Latenza nella dashboard EDA.</block>
+  <block id="195b656b2b34184ab7cb51ea0158eba0" category="inline-link">Scopri di più sull'analisi della latenza</block>
+  <block id="3589dd4e8f5f2cbdba29810271d0f1d9" category="paragraph"><block ref="6f22f53277ef02f84f5ed64bde49085d" category="inline-link-rx"></block>.</block>
 </blocks>

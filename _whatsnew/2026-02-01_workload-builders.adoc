@@ -1,0 +1,37 @@
+= Filtraggio della dashboard migliorato con tag personalizzabili
+:allow-uri-read: 
+
+
+
+
+=== Filtraggio della dashboard migliorato con tag personalizzabili
+
+Ora puoi configurare fino a cinque filtri personalizzati sulla dashboard EDA in base ai tuoi tag AWS. Ogni filtro personalizzato include un nome etichetta, una chiave di tag AWS e un tipo di selezione (singola o multipla).
+
+La selezione multipla consente di selezionare più valori contemporaneamente, mentre la selezione singola limita la selezione a un solo valore alla volta. I filtri personalizzati vengono visualizzati nell'ordine in cui li configuri, rendendo facile organizzare i filtri utilizzati più frequentemente.
+
+Se non configuri filtri personalizzati, i filtri predefiniti (file system, tipo di volume e intervallo di tempo) rimangono disponibili così puoi continuare a visualizzare e interagire con i tuoi dashboard.
+
+https://docs.netapp.com/us-en/workload-eda/task-configure-dashboard.html["Scopri di più sulla configurazione dei filtri personalizzati"^].
+
+
+
+=== Visualizzazione dei dettagli del volume per un'analisi granulare delle performance
+
+La dashboard ora offre due modalità di visualizzazione: Total view e Volume view. La Total view mostra metriche aggregate su tutti i volumi, mentre la Volume view mostra le performance individuali dei primi 10 volumi nel tempo.
+
+Nella vista Volume, i suggerimenti interattivi al passaggio del mouse forniscono informazioni dettagliate per ciascun volume, inclusi nome del volume, metriche e valori specifici per il tempo. Quando gli stessi volumi sono presenti in più componenti, la codifica a colori coerente semplifica il monitoraggio di volumi specifici tra diverse metriche.
+
+https://docs.netapp.com/us-en/workload-eda/task-configure-dashboard.html#view-volume-details["Scopri di più sulla visualizzazione dei dettagli del volume"^].
+
+
+
+=== Analisi della latenza per il monitoraggio proattivo delle performance
+
+L'analisi della latenza consente di monitorare la latenza di lettura e scrittura dei volumi nei file system FSx for ONTAP. È possibile configurare soglie personalizzabili di avviso e di evento critico per identificare in modo proattivo i colli di bottiglia delle performance prima che influiscano sui carichi di lavoro EDA.
+
+La tabella degli eventi di latenza visualizza tutti gli eventi di avviso e critici, consentendo di monitorare le performance del volume e di identificare i volumi che richiedono ottimizzazione.
+
+Questa funzionalità richiede le credenziali AWS ed è accessibile dal menu Latenza nella dashboard EDA.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html["Scopri di più sull'analisi della latenza"^].
