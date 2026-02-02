@@ -19,6 +19,78 @@ Scopri le modifiche più recenti apportate ai carichi di lavoro che fanno parte 
 
 
 
+=== Amazon FSX per NetApp ONTAP
+
+
+
+==== La home page include problemi well-architected ed eventi EMS per Storage
+
+La home page di NetApp Workload Factory include un riquadro Focus in cui vengono visualizzati i problemi ben progettati e gli eventi del sistema di gestione delle emergenze (EMS) di FSx for ONTAP per i tuoi carichi di lavoro. Da lì, puoi navigare al carico di lavoro Storage per visualizzare lo stato ben progettato o gli eventi di tutti i file system FSx for ONTAP nel tuo ambiente di storage.
+
+
+
+==== Supporto per la replica dei dati on-premises utilizzando un punto di accesso S3
+
+Workload Factory supporta la replica dei dati ONTAP on-premises sul cloud per l'integrazione con AWS GenAI, ML e analytics. Puoi replicare i tuoi dati on-premises su un volume NFS o SMB/CIFS utilizzando un access point S3.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Replica i dati on-premises utilizzando un access point S3"]
+
+
+
+==== Miglioramenti del punto di accesso S3 in Storage
+
+Sono stati apportati diversi miglioramenti alle funzionalità di gestione degli access point S3 nel carico di lavoro Storage per NetApp Workload Factory. È possibile inserire i dettagli della configurazione di rete per gli access point S3 e aggiungere tag agli access point S3. Ulteriori miglioramenti includono la possibilità di visualizzare i dettagli del bucket S3 ed eseguire più azioni per la gestione degli access point S3.
+
+
+
+===== Dettagli del bucket S3 disponibili in Storage
+
+Con i metadati abilitati per i punti di accesso S3, NetApp Workload Factory analizza automaticamente i bucket AWS S3 e popola le tabelle S3 per fornirti un'istantanea chiara di tutti gli oggetti, dei loro metadati, attributi e tag. L'accesso a questi dettagli ti aiuta a mantenere controllo, visibilità e fiducia nei dati di cui sei responsabile, riducendo al contempo l'overhead operativo.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Visualizza i dettagli per i punti di accesso S3 nei file system FSx for ONTAP"^]
+
+
+
+===== Operazioni di gestione aggiuntive per i punti di accesso S3
+
+NetApp Workload Factory offre operazioni di gestione aggiuntive per i punti di accesso S3. Puoi visualizzare i dettagli dei punti di accesso, modificare i punti di accesso S3 esistenti e aggiungere o rimuovere tag dei punti di accesso S3 dall'interfaccia di NetApp Workload Factory, semplificando le attività di gestione dello storage a oggetti.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Gestire i punti di accesso S3 in NetApp Workload Factory"^]
+
+
+
+==== Aggiornamenti di analisi ben progettati
+
+Workload Factory analizza i file system FSx for ONTAP per le seguenti configurazioni:
+
+* Ottimizza le dimensioni del volume della cache: verifica se il dimensionamento automatico e lo scrubbing sono abilitati sui volumi della cache per mantenere le dimensioni ottimali e concentrare la cache sui dati più importanti con la massima efficienza.
+* Dispositivi a blocchi orfani: si consiglia di archiviare i dati del dispositivo a blocchi o di eliminare un dispositivo a blocchi se non è stato utilizzato per sette giorni consecutivi.
+* Reporting logico della storage VM: verifica se l'impostazione di reporting predefinita per una storage VM è impostata su logica, il che fornisce una migliore visibilità sull'utilizzo dello storage a livello di volume.
+
+
+
+
+==== Schede aggiuntive per block devices
+
+Sono state aggiunte tre nuove schede alla scheda Dispositivi a blocchi nel carico di lavoro Storage per fornire informazioni rapide sull'utilizzo e sullo stato di protezione dei dispositivi a blocchi:
+
+* Efficienze dello storage: mostra la capacità di storage utilizzata e disponibile; la capacità utilizzata è suddivisa tra livelli di storage SSD e capacity pool.
+* Dispositivi protetti: mostra la percentuale di dispositivi a blocchi con snapshot, replica remota, NetApp Autonomous Ransomware Protection (ARP/AI) e backup.
+* Dispositivi orfani: mostra se qualche dispositivo a blocchi non è stato utilizzato per sette giorni consecutivi, aiutandoti a identificare e gestire efficacemente le risorse inutilizzate. Da qui, puoi link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#view-block-device-details["recupera spazio per i dispositivi a blocchi non utilizzati"].
+
+
+
+
+==== Supporto per la creazione e la gestione del gruppo di initiator
+
+NetApp Workload Factory supporta la creazione e la gestione di gruppi di initiator (igroups) per lo storage a blocchi nei file system FSx for ONTAP. I gruppi di initiator collegano i dispositivi a blocchi (LUN) alle risorse di calcolo autorizzate ad accedervi, fornendo un livello di autorizzazione per lo storage a blocchi in ambienti SAN.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-igroup.html["Creare un initiator group in NetApp Workload Factory"^]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-igroups.html["Gestisci i gruppi di initiator esistenti in NetApp Workload Factory"^]
+
+
+
+
 === Workload VMware
 
 
