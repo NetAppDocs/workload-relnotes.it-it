@@ -1,0 +1,19 @@
+= Maggiore risparmio sui costi per diversi host di database su Microsoft SQL Server in locale
+:allow-uri-read: 
+
+
+
+
+=== Maggiore risparmio sui costi per diversi host di database su Microsoft SQL Server in locale
+
+L'analisi dei risparmi sui costi per Microsoft SQL Server nello storage on-premises è stata migliorata per fornire una soluzione storage consolidata per diversi host di database su un unico file system FSx for ONTAP. Questo consolidamento ottimizza i costi di storage riducendo il numero di file system necessari per più host di database, portando a un maggiore risparmio sui costi.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Esplora i risparmi per gli host rilevati su Microsoft SQL Server on-premises"]
+
+
+
+=== Analisi ben progettata per Oracle
+
+L'analisi ben progettata include quattro nuove sotto-valutazioni per l'analisi della configurazione dello storage per Oracle: abilitazione dNFS, risoluzione IP coerente dNFS, file di configurazione dNFS e dNFS `nosharecache`. Queste valutazioni riguardano l'abilitazione e la configurazione di Direct NFS (dNFS) per l'ambiente Oracle, che bypassa il client NFS ed esegue operazioni sui file NFS direttamente su un server NFS, migliorando le prestazioni di I/O e riducendo il carico sull'host e sul sistema storage perché l'I/O viene eseguito in modo più efficiente.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementare configurazioni di database ben progettate in Workload Factory"]
