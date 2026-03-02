@@ -1,0 +1,51 @@
+= Valutazione una tantum
+:allow-uri-read: 
+
+
+
+
+=== Valutazione una tantum
+
+Workload Factory offre ora una valutazione una tantum per analizzare le configurazioni delle distribuzioni dei database ogni volta che è necessario: nuove distribuzioni, post-migrazione, risoluzione dei problemi e altro ancora. Riceverai raccomandazioni per aiutarti a ottimizzare le configurazioni delle distribuzioni e a rispettare le best practice. Questa è la tua opportunità di utilizzare la funzionalità ben progettata senza impegnarti completamente nel processo di configurazione. Puoi valutare i tuoi database senza memorizzare le credenziali in Workload Factory, registrare le risorse del database o configurare connessioni esterne.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Esegui una valutazione una tantum delle distribuzioni del database"]
+
+
+
+=== Supporto di registrazione per gruppi di disponibilità Always On su Microsoft SQL Server e Data Guard su database Oracle
+
+Ora è possibile individuare e registrare istanze di Microsoft SQL Server con il modello di distribuzione Always On availability group (AOAG) e database Oracle con il modello di distribuzione Data Guard nel carico di lavoro Databases di NetApp Workload Factory. Questo miglioramento consente una migliore gestione delle risorse di SQL Server e Oracle all'interno della console di Workload Factory.
+
+Dopo aver registrato le istanze AOAG e i database Data Guard, puoi sfruttare le varie funzionalità di NetApp Workload Factory per database, come la visualizzazione dei dettagli delle risorse e l'analisi dei registri degli errori.
+
+Workload Factory for Databases supporta anche l'analisi ben progettata per le istanze di Microsoft SQL Server con il modello di distribuzione AOAG. Puoi analizzare le configurazioni delle tue istanze di SQL Server in un gruppo di disponibilità e ricevere raccomandazioni per ottimizzare le configurazioni di distribuzione e rispettare le best practice. Registra le istanze AOAG per abilitare questa funzionalità.
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html#register-a-sql-server-instance["Registra le risorse in Workload Factory for Databases"]
+
+
+
+=== Analisi ben progettata per Oracle
+
+L'analisi ben strutturata include *patch del sistema operativo* per Oracle per verificare se hai le patch più recenti sul sistema operativo e dirti come installarle.
+
+Inoltre, l'analisi ben progettata per Oracle ti avvisa quando una configurazione, come il layout di storage, presenta dipendenze da altre configurazioni. La notifica ti indica quali azioni intraprendere per ottimizzare le configurazioni collegate, in modo che tutte le raccomandazioni che forniamo siano ottimali.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementare configurazioni di database ben progettate in Workload Factory"]
+
+
+
+=== Analisi dei costi e pianificazione della migrazione degli ambienti di database on-premises Oracle
+
+Workload Factory for Databases ora analizza e ti aiuta a pianificare la migrazione del database Oracle on-premises ad Amazon FSx for NetApp ONTAP. Puoi utilizzare il calcolatore di risparmio per stimare il costo di esecuzione del tuo ambiente di database Oracle on-premises nel cloud e consultare le raccomandazioni per la migrazione del tuo ambiente di database on-premises al cloud.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Esplora i risparmi per gli ambienti di database on-premises"]
+
+
+
+=== Nuovo segnalibro Ask Me disponibile in Workload Factory
+
+Abbiamo aggiunto un nuovo segnalibro Ask Me in ogni schermata della console di Workload Factory. Questo miglioramento rende più facile e veloce accedere ad Ask Me ogni volta che hai bisogno di aiuto. Ask Me è il nostro assistente AI, che ti consente di porre domande sui tuoi ambienti di carico di lavoro, ottenere informazioni personalizzate direttamente dal tuo ambiente e fare riferimento a conversazioni precedenti.
+
+Puoi aprire Ask Me da qualsiasi pagina cliccando sul nuovo segnalibro. Si avvia Ask Me in un pannello laterale senza interrompere il tuo lavoro attuale e offre spiegazioni rapide e raccomandazioni relative a ciò che stai facendo.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Scopri di più su Ask Me"^]

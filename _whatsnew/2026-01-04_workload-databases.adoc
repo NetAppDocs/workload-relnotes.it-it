@@ -1,9 +1,9 @@
-= Chiedimi l'integrazione della home page dell'assistente AI
+= Integrazione della home page dell'assistente AI Ask Me
 :allow-uri-read: 
 
 
 
 
-=== Chiedimi l'integrazione della home page dell'assistente AI
+=== Integrazione della home page dell'assistente AI Ask Me
 
-La home page della console Workload Factory incorpora l'assistente Chiedimi AI, che ti consente di porre domande sul tuo spazio di archiviazione, ottenere informazioni personalizzate direttamente dal tuo ambiente e fare riferimento a conversazioni precedenti. Puoi interagire con Ask me per comprendere i tuoi carichi di lavoro, risolvere problemi e scoprire di più su Workload Factory, il tutto senza uscire dalla console.
+La home page della console di NetApp Workload Factory incorpora l'assistente AI Ask Me, che consente di porre domande sul proprio storage estate, ottenere informazioni personalizzate direttamente dal proprio ambiente e fare riferimento a conversazioni precedenti. È possibile interagire con Ask Me per comprendere i propri workload, risolvere problemi e saperne di più su NetApp Workload Factory, il tutto senza uscire dalla console.
