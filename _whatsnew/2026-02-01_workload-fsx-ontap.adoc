@@ -57,7 +57,7 @@ Sono state aggiunte tre nuove schede alla scheda Dispositivi a blocchi nel caric
 
 * Efficienze dello storage: mostra la capacità di storage utilizzata e disponibile; la capacità utilizzata è suddivisa tra livelli di storage SSD e capacity pool.
 * Dispositivi protetti: mostra la percentuale di dispositivi a blocchi con snapshot, replica remota, NetApp Autonomous Ransomware Protection (ARP/AI) e backup.
-* Dispositivi orfani: mostra se qualche dispositivo a blocchi non è stato utilizzato per sette giorni consecutivi, aiutandoti a identificare e gestire efficacemente le risorse inutilizzate. Da qui, puoi link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#archive-the-data-of-an-inactive-block-device["recupera spazio per i dispositivi a blocchi non utilizzati"].
+* Dispositivi orfani: mostra se qualche dispositivo a blocchi non è stato utilizzato per sette giorni consecutivi, aiutandoti a identificare e gestire efficacemente le risorse inutilizzate. Da qui, puoi link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html#archive-the-data-of-an-inactive-block-device["recupera spazio per i dispositivi a blocchi non utilizzati"].
 
 
 
