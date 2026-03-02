@@ -38,54 +38,6 @@
   <block id="41d5af71402e1d82f05775556afa695b" category="section-title">Analisi ben progettata per Oracle</block>
   <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">Implementare configurazioni di database ben progettate in Workload Factory</block>
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
-  <block id="48707dc4d2e44fe9cf85834f27b932e8" category="paragraph">Workload Factory analizza i file system FSx for ONTAP per le seguenti configurazioni:</block>
-  <block id="e738192b7a8dc90f6d5e566ceb909da3" category="doc">Calcola il risparmio sui costi della migrazione ad Amazon Elastic VMware Service per regioni specifiche</block>
-  <block id="d4a40d01192a627963ffd40503ef4713" category="paragraph">Ora puoi esplorare il valore delle diverse opzioni di distribuzione per la migrazione al cloud, ottimizzare gli sforzi investiti nella valutazione delle soluzioni e approfondire le soluzioni che hanno il potenziale per offrire valore e risparmi nel cloud.</block>
-  <block id="de480346f69aff69cc4e4e1e5d52ea98" category="paragraph">È inoltre possibile esaminare i risparmi di core vCPU ottenibili utilizzando FSx per ONTAP per una distribuzione EVS.</block>
-  <block id="122a56eb4649431a7f2dbb8886f047cc" category="inline-link">Scopri i risparmi per Amazon Elastic VMware Service con NetApp Workload Factory</block>
-  <block id="389870bd93c88ff4cb5e7f6216054ce2" category="paragraph"><block ref="389870bd93c88ff4cb5e7f6216054ce2" category="inline-link-rx"></block></block>
-  <block id="815e75619b370a1b845eccec6979ed74" category="section-title">27 novembre 2025</block>
-  <block id="4afeabae14ccab1ba1ff53887c3a9701" category="doc">Ottimizza i risparmi nel calcolatore dei database per Amazon Elastic Block Store (EBS)</block>
-  <block id="d9f7bd12b1b11b300e5288560b5e9987" category="paragraph">Due nuove funzionalità della calcolatrice migliorano l'analisi del risparmio sui costi quando si eseguono più istanze con storage EBS, in modo da poter risparmiare di più passando a FSx per ONTAP.</block>
-  <block id="32ccdc5dd4f059ebfa9dabaa8c301cf0" category="list-text">Workload Factory fornisce una soluzione di archiviazione consolidata per diversi host di database su un file system FSx for ONTAP . Questo consolidamento ottimizza i costi di archiviazione riducendo il numero di file system necessari per più host di database, con conseguente maggiore risparmio sui costi.</block>
-  <block id="e11501c7d779140aaf7bc3e06e0c5005" category="list-text">Workload Factory analizza l'utilizzo delle prestazioni EBS e suggerisce la configurazione FSx per ONTAP migliore e più conveniente.</block>
-  <block id="754cab29df96851e5cc6bac19fb8e4de" category="inline-link-macro">Esplora i risparmi per gli host EBS rilevati</block>
-  <block id="9c9dd70e9f385deab27852576ec6db9a" category="paragraph"><block ref="9c9dd70e9f385deab27852576ec6db9a" category="inline-link-macro-rx"></block></block>
-  <block id="0694112a63d48c58b25bbffa268e0b70" category="section-title">Report Excel disponibile per la dashboard ben progettata</block>
-  <block id="5f00eea0cea6c8b64f9e110f5d403194" category="paragraph">È possibile scaricare un report Excel della dashboard ben progettata. Il report fornisce lo stato di buona progettazione della risorsa del database e raccomandazioni per tutte le configurazioni delle risorse, comprese le sottoconfigurazioni per il sistema operativo e ONTAP.</block>
-  <block id="9dc9a356684c35282d9c1ed4aa30e7a3" category="section-title">Analizzatore del registro degli errori disponibile per i database Oracle</block>
-  <block id="269a351d2772f2eea3d4497bdc4e42cf" category="paragraph">L'analizzatore del registro degli errori basato sull'intelligenza artificiale Agentic è disponibile per i database Oracle. La funzionalità sfrutta algoritmi avanzati di apprendimento automatico per rilevare e analizzare automaticamente gli errori nei file di registro. Questo strumento mira a semplificare il processo di risoluzione dei problemi fornendo agli sviluppatori informazioni e consigli pratici basati sui modelli identificati nei log.</block>
-  <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">Scopri di più sull'analizzatore di log degli errori basato sull'intelligenza artificiale Agentic</block>
-  <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
-  <block id="08b4436fffbd9bb2227d03f1cf33889b" category="paragraph">L'analisi ben progettata include due nuove configurazioni di dimensionamento dello storage. L'analisi valuta e risolve i problemi di configurazione relativi all'allocazione dello spazio di swap e al margine di spazio del file system per le distribuzioni di database Oracle esistenti.</block>
-  <block id="081af9c5870a1e2b72453c8137d7fc73" category="doc">Supporto dei dispositivi a blocchi in NetApp Workload Factory</block>
-  <block id="41c0f3170443e12c1081a0a411a2c7a4" category="paragraph">Gestisci i tuoi dispositivi a blocchi in modo più efficace con il nuovo supporto per dispositivi a blocchi introdotto in NetApp Workload Factory. Questa funzionalità consente di visualizzare i dettagli e di aumentare la capacità delle LUN iSCSI, garantendo maggiore flessibilità per le esigenze di archiviazione.</block>
-  <block id="83fd7a4dba0970697d173ce4398c1b71" category="inline-link-macro">Gestisci i dispositivi a blocchi in Workload Factory</block>
-  <block id="e739cb7976f49d4295e9ffa8e259037b" category="paragraph"><block ref="e739cb7976f49d4295e9ffa8e259037b" category="inline-link-macro-rx"></block></block>
-  <block id="90b40f16cf91d89fc22fbcc0a38efa7c" category="list-text">Eliminazione snapshot non necessari: verifica se i volumi contengono snapshot obsoleti e non necessari che possono essere eliminati per ridurre i costi.</block>
-  <block id="2945c0b218624e42ee523aefde446d66" category="list-text">Ribilanciamento dei volumi FlexGroup : verifica se i volumi FlexGroup sono bilanciati uniformemente tra i volumi dei loro membri per garantire prestazioni ottimali.</block>
-  <block id="0f80b197268947adedcc0297fc4a4efd" category="section-title">Analizzatore AI per eventi EMS in NetApp Workload Factory</block>
-  <block id="b0e5de397c4ec9c39df271c0f4cf05e1" category="paragraph">NetApp Workload Factory introduce un analizzatore basato sull'intelligenza artificiale per gli eventi ONTAP Event Management System (EMS). Questa funzionalità ti aiuta a identificare e risolvere rapidamente i problemi fornendo informazioni e consigli basati sull'analisi dei dati degli eventi EMS.</block>
-  <block id="a661f5e2ef22dbf468d0f8427ad8323e" category="inline-link-macro">Analizza gli eventi EMS in Workload Factory</block>
-  <block id="8121ebebfc076bea222c1f4c838b09ec" category="paragraph"><block ref="8121ebebfc076bea222c1f4c838b09ec" category="inline-link-macro-rx"></block></block>
-  <block id="1df24a9e91a6f6d01b5ce32608b6f3f7" category="section-title">Monitorare i trend di costo e utilizzo per i file system FSx per ONTAP</block>
-  <block id="56a2825e2abb3758584b94544cfdba40" category="paragraph">È possibile monitorare i trend di costo e utilizzo dei file system FSx for ONTAP direttamente dalla console NetApp Workload Factory . Questa funzionalità fornisce metriche sui consumi e sui costi di archiviazione, nonché costi dettagliati, aiutandoti a ottimizzare l'allocazione delle risorse e la pianificazione del budget.</block>
-  <block id="bd89bba18a943a5ad32117396fcdea90" category="inline-link-macro">Tieni traccia dei costi per i file system FSx per ONTAP in Workload Factory</block>
-  <block id="d5905c9d9cba2248871f04654e4f9b1d" category="paragraph"><block ref="d5905c9d9cba2248871f04654e4f9b1d" category="inline-link-macro-rx"></block></block>
-  <block id="5b58af6390ae44b5a39c726b4820fffb" category="section-title">Gestire i tag FSx per un file system in NetApp Workload Factory</block>
-  <block id="543e684a4a914d6bef4f91873d32e315" category="paragraph">Gestisci facilmente i tag FSx per un file system direttamente dalla console NetApp Workload Factory . Questa funzionalità consente di aggiungere, modificare o rimuovere tag, consentendo una migliore organizzazione e categorizzazione dei file system FSx per ONTAP .</block>
-  <block id="8945587d036e5b09c39322767239857a" category="inline-link-macro">Gestisci i tag FSx in Workload Factory</block>
-  <block id="3c57420160e53dc4967d9ca75a5d5d06" category="paragraph"><block ref="3c57420160e53dc4967d9ca75a5d5d06" category="inline-link-macro-rx"></block></block>
-  <block id="1b931c0909a42d2dd6b1b28eeb36252c" category="section-title">Regola la capacità della cache per FSx per i file system ONTAP</block>
-  <block id="aed1296ef373ba8df468af355d85d3ce" category="paragraph">È possibile aumentare e diminuire la capacità dei volumi di cache dalla console Workload Factory.</block>
-  <block id="012110073acf8459d2a77ef54f547130" category="inline-link-macro">Gestire i volumi di cache in Workload Factory</block>
-  <block id="cfd839007fdba7ba7d7a5a35de4aa55a" category="paragraph"><block ref="cfd839007fdba7ba7d7a5a35de4aa55a" category="inline-link-macro-rx"></block></block>
-  <block id="6fe4c05a9bf5207dceacd4fcc6fc1064" category="doc">Aggiornamento delle autorizzazioni per l'archiviazione</block>
-  <block id="7d3f4d33aca7af4519cb87a63113caf9" category="paragraph">L'analizzatore di eventi FSx for ONTAP EMS utilizza le seguenti autorizzazioni Amazon Bedrock nella policy di autorizzazione _operations and remediation_ per recuperare i dati degli eventi per il carico di lavoro di archiviazione.</block>
-  <block id="71d01806cd25e89067c25b4f03e9a607" category="list-text"><block ref="9aa5a97dfe3f7608d8ee28e7db3c4e2c" prefix="" category="inline-code"></block></block>
-  <block id="4e736cb1760a43a4bf2b5d861b6deb96" category="list-text"><block ref="fdd997ab8b4252f76acdda855bb7b890" prefix="" category="inline-code"></block></block>
-  <block id="1ed1b1bc988715ea858abe38c168d87a" category="list-text"><block ref="00fe52afa6e3b9a0d389f529a2b88242" prefix="" category="inline-code"></block></block>
-  <block id="f80c2c54334d4ddca4016b89152c6684" category="list-text"><block ref="93804e96d3f417a0088c564647dd28e9" prefix="" category="inline-code"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Registro delle modifiche di riferimento delle autorizzazioni</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="01f76f754caa3b688233762c1b9391f6" category="section-title">Supporto per punti di accesso AWS S3 per FSx per ONTAP</block>
@@ -221,4 +173,10 @@
   <block id="94a0fe38d823039ecf92cb309a897fe3" category="paragraph">Per utilizzare questa funzionalità, <block ref="0ec91e6ac67cf0fd5240ce60db83aa2f" category="inline-link-macro-rx"></block> e selezionare *Migrazione* come caso d'uso. Per completare il processo di migrazione, è necessario <block ref="6174d071c9787b2abffa64516d72a11a" category="inline-link-macro-rx"></block> immediatamente per migrare in modo permanente i dati e le impostazioni di configurazione della storage VM nel file system FSx for ONTAP di destinazione.</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">16 febbraio 2026</block>
   <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">02 febbraio 2026</block>
+  <block id="129560e32411be4dc94c9cfeada8ea67" category="doc">Nuovo segnalibro Ask Me disponibile in Workload Factory</block>
+  <block id="4ea89e975474ebd5bba8d32ced2e95cc" category="paragraph">Abbiamo aggiunto un nuovo segnalibro Ask Me in ogni schermata della console di Workload Factory. Questo miglioramento rende più facile e veloce accedere ad Ask Me ogni volta che hai bisogno di aiuto. Ask Me è il nostro assistente AI, che ti consente di porre domande sui tuoi ambienti di carico di lavoro, ottenere informazioni personalizzate direttamente dal tuo ambiente e fare riferimento a conversazioni precedenti.</block>
+  <block id="38dc719ee518af5f799c19331bfd5f19" category="paragraph">Puoi aprire Ask Me da qualsiasi pagina cliccando sul nuovo segnalibro. Si avvia Ask Me in un pannello laterale senza interrompere il tuo lavoro attuale e offre spiegazioni rapide e raccomandazioni relative a ciò che stai facendo.</block>
+  <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Scopri di più su Ask Me</block>
+  <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
+  <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">01 marzo 2026</block>
 </blocks>
