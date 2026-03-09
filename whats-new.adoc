@@ -15,6 +15,29 @@ Scopri le modifiche più recenti apportate ai carichi di lavoro che fanno parte 
 
 
 
+== 09 marzo 2026
+
+
+
+=== Workload VMware
+
+
+
+==== Introduzione del supporto di migration advisor per Google Cloud VMware Engine
+
+NetApp Workload Factory ora supporta Google Cloud VMware Engine. Puoi migrare i tuoi carichi di lavoro VMware on-premises su Google Cloud VMware Engine utilizzando Google Cloud NetApp Volumes come datastore NFS esterni, ottimizzando i costi e consentendo un maggiore controllo sul tuo ambiente VMware senza dover riorganizzare o riconfigurare le tue applicazioni.
+
+Il consulente per la migrazione di Google Cloud VMware Engine fornisce:
+
+* Dimensionamento e progettazione automatizzati dei cluster Google Cloud VMware Engine con supporto dei tipi di nodo VE1 e VE2
+* Ottimizzazione del layout della VM tra i datastore interni vSAN e i datastore NFS esterni Google Cloud NetApp Volumes.
+* Confronto dettagliato dei costi e analisi del TCO tra configurazioni solo vSAN e configurazioni potenziate con Google Cloud NetApp Volumes.
+* Supporto per i livelli di servizio Standard, Premium ed Extreme di Google Cloud NetApp Volumes.
+* Distribuzione Infrastructure-as-Code con Terraform per il provisioning automatico.
+
+
+
+
 == 02 marzo 2026
 
 
@@ -128,6 +151,20 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-manag
 ==== Nuovo segnalibro Ask Me disponibile in Workload Factory
 
 Abbiamo aggiunto un nuovo segnalibro Ask Me in ogni schermata della console di Workload Factory. Questo miglioramento semplifica e velocizza l'accesso ad Ask Me ogni volta che hai bisogno di aiuto. Ask Me è il nostro assistente AI. Puoi porre domande sui tuoi ambienti di workload, ottenere informazioni personalizzate e rivedere le conversazioni precedenti.
+
+Puoi aprire Ask Me da qualsiasi pagina cliccando sul nuovo segnalibro. Si avvia Ask Me in un pannello laterale senza interrompere il tuo lavoro attuale e offre spiegazioni rapide e raccomandazioni relative a ciò che stai facendo.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Scopri di più su Ask Me"^]
+
+
+
+=== Workload VMware
+
+
+
+==== Nuovo segnalibro Ask Me disponibile in Workload Factory
+
+Abbiamo aggiunto un nuovo segnalibro Ask Me in ogni schermata della console di Workload Factory. Questo miglioramento rende più facile e veloce accedere ad Ask Me ogni volta che hai bisogno di aiuto. Ask Me è il nostro assistente AI, che ti consente di porre domande sui tuoi ambienti di carico di lavoro, ottenere informazioni personalizzate direttamente dal tuo ambiente e fare riferimento a conversazioni precedenti.
 
 Puoi aprire Ask Me da qualsiasi pagina cliccando sul nuovo segnalibro. Si avvia Ask Me in un pannello laterale senza interrompere il tuo lavoro attuale e offre spiegazioni rapide e raccomandazioni relative a ciò che stai facendo.
 
@@ -544,21 +581,3 @@ I nuovi campi AD sono:
 
 
 link:https://docs.netapp.com/us-en/workload-databases/create-database.html["Distribuisci Microsoft SQL Server"]
-
-
-
-== 04 dicembre 2025
-
-
-
-=== Amazon FSX per NetApp ONTAP
-
-
-
-==== Supporto per punti di accesso AWS S3 per FSx per ONTAP
-
-NetApp Workload Factory supporta i punti di accesso AWS S3 per i file system FSx for ONTAP . È possibile creare volumi utilizzando punti di accesso S3, assegnare punti di accesso S3 a un volume esistente e gestire i punti di accesso S3 dalla console Workload Factory. Utilizzando un punto di accesso S3, è possibile accedere ai dati dei file residenti su volumi SMB/CIFS o NFS tramite le API AWS S3. Ciò consente di integrare i dati esistenti con GenAI, ML e analisi dai servizi AWS che supportano i punti di accesso S3.
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Creare un volume utilizzando punti di accesso S3"]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Gestire i punti di accesso S3 per un volume"]
-
