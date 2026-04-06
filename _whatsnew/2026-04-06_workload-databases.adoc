@@ -1,0 +1,32 @@
+= Analisi ben progettata per Oracle
+:allow-uri-read: 
+
+
+
+
+=== Analisi ben progettata per Oracle
+
+L'analisi ben strutturata include le seguenti nuove configurazioni per Oracle:
+
+* *Aggiornamenti critici delle patch Oracle*: verifica la presenza di patch di sicurezza mancanti per le installazioni di database Oracle autogestite supportate.
+* *Replica tra regioni*: verifica se la replica tra regioni (CRR) è abilitata per i file system FSx for ONTAP che ospitano database Oracle.
+* *Snapshot coerenti con l'applicazione*: verifica se il database Oracle è protetto da snapshot coerenti con l'applicazione con NetApp SnapCenter.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementare configurazioni di database ben progettate in Workload Factory"]
+
+
+
+=== Valutazione una tantum per Oracle
+
+Workload Factory offre ora una valutazione una tantum per analizzare le configurazioni delle tue implementazioni di database Oracle ogni volta che ne hai bisogno: nuove implementazioni, post-migrazione, risoluzione dei problemi e altro ancora. Riceverai consigli per aiutarti a ottimizzare le configurazioni delle tue implementazioni e a rispettare le best practice. Questa è la tua opportunità per utilizzare la funzionalità ben progettata senza dover completare l'intero processo di configurazione. Puoi valutare i tuoi database senza memorizzare le credenziali in Workload Factory, registrare risorse di database o configurare connessioni esterne.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Esegui una valutazione una tantum delle tue implementazioni di database Oracle"]
+
+
+
+=== Risparmio sui costi migliorato per diversi database Oracle
+
+Abbiamo migliorato l'analisi del risparmio sui costi per Oracle al fine di fornire una soluzione storage consolidata per diversi database Oracle on-premises su un unico file system FSx for ONTAP. Questo consolidamento ottimizza i costi di storage riducendo il numero di file system necessari per più database, portando a un maggiore risparmio sui costi.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Scopri le possibilità di risparmio per i database rilevati su Oracle on-premises"]
