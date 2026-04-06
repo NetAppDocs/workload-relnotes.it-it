@@ -88,6 +88,18 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explo
 
 
 
+=== Installazione e amministrazione
+
+
+
+==== Nuova notifica per l'archiviazione
+
+Il servizio di notifica NetApp Workload Factory include la notifica per NetApp Autonomous Ransomware Protection con AI (ARP/AI) per Storage.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Notifiche per NetApp Workload Factory"]
+
+
+
 == 09 marzo 2026
 
 
