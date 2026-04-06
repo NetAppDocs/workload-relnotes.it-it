@@ -205,7 +205,6 @@
   <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">6 aprile 2026</block>
   <block id="373a2f1d901c2d939efc602830f01830" category="paragraph">La nuova tabella Inventario analizza automaticamente i bucket AWS S3 e popola le tabelle S3 per fornire una panoramica chiara di tutti gli oggetti, i relativi metadati, attributi e tag. L'accesso a questi dettagli consente di mantenere il controllo, la visibilità e la fiducia nei dati di cui si è responsabili, riducendo al contempo il carico operativo. È possibile attivare questa funzionalità durante la creazione e l'associazione di punti di accesso S3 o durante la modifica di punti di accesso esistenti.</block>
   <block id="89431b722804b6b5729917d710d8bca9" category="inline-link-macro">Crea e collega un punto di accesso S3 per un volume in NetApp Workload Factory</block>
-  <block id="479e84ecf4496e9113dbf4e4caa47328" category="paragraph"><block ref="479e84ecf4496e9113dbf4e4caa47328" category="inline-link-macro-rx"></block></block>
   <block id="0695b468968701e6133374525567ebb8" category="list-text">Dispositivi a blocchi inattivi: visualizza se un dispositivo a blocchi non è stato utilizzato per sette giorni consecutivi, aiutandoti a identificare e gestire efficacemente le risorse inutilizzate. Da qui puoi <block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>.</block>
   <block id="0ba338e49aa7425a86cae293804b2d70" category="paragraph"><block ref="0ba338e49aa7425a86cae293804b2d70" category="inline-link-macro-rx"></block></block>
   <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory analizza i file system FSx for ONTAP alla ricerca di *volumi NAS inattivi*. L'analisi della configurazione identifica i volumi NAS non utilizzati attivamente e suggerisce azioni per ottimizzare l'utilizzo dello storage e ridurre i costi.</block>
@@ -225,4 +224,5 @@
   <block id="77633bb85f2dda716363da565416542c" category="paragraph">Il servizio di notifica NetApp Workload Factory include la notifica per NetApp Autonomous Ransomware Protection con AI (ARP/AI) per Storage.</block>
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">Notifiche per NetApp Workload Factory</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
+  <block id="0af31167a43cbbff0833653449e77b49" category="paragraph"><block ref="0af31167a43cbbff0833653449e77b49" category="inline-link-macro-rx"></block></block>
 </blocks>

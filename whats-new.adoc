@@ -383,7 +383,7 @@ Sono stati apportati diversi miglioramenti alle funzionalità di gestione degli 
 
 La nuova tabella Inventario analizza automaticamente i bucket AWS S3 e popola le tabelle S3 per fornire una panoramica chiara di tutti gli oggetti, i relativi metadati, attributi e tag. L'accesso a questi dettagli consente di mantenere il controllo, la visibilità e la fiducia nei dati di cui si è responsabili, riducendo al contempo il carico operativo. È possibile attivare questa funzionalità durante la creazione e l'associazione di punti di accesso S3 o durante la modifica di punti di accesso esistenti.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-s3-access-point.html["Crea e collega un punto di accesso S3 per un volume in NetApp Workload Factory"]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-s3-access-points.html["Crea e collega un punto di accesso S3 per un volume in NetApp Workload Factory"]
 
 
 
