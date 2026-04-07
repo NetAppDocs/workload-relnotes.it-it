@@ -1,0 +1,37 @@
+= Raccomandazioni sulla capacità EDA
+:allow-uri-read: 
+
+
+
+
+=== Raccomandazioni sulla capacità EDA
+
+Workload Factory ora analizza automaticamente la capacità SSD di ciascun cluster FSx for ONTAP presente nell'inventario EDA e genera raccomandazioni di capacità quando sono necessari aggiustamenti. L'algoritmo viene eseguito una volta ogni 24 ore per ciascun cluster.
+
+Quando viene individuata una raccomandazione:
+
+* Ricevi immediatamente un'email o una notifica WAD (non inclusa nel riepilogo settimanale).
+* Nella tabella Cluster, sul cluster interessato compare un indicatore a forma di lampadina.
+* Nella dashboard Panoramica è presente un riepilogo che mostra il numero totale di cluster con raccomandazioni attive.
+
+
+Seleziona un cluster con una raccomandazione attiva per visualizzare la raccomandazione, che spiega la modifica suggerita e le relative motivazioni.
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#capacity-recommendations["Scopri di più sulle raccomandazioni relative alla capacità"^].
+
+
+
+=== Analisi automatizzata della latenza dell'AI
+
+L'analisi della latenza ora include l'analisi degli agenti AI.
+
+Per scenari complessi che coinvolgono dati o latenza del cluster, è possibile richiamare l'analisi dell'agente AI per ricevere:
+
+* Identificazione dettagliata della causa principale
+* Elenco dei client EC2 interessati
+* Misure di risanamento specifiche
+
+
+L'analisi tramite agente AI richiede la configurazione dell'ARN del modello Amazon Bedrock ed è disponibile su richiesta per gli scenari in cui l'analisi di base raccomanda un'indagine più approfondita. L'agente AI è in grado di identificare problemi quali volumi eccessivi, configurazioni non ottimali dei punti di montaggio, FlexGroup, necessità di ribilanciamento e requisiti di scale-out.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#run-ai-agent-analysis["Scopri di più sull'analisi degli agenti AI"^].

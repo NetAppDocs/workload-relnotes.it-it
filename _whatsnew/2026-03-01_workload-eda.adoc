@@ -6,9 +6,9 @@
 
 === Dashboard panoramica per la gestione dello storage EDA
 
-In qualità di amministratore IT che gestisce decine di file system FSx for ONTAP, puoi utilizzare la dashboard di panoramica per rispondere a domande operative comuni sullo stato del cluster, l'utilizzo e il posizionamento dei volumi.
+In qualità di amministratore IT che gestisce decine di file system FSx for ONTAP, puoi utilizzare la dashboard Panoramica per rispondere alle domande operative più comuni sullo stato del cluster, sull'utilizzo e sul posizionamento dei volumi.
 
-La dashboard di panoramica include:
+La dashboard Panoramica include:
 
 * *Stato di integrità del cluster*: informazioni riepilogate nella parte superiore della dashboard che evidenziano performance, capacità, disponibilità e protezione, ed eventi di sicurezza nei tuoi cluster.
 * *Tabella dei cluster*: una tabella ricercabile, filtrabile e impaginata che mostra la capacità SSD, il pool di capacità e le metriche di throughput per cluster, con supporto per la personalizzazione delle colonne e l'esportazione CSV.
@@ -16,7 +16,7 @@ La dashboard di panoramica include:
 
 La precedente dashboard principale è ora accessibile nella scheda *Project*. Le schede EDA sono ora ordinate: Panoramica, Latenza, Project, CI/CD.
 
-https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Scopri di più sulla dashboard di overview"^].
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Scopri di più sulla dashboard Panoramica"^].
 
 
 
@@ -25,8 +25,6 @@ https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Sco
 L'analisi della latenza ora include un'analisi di base automatizzata. Quando vengono rilevati eventi di latenza, il sistema analizza automaticamente le metriche del centro di ritardo QoS di ONTAP per identificare la fonte dei problemi di latenza.
 
 L'analisi di base valuta le policy QoS, le prestazioni del disco, i problemi di rete e le configurazioni del cluster per fornire informazioni immediate nella colonna Dettagli della tabella degli eventi di latenza.
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["Scopri di più sull'analisi di latenza di base"^].
 
 
 

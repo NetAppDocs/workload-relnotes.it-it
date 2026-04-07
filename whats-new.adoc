@@ -100,6 +100,44 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 
 
 
+=== Carichi di lavoro EDA
+
+
+
+==== Raccomandazioni sulla capacità EDA
+
+Workload Factory ora analizza automaticamente la capacità SSD di ciascun cluster FSx for ONTAP presente nell'inventario EDA e genera raccomandazioni di capacità quando sono necessari aggiustamenti. L'algoritmo viene eseguito una volta ogni 24 ore per ciascun cluster.
+
+Quando viene individuata una raccomandazione:
+
+* Ricevi immediatamente un'email o una notifica WAD (non inclusa nel riepilogo settimanale).
+* Nella tabella Cluster, sul cluster interessato compare un indicatore a forma di lampadina.
+* Nella dashboard Panoramica è presente un riepilogo che mostra il numero totale di cluster con raccomandazioni attive.
+
+
+Seleziona un cluster con una raccomandazione attiva per visualizzare la raccomandazione, che spiega la modifica suggerita e le relative motivazioni.
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#capacity-recommendations["Scopri di più sulle raccomandazioni relative alla capacità"^].
+
+
+
+==== Analisi automatizzata della latenza dell'AI
+
+L'analisi della latenza ora include l'analisi degli agenti AI.
+
+Per scenari complessi che coinvolgono dati o latenza del cluster, è possibile richiamare l'analisi dell'agente AI per ricevere:
+
+* Identificazione dettagliata della causa principale
+* Elenco dei client EC2 interessati
+* Misure di risanamento specifiche
+
+
+L'analisi tramite agente AI richiede la configurazione dell'ARN del modello Amazon Bedrock ed è disponibile su richiesta per gli scenari in cui l'analisi di base raccomanda un'indagine più approfondita. L'agente AI è in grado di identificare problemi quali volumi eccessivi, configurazioni non ottimali dei punti di montaggio, FlexGroup, necessità di ribilanciamento e requisiti di scale-out.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#run-ai-agent-analysis["Scopri di più sull'analisi degli agenti AI"^].
+
+
+
 == 09 marzo 2026
 
 
@@ -277,9 +315,9 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overvie
 
 ==== Dashboard panoramica per la gestione dello storage EDA
 
-In qualità di amministratore IT che gestisce decine di file system FSx for ONTAP, puoi utilizzare la dashboard di panoramica per rispondere a domande operative comuni sullo stato del cluster, l'utilizzo e il posizionamento dei volumi.
+In qualità di amministratore IT che gestisce decine di file system FSx for ONTAP, puoi utilizzare la dashboard Panoramica per rispondere alle domande operative più comuni sullo stato del cluster, sull'utilizzo e sul posizionamento dei volumi.
 
-La dashboard di panoramica include:
+La dashboard Panoramica include:
 
 * *Stato di integrità del cluster*: informazioni riepilogate nella parte superiore della dashboard che evidenziano performance, capacità, disponibilità e protezione, ed eventi di sicurezza nei tuoi cluster.
 * *Tabella dei cluster*: una tabella ricercabile, filtrabile e impaginata che mostra la capacità SSD, il pool di capacità e le metriche di throughput per cluster, con supporto per la personalizzazione delle colonne e l'esportazione CSV.
@@ -287,7 +325,7 @@ La dashboard di panoramica include:
 
 La precedente dashboard principale è ora accessibile nella scheda *Project*. Le schede EDA sono ora ordinate: Panoramica, Latenza, Project, CI/CD.
 
-https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Scopri di più sulla dashboard di overview"^].
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Scopri di più sulla dashboard Panoramica"^].
 
 
 
@@ -296,8 +334,6 @@ https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Sco
 L'analisi della latenza ora include un'analisi di base automatizzata. Quando vengono rilevati eventi di latenza, il sistema analizza automaticamente le metriche del centro di ritardo QoS di ONTAP per identificare la fonte dei problemi di latenza.
 
 L'analisi di base valuta le policy QoS, le prestazioni del disco, i problemi di rete e le configurazioni del cluster per fornire informazioni immediate nella colonna Dettagli della tabella degli eventi di latenza.
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["Scopri di più sull'analisi di latenza di base"^].
 
 
 
