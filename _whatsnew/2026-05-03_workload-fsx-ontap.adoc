@@ -1,0 +1,29 @@
+= Cloni dei dispositivi a blocchi
+:allow-uri-read: 
+
+
+
+
+=== Cloni dei dispositivi a blocchi
+
+Workload Factory offre cloni per i tuoi dispositivi a blocchi, così puoi fornire rapidamente copie scrivibili ed efficienti dei tuoi dati controllando capacità, accesso e ciclo di vita.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["Gestire storage a blocchi in NetApp Workload Factory"]
+
+
+
+=== Tag EC2 sui dispositivi a blocchi
+
+La tabella dei dispositivi a blocchi ora include una colonna che mostra i tag degli host EC2 che utilizzano ciascun dispositivo a blocchi. Questo consente di identificare quale host utilizza ciascun dispositivo a blocchi durante la risoluzione dei problemi o le verifiche.
+
+Per creare tag su ciascun dispositivo a blocchi, distribuisci un'istanza EC2 utilizzando lo script utente che ti forniamo.
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Utilities/ec2-user-data-iscsi-create-and-mount["Script EC2 per l'assegnazione di tag ai dispositivi a blocchi"]
+
+
+
+=== Andamento della capacità dei file system FSx for ONTAP
+
+Scopri le tendenze della capacità SSD direttamente dalla panoramica dei tuoi file system FSx for ONTAP. La nuova scheda per la gestione della capacità offre una visione completa delle tendenze di utilizzo del mese precedente. Questa analisi include un confronto tra la capacità effettivamente utilizzata e la capacità allocata, consentendo una valutazione chiara dell'utilizzo delle risorse.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatically.html["Gestisci automaticamente la capacità in NetApp Workload Factory"]
