@@ -168,7 +168,6 @@
   <block id="949772caeac38120e37726672f87e673" category="inline-link-macro">Script EC2 per l'assegnazione di tag ai dispositivi a blocchi</block>
   <block id="f253e6c2e63632a5f1a7ef4fe6522c2f" category="paragraph"><block ref="f253e6c2e63632a5f1a7ef4fe6522c2f" category="inline-link-macro-rx"></block></block>
   <block id="607326d3637e008b134e64f39d8da723" category="section-title">Andamento della capacità dei file system FSx for ONTAP</block>
-  <block id="f9fdfcc52193908a516c0b9d7964af8e" category="paragraph">Scopri le tendenze della capacità SSD direttamente dalla panoramica dei tuoi file system FSx for ONTAP. La nuova scheda per la gestione della capacità offre una visione completa delle tendenze di utilizzo del mese precedente. Questa analisi include un confronto tra la capacità effettivamente utilizzata e la capacità allocata, consentendo una valutazione chiara dell'utilizzo delle risorse.</block>
   <block id="9fe282a2158bc82a938a6290a314ca79" category="inline-link-macro">Gestisci automaticamente la capacità in NetApp Workload Factory</block>
   <block id="9ab7147fcc802f47be068771ba492092" category="paragraph"><block ref="9ab7147fcc802f47be068771ba492092" category="inline-link-macro-rx"></block></block>
   <block id="3be044b694628f6e958377c22febfacd" category="section-title">03 maggio 2026</block>
@@ -195,4 +194,8 @@
   <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
   <block id="394b492bc5d751a9928357af63eeb4df" category="section-title">Nuova notifica per i file system FSx for ONTAP</block>
   <block id="6d358c966898e9dabc6d051e85958cd8" category="paragraph">Il servizio di notifica NetApp Workload Factory include la notifica con un riepilogo mensile dei costi per il tuo account, mostrando le tendenze di spesa, le variazioni insolite e le migliori opportunità di risparmio per i file system FSx for ONTAP.</block>
+  <block id="596e30b7050101709ce0d710420e77a7" category="paragraph">Scopri le tendenze della capacità SSD direttamente dalla panoramica dei tuoi file system FSx for ONTAP. La nuova scheda per la gestione della capacità mostra le tendenze di utilizzo del mese precedente. Questa analisi confronta la capacità effettiva e quella allocata, semplificando la valutazione dell'utilizzo delle risorse.</block>
+  <block id="deede3cf7f18c08613ec53890188368e" category="section-title">Report PDF sullo stato ben architettato dei file system FSx for ONTAP</block>
+  <block id="09731bdb23a8e229cca44808afd3eb18" category="inline-link-macro">Visualizza lo stato di corretta architettura dei tuoi file system FSx for ONTAP in NetApp Workload Factory.</block>
+  <block id="bf36e3bb684711138abb04e7f7f95c1a" category="paragraph">Dopo l'analisi, è possibile scaricare un report in PDF sullo stato di corretta architettura dei file system FSx for ONTAP per i propri archivi o da condividere con i team. <block ref="8f1fbab727bbab0e7967c959283750c4" category="inline-link-macro-rx"></block></block>
 </blocks>
