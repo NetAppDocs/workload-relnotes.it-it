@@ -172,4 +172,17 @@
   <block id="9fe282a2158bc82a938a6290a314ca79" category="inline-link-macro">Gestisci automaticamente la capacità in NetApp Workload Factory</block>
   <block id="9ab7147fcc802f47be068771ba492092" category="paragraph"><block ref="9ab7147fcc802f47be068771ba492092" category="inline-link-macro-rx"></block></block>
   <block id="3be044b694628f6e958377c22febfacd" category="section-title">03 maggio 2026</block>
+  <block id="97c13014b9e16335b445d04850fb955f" category="doc">Notifiche e-mail e SNS per eventi di latenza</block>
+  <block id="c31a2fa4340e87df74fd4add6857d037" category="paragraph">Ora puoi ricevere notifiche automatiche quando vengono rilevati eventi di latenza sui tuoi volumi FSx for ONTAP. Configura le notifiche via email o Amazon SNS nelle impostazioni di Workload Factory per ricevere avvisi in real-time quando i volumi superano le soglie di latenza configurate.</block>
+  <block id="64252b5e1bc1f93bfafd01c34fd0860b" category="paragraph">Le notifiche vengono inviate a livello di file system e includono dettagli su tutti i volumi interessati, i livelli di gravità, i confronti con le soglie e un collegamento diretto alla pagina Latenza per l'indagine.</block>
+  <block id="95e7f36fe4398f41dfcbc5591df71f8d" category="inline-link">Scopri come configurare le notifiche di latenza</block>
+  <block id="547067437333ccf9f6257f448035fd15" category="paragraph"><block ref="2a3ce45bc4405505b722625836bbe768" category="inline-link-rx"></block>.</block>
+  <block id="f18c989c700bb32f3bcb80ace5539b64" category="section-title">Visualizzazione dell'andamento della latenza con grafici interattivi</block>
+  <block id="11ef7238b057019c31802d06c0bf5b75" category="paragraph">Il pannello di analisi della latenza ora include un'interfaccia a schede per un'analisi completa della latenza:</block>
+  <block id="eb39bcaa5c101fc5087275547ab8e3e6" category="list-text">*Panoramica*: Visualizza i risultati dell'analisi di base automatizzata che mostrano quale componente sta causando latenza</block>
+  <block id="142deff8a2ec74d2d2667eca22500eab" category="list-text">*Nel tempo*: Visualizza l'andamento della latenza del volume con un grafico interattivo su più intervalli di tempo (1 ora, 3 ore, 12 ore, 24 ore o 72 ore)</block>
+  <block id="5ff8bee829d6ed38b529ef851b350ad1" category="paragraph">La scheda *Nel tempo* visualizza i dati di latenza raw CloudWatch (lettura o scrittura, a seconda dell'allarme attivato) con linee di soglia di avviso e critiche, indicatori di violazione e metriche dettagliate per ogni violazione.</block>
+  <block id="7eec84a410cc084b608a43e90acfccd1" category="paragraph">Questa visualizzazione completa ti aiuta a identificare schemi, a capire se i problemi di latenza sono ricorrenti o isolati e a prendere decisioni più informate sulle azioni correttive.</block>
+  <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link">Scopri come analizzare le tendenze della latenza</block>
+  <block id="89bed93f6bbf811d8bd82c2b7fbc1dea" category="paragraph"><block ref="ed7c0b83df2858b326a608c49012d510" category="inline-link-rx"></block>.</block>
 </blocks>
