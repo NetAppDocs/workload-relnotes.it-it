@@ -1,0 +1,37 @@
+= Analisi ben progettata per Oracle
+:allow-uri-read: 
+
+
+
+
+=== Analisi ben progettata per Oracle
+
+L'analisi ben strutturata include le seguenti nuove configurazioni per Oracle:
+
+* *Configurazione del backup*: verifica se i database Oracle sono protetti da AWS Backup o da FSx for ONTAP backup.
+* *Pulizia dei cloni*: si consiglia di rimuovere i cloni obsoleti o inutilizzati per ridurre i costi di storage.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementare configurazioni di database ben progettate in Workload Factory"]
+
+
+
+=== Calcolo automatico dei risparmi per i database Oracle su Amazon Elastic Block Store (EBS)
+
+Workload Factory analizza automaticamente il costo dello storage EBS utilizzato per i database Oracle e quindi suggerisce la configurazione FSx for ONTAP migliore e più conveniente. È possibile selezionare più host EBS da analizzare e quindi confrontare il costo di esecuzione di tali host su EBS rispetto a FSx for ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Esplora i risparmi per gli host EBS rilevati"]
+
+
+
+=== Verifica dei prerequisiti di configurazione CRR
+
+Quando si abilita la replica tra regioni (CRR) per il database estate, il carico di lavoro Database verifica se il file system FSx for ONTAP dispone di un collegamento associato e di una configurazione di replica. Se necessario, il carico di lavoro Database reindirizza l'utente alla procedura guidata di replica del carico di lavoro Storage di FSx for ONTAP per gestire i prerequisiti del collegamento nello stesso modo in cui li gestisce Storage.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementare configurazioni di database ben progettate in Workload Factory"]
+
+
+
+=== LUN associati per i database di Microsoft SQL Server
+
+Ora è possibile visualizzare le LUN mappate ai database di Microsoft SQL Server in Workload Factory dalla schermata Inventario. Ciò consente di identificare facilmente quali LUN sono associate a quali database, semplificando la gestione e l'ottimizzazione delle risorse di storage.
