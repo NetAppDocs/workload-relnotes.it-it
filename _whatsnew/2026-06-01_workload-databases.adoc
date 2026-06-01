@@ -1,0 +1,27 @@
+= Risparmio personalizzato per gli host Oracle su Amazon Elastic Block Store
+:allow-uri-read: 
+
+
+
+
+=== Risparmio personalizzato per gli host Oracle su Amazon Elastic Block Store
+
+NetApp Workload Factory for Databases consente di personalizzare il risparmio per gli host Oracle su Amazon Elastic Block Store (EBS). È possibile regolare diversi campi, come la frequenza degli snapshot, il numero di copie clonate e i dettagli del volume, per verificarne l'impatto sul risparmio.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Esplora i risparmi per gli host Oracle su EBS"]
+
+
+
+=== Selezione di più gruppi di sicurezza per la distribuzione su host Microsoft SQL Server e PostgreSQL
+
+NetApp Workload Factory for Databases ora consente di selezionare più gruppi di sicurezza durante la distribuzione di host Microsoft SQL Server e PostgreSQL. Ciò offre maggiore flessibilità nella configurazione della sicurezza di rete per i carichi di lavoro del database.
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-database-server.html["Distribuisci host Microsoft SQL Server"]
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Distribuisci host PostgreSQL"]
+
+
+
+
+=== Supporto per AWS GovCloud (US) in NetApp Workload Factory
+
+NetApp Workload Factory supporta gli account AWS GovCloud (US). Utilizzando un account GovCloud, è possibile distribuire e gestire carichi di lavoro di database nelle regioni AWS GovCloud (US).
