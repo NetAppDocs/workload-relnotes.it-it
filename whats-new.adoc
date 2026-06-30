@@ -484,26 +484,3 @@ Per scenari complessi che coinvolgono dati o latenza del cluster, è possibile r
 L'analisi tramite agente AI richiede la configurazione dell'ARN del modello Amazon Bedrock ed è disponibile su richiesta per gli scenari in cui l'analisi di base raccomanda un'indagine più approfondita. L'agente AI è in grado di identificare problemi quali volumi eccessivi, configurazioni non ottimali dei punti di montaggio, FlexGroup, necessità di ribilanciamento e requisiti di scale-out.
 
 https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#run-ai-agent-analysis["Scopri di più sull'analisi degli agenti AI"^].
-
-
-
-== 09 marzo 2026
-
-
-
-=== Workload VMware
-
-
-
-==== Introduzione del supporto di migration advisor per Google Cloud VMware Engine
-
-NetApp Workload Factory ora supporta Google Cloud VMware Engine. Puoi migrare i tuoi carichi di lavoro VMware on-premises su Google Cloud VMware Engine utilizzando Google Cloud NetApp Volumes come datastore NFS esterni, ottimizzando i costi e consentendo un maggiore controllo sul tuo ambiente VMware senza dover riorganizzare o riconfigurare le tue applicazioni.
-
-Il consulente per la migrazione di Google Cloud VMware Engine fornisce:
-
-* Dimensionamento e progettazione automatizzati dei cluster Google Cloud VMware Engine con supporto dei tipi di nodo VE1 e VE2
-* Ottimizzazione del layout della VM tra i datastore interni vSAN e i datastore NFS esterni Google Cloud NetApp Volumes.
-* Confronto dettagliato dei costi e analisi del TCO tra configurazioni solo vSAN e configurazioni potenziate con Google Cloud NetApp Volumes.
-* Supporto per i livelli di servizio Standard, Premium ed Extreme di Google Cloud NetApp Volumes.
-* Distribuzione Infrastructure-as-Code con Terraform per il provisioning automatico.
-
