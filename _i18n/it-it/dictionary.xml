@@ -179,4 +179,10 @@
   <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">Scopri come analizzare le tendenze di latenza con più grafici</block>
   <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>.</block>
   <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">05 luglio 2026</block>
+  <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">dashboard personalizzate</block>
+  <block id="2865e3ecb86dc9391d13f92e53f2a2ac" category="paragraph">Crea dashboard basate sull'intelligenza artificiale che si adattino ai tuoi carichi di lavoro e alle tue priorità, così puoi vedere facilmente come stanno andando le tue operazioni. Invece di affidarti a visualizzazioni predefinite, le dashboard personalizzate ti permettono di concentrarti sulle informazioni che contano di più.</block>
+  <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">Descrivi in parole semplici cosa vuoi monitorare e l'AI creerà una dashboard basata sulla tua richiesta. Ad esempio, puoi monitorare lo stato del disaster recovery, la capacità e i costi nelle diverse regioni, la conformità alla protezione dello storage e altre metriche operative.</block>
+  <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">Le dashboard personalizzate sono di sola lettura, quindi non possono modificare le impostazioni di archiviazione o di carico di lavoro. Chiunque nel tuo account Workload Factory può visualizzare e gestire queste dashboard, facilitando la condivisione di informazioni e mantenendo l'allineamento tra i team.</block>
+  <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">Scopri di più sulle dashboard personalizzate</block>
+  <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
 </blocks>
