@@ -1,0 +1,24 @@
+= Analisi avanzata della latenza con grafici IOPS e throughput
+:allow-uri-read: 
+
+
+
+
+=== Analisi avanzata della latenza con grafici IOPS e throughput
+
+Il pannello di analisi della latenza ora mostra grafici delle prestazioni sincronizzati nella scheda *Nel tempo*:
+
+* *Grafico della latenza*: mostra come la latenza varia nel tempo, con linee di soglia e avvisi quando i limiti vengono superati.
+* *Grafico IOPS*: mostra le operazioni al secondo, con linee di soglia e indicatori per i precedenti superamenti dei limiti.
+* *Grafico del throughput*: mostra le velocità di trasferimento dei dati (DataReadBytes o DataWriteBytes).
+
+
+Tutti i grafici utilizzano la stessa linea temporale e mostrano automaticamente le metriche corrette in base al fatto che l'evento sia una lettura o una scrittura.
+
+Un nuovo filtro ti permette di passare tra Tutto, Lettura, Scrittura o Metadati per un'analisi più dettagliata.
+
+Questi grafici ti aiutano a vedere come latenza, IOPS e throughput sono correlati tra loro, rendendo più facile trovare la causa dei problemi di performance e decidere come risolverli.
+
+I grafici delle prestazioni sono ora disponibili solo se vengono fornite le credenziali AWS. I collegamenti FSx for ONTAP sono necessari solo per la scomposizione dei componenti nelle analisi di base e AI.
+
+https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Scopri come analizzare le tendenze di latenza con più grafici"^].
