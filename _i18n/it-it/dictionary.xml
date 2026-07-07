@@ -185,4 +185,13 @@
   <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">Le dashboard personalizzate sono di sola lettura, quindi non possono modificare le impostazioni di archiviazione o di carico di lavoro. Chiunque nel tuo account Workload Factory può visualizzare e gestire queste dashboard, facilitando la condivisione di informazioni e mantenendo l'allineamento tra i team.</block>
   <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">Scopri di più sulle dashboard personalizzate</block>
   <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
+  <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">Imposta la frequenza di notifica della latenza</block>
+  <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">Ora puoi scegliere con quale frequenza ricevere notifiche email per violazioni della latenza:</block>
+  <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*Ricordami ogni giorno (consigliato)*: Ricevi una notifica quando si verifica un nuovo problema su qualsiasi file system FSx for ONTAP.</block>
+  <block id="b1960d91c54aac51310626fca3cc3b48" category="paragraph">Se si verificano più problemi di latenza sullo stesso file system in un solo giorno, riceverai una sola email.</block>
+  <block id="a6f20e83b8038d1aeb40bd01b25f763e" category="paragraph">Dopo aver inviato un avviso di latenza per un file system, Workload Factory aspetta 24 ore prima di inviare un altro avviso per quello stesso file system.</block>
+  <block id="e2a4178b795c9afb4497b6549895fe0f" category="list-text">*Notifica in caso di violazione della latenza (ogni 20 minuti)*: Ricevi una notifica quando viene rilevata una violazione, fino a una volta ogni 20 minuti.</block>
+  <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">Le notifiche giornaliere sono attivate per impostazione predefinita per ridurre il volume delle email, continuando comunque ad avvisarti di eventuali problemi di latenza. Puoi modificare la tua preferenza di notifica durante la configurazione del monitoraggio della latenza o la modifica delle impostazioni di soglia.</block>
+  <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">Scopri come configurare il monitoraggio della latenza</block>
+  <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
 </blocks>
