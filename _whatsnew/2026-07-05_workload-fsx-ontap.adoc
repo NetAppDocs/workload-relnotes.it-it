@@ -4,6 +4,7 @@
 
 
 
+[[new-well-architected-dashboard-available-for-all-fsx-for-ontap-systems]]
 === Nuova dashboard ben progettata disponibile per tutti i sistemi FSx per ONTAP
 
 L'analisi well-architected è ora disponibile per i file system FSx for ONTAP dalla nuova dashboard well-architected in NetApp Workload Factory. La nuova dashboard offre una vista centralizzata di tutti i tuoi file system tra account e regioni e delle loro configurazioni in un unico posto. Compare una notifica popup quando visiti la scheda *Well-architected* da un file system. Accedi alla nuova dashboard selezionando *Well-architected* dal menu di navigazione a sinistra in Workload Factory.
@@ -12,27 +13,15 @@ Puoi ancora accedere all'analisi well-architected per uno specifico file system 
 
 
 
-=== Nuove raccomandazioni nell'analisi well-architected
-
-Workload Factory ora include le seguenti configurazioni nell'analisi dell'architettura ottimale per i file system FSx for ONTAP:
-
-* Connetti l'host al nodo di failover: controlla se gli host sono connessi al nodo di failover in un file system FSx for ONTAP attivo-passivo e suggerisce di connettere gli host al nodo di failover per maggiore affidabilità.
-* Connetti l'host al nodo preferito: verifica se gli host sono connessi ai loro dispositivi a blocchi tramite il nodo preferito e suggerisce di connettere gli host al nodo preferito per efficienza delle prestazioni.
-
-
-
-
+[[volumes-explorer]]
 === Esploratore di volumi
 
 Esplora volumi offre una visualizzazione semplice e ricercabile di tutti i tuoi volumi in NetApp Workload Factory. Vedi subito quali volumi gestiscono carichi di lavoro a blocchi o a file. Visualizza la dimensione logica di ogni volume, la capacità fisica utilizzata e se utilizza funzionalità di efficienza dello storage (compressione, deduplicazione e compaction). Filtra e ordina per nome, stato (disponibile/non funzionante), latenza, dimensione, capacità utilizzata e funzionalità di protezione.
 
 
 
-=== Miglioramenti del ritardo di replica
-
-
-
-==== Notifiche e-mail migliorate per i ritardi di replica
+[[enhanced-email-notifications-for-replication-delays]]
+=== Notifiche e-mail migliorate per i ritardi di replica
 
 Le notifiche e-mail relative ai ritardi di replica ora includono maggiori dettagli sulla relazione interessata. La notifica ti aiuta a identificare rapidamente la relazione interessata e a esaminarla nella console di Workload Factory.
 
@@ -40,14 +29,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.h
 
 
 
-==== Esporta i dati relativi al ritardo di replica in formato CSV
-
-Ora puoi esportare i dati relativi al ritardo di replica in un file CSV per analizzarli in un foglio di calcolo e condividerli con altri.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["Tieni traccia dei ritardi di replica"]
-
-
-
+[[block-device-creation-enhancement]]
 === Miglioramento della creazione di dispositivi a blocchi
 
 Workload Factory supporta la creazione di dispositivi a blocchi a partire da uno snapshot di volume.
