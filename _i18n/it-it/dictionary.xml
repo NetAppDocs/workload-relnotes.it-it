@@ -194,26 +194,16 @@
   <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">Le notifiche giornaliere sono attivate per impostazione predefinita per ridurre il volume delle email, continuando comunque ad avvisarti di eventuali problemi di latenza. Puoi modificare la tua preferenza di notifica durante la configurazione del monitoraggio della latenza o la modifica delle impostazioni di soglia.</block>
   <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">Scopri come configurare il monitoraggio della latenza</block>
   <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
-  <block id="da6f5bf8aee08ef83468ad38ab52796b" category="doc">Nuova dashboard ben progettata disponibile per tutti i sistemi FSx per ONTAP</block>
-  <block id="7fca025a8bf1b5d72a149731d5c88125" category="paragraph">L'analisi well-architected è ora disponibile per i file system FSx for ONTAP dalla nuova dashboard well-architected in NetApp Workload Factory. La nuova dashboard offre una vista centralizzata di tutti i tuoi file system tra account e regioni e delle loro configurazioni in un unico posto. Compare una notifica popup quando visiti la scheda *Well-architected* da un file system. Accedi alla nuova dashboard selezionando *Well-architected* dal menu di navigazione a sinistra in Workload Factory.</block>
-  <block id="b09ad8a2ad81c470093e9c74313ea0c2" category="paragraph">Puoi ancora accedere all'analisi well-architected per uno specifico file system e dall'opzione di menu *Well-architected* in Storage.</block>
-  <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">Nuove raccomandazioni nell'analisi well-architected</block>
-  <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory ora include le seguenti configurazioni nell'analisi dell'architettura ottimale per i file system FSx for ONTAP:</block>
-  <block id="fd2d46026cdd19577962231303a46abd" category="list-text">Connetti l'host al nodo di failover: controlla se gli host sono connessi al nodo di failover in un file system FSx for ONTAP attivo-passivo e suggerisce di connettere gli host al nodo di failover per maggiore affidabilità.</block>
-  <block id="0e7d4cc90eb78377a1315bafe07799dd" category="list-text">Connetti l'host al nodo preferito: verifica se gli host sono connessi ai loro dispositivi a blocchi tramite il nodo preferito e suggerisce di connettere gli host al nodo preferito per efficienza delle prestazioni.</block>
   <block id="efbeddc0347a679a438120189b77f860" category="section-title">Esploratore di volumi</block>
   <block id="3e1cc7f8632eafd5f69d910c06db3aa4" category="paragraph">Esplora volumi offre una visualizzazione semplice e ricercabile di tutti i tuoi volumi in NetApp Workload Factory. Vedi subito quali volumi gestiscono carichi di lavoro a blocchi o a file. Visualizza la dimensione logica di ogni volume, la capacità fisica utilizzata e se utilizza funzionalità di efficienza dello storage (compressione, deduplicazione e compaction). Filtra e ordina per nome, stato (disponibile/non funzionante), latenza, dimensione, capacità utilizzata e funzionalità di protezione.</block>
-  <block id="2731bbeb58ccf58c8e631528a8e3fc94" category="section-title">Miglioramenti del ritardo di replica</block>
   <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">Notifiche e-mail migliorate per i ritardi di replica</block>
   <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">Le notifiche e-mail relative ai ritardi di replica ora includono maggiori dettagli sulla relazione interessata. La notifica ti aiuta a identificare rapidamente la relazione interessata e a esaminarla nella console di Workload Factory.</block>
   <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">Abilita le notifiche per i ritardi di replica</block>
   <block id="7f27417270cfb269527e679a64b5a19a" category="paragraph"><block ref="7f27417270cfb269527e679a64b5a19a" category="inline-link-macro-rx"></block></block>
-  <block id="347a810d994926c5e31d1bd690b34fcf" category="section-title">Esporta i dati relativi al ritardo di replica in formato CSV</block>
-  <block id="45cbeaeb98d1d075d560a8e62269fbbb" category="paragraph">Ora puoi esportare i dati relativi al ritardo di replica in un file CSV per analizzarli in un foglio di calcolo e condividerli con altri.</block>
-  <block id="2b3d29c88190bdb57da25e1848b65b7d" category="inline-link-macro">Tieni traccia dei ritardi di replica</block>
-  <block id="7aab1e1b0e0fcc4720b15dcc5848034e" category="paragraph"><block ref="7aab1e1b0e0fcc4720b15dcc5848034e" category="inline-link-macro-rx"></block></block>
   <block id="5312d8ea7e9ef079aeac882dbcd64d0a" category="section-title">Miglioramento della creazione di dispositivi a blocchi</block>
   <block id="85fb39d6f3bb52679cb9ce3bd27ffd1c" category="paragraph">Workload Factory supporta la creazione di dispositivi a blocchi a partire da uno snapshot di volume.</block>
   <block id="a439412a0228682fa1054f4bc1a96815" category="inline-link-macro">Crea un dispositivo a blocchi da uno snapshot di volume in Workload Factory</block>
   <block id="40a9299c5fdf8c1e8242dcb670c6b1cd" category="paragraph"><block ref="40a9299c5fdf8c1e8242dcb670c6b1cd" category="inline-link-macro-rx"></block></block>
+  <block id="cc661418365d138458bf55f936b73a47" category="section-title">Rimozione del carico di lavoro GenAI da Workload Factory</block>
+  <block id="ef18329e66f7a0f5b022b9a400dd74ed" category="paragraph">Il carico di lavoro GenAI è stato rimosso dalla console di Workload Factory.</block>
 </blocks>
