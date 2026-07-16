@@ -1,26 +1,22 @@
-= Analisi avanzata della latenza con grafici IOPS e throughput
+= Analisi della latenza migliorata con grafici sincronizzati di latenza, IOPS e throughput
 :allow-uri-read: 
 
 
 
 
-[[enhanced-latency-analysis-with-iops-and-throughput-graphs]]
-=== Analisi avanzata della latenza con grafici IOPS e throughput
+[[enhanced-latency-analysis-with-synchronized-latency-iops-and-throughput-charts]]
+=== Analisi della latenza migliorata con grafici sincronizzati di latenza, IOPS e throughput
 
-Il pannello di analisi della latenza ora mostra grafici delle prestazioni sincronizzati nella scheda *Nel tempo*:
+Il pannello di analisi della latenza ora include una pagina di *analisi dettagliata della latenza* con grafici delle prestazioni sincronizzati:
 
 * *Grafico della latenza*: mostra come la latenza varia nel tempo, con linee di soglia e avvisi quando i limiti vengono superati.
 * *Grafico IOPS*: mostra le operazioni al secondo, con linee di soglia e indicatori per i precedenti superamenti dei limiti.
-* *Grafico del throughput*: mostra le velocità di trasferimento dei dati (DataReadBytes o DataWriteBytes).
+* *Grafico del throughput*: mostra le velocità di trasferimento dei dati (DataReadBytes o DataWriteBytes). Quando selezioni Metadati nel filtro, il grafico del throughput non mostra dati.
 
 
 Tutti i grafici utilizzano la stessa linea temporale e mostrano automaticamente le metriche corrette in base al fatto che l'evento sia una lettura o una scrittura.
 
-Un nuovo filtro ti permette di passare tra Tutto, Lettura, Scrittura o Metadati per un'analisi più dettagliata.
-
-Questi grafici ti aiutano a vedere come latenza, IOPS e throughput sono correlati tra loro, rendendo più facile trovare la causa dei problemi di performance e decidere come risolverli.
-
-I grafici delle prestazioni sono ora disponibili solo se vengono fornite le credenziali AWS. I collegamenti FSx for ONTAP sono necessari solo per la scomposizione dei componenti nelle analisi di base e AI.
+Puoi regolare la visualizzazione e correlare i picchi di latenza con le variazioni di IOPS e throughput. Gli indicatori di violazione e i dettagli al passaggio del mouse ti aiutano a vedere quando le soglie sono state superate e a rivedere le metriche chiave per la violazione rilevata.
 
 https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Scopri come analizzare le tendenze di latenza con più grafici"^].
 
