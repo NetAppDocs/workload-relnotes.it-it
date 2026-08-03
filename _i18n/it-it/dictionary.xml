@@ -156,7 +156,7 @@
   <block id="7e9591a005bdef4cdf16dfd575186f3b" category="paragraph">Puoi regolare la visualizzazione e correlare i picchi di latenza con le variazioni di IOPS e throughput. Gli indicatori di violazione e i dettagli al passaggio del mouse ti aiutano a vedere quando le soglie sono state superate e a rivedere le metriche chiave per la violazione rilevata.</block>
   <block id="842065a36dace972d6dab0c170421bd1" category="section-title">Etichettatura dei carichi di lavoro per volumi e dispositivi a blocchi</block>
   <block id="47c38c6a3d7e96ce1b3b2519a980f283" category="paragraph">Workload Factory ora identifica e tagga volumi e dispositivi a blocchi in base al carico di lavoro o all'applicazione principale. Puoi assegnare tag di carico di lavoro predefiniti come Microsoft SQL Server o Oracle Database, oppure creare tag personalizzati per le tue applicazioni. I tag possono essere applicati a singole risorse o ereditati dalle risorse di storage collegate. Questo ti aiuta ad allineare le configurazioni di storage ai requisiti del carico di lavoro, a capire l'impatto degli incidenti e a risolvere i problemi in modo più efficace.</block>
-  <block id="da0c92072a1db7fee3208bcad3ad822b" category="doc">Policy di autorizzazione IAM aggiornate per i database</block>
+  <block id="da0c92072a1db7fee3208bcad3ad822b" category="doc">Aggiornate le policy di autorizzazione IAM per i database</block>
   <block id="e9e3af45119a834b75ee5ce8ad5fc96d" category="paragraph">Le autorizzazioni per i database sono state aggiornate per migliorare l'accesso alle funzionalità e limitare l'accesso a SSM dove non necessario.</block>
   <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">Le autorizzazioni di visualizzazione, pianificazione e analisi sono limitate ai documenti AWS SSM. Con queste autorizzazioni, puoi visualizzare host, istanze e database. Puoi anche eseguire un'analisi well-architected di base on-demand delle tue risorse.</block>
   <block id="e9ad7ba5991717b52c215bd25e788b28" category="paragraph">Le autorizzazioni di operazione e correzione ti permettono di apportare modifiche alle tue risorse, analizzare i registri degli errori, ottenere un'analisi completa e ben strutturata delle tue risorse e risolvere i problemi di configurazione.</block>
@@ -165,7 +165,7 @@
   <block id="d5eb0f9120b28b557f3e367589adf4bb" category="section-title">Notifiche per dashboard personalizzate</block>
   <block id="fb5e135dfdab99cdebbb946a22093655" category="paragraph">Workload Factory ora ti avvisa quando la tua dashboard personalizzata è pronta o se la creazione non riesce.</block>
   <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">Dopo aver creato una dashboard personalizzata, riceverai una notifica con un link diretto per visualizzarla. Se la creazione non riesce, riceverai una notifica con un link all'inventario delle dashboard personalizzate per riprovare.</block>
-  <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">Questo ti aiuta a sapere quando la tua dashboard è pronta e rende facile rivederla o ricrearla.</block>
+  <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">Questo ti aiuta a capire quando la tua dashboard è pronta e rende facile rivederla o ricrearla.</block>
   <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">Scopri come creare dashboard personalizzate</block>
   <block id="2b4fe8741ca59e9e85fecaff24736613" category="paragraph"><block ref="2b4fe8741ca59e9e85fecaff24736613" category="inline-link-macro-rx"></block></block>
   <block id="863d814c29385fa8ebfd13bc1c1c7e96" category="inline-link-macro">Scopri come configurare le notifiche</block>
@@ -173,19 +173,33 @@
   <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">Dashboard personalizzate private e pubbliche</block>
   <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">Ora le dashboard personalizzate includono le impostazioni di condivisione. Puoi mantenere una dashboard privata o condividerla con il tuo team.</block>
   <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">Le nuove dashboard sono private per impostazione predefinita e visibili solo a te. Puoi rendere pubblica una dashboard in qualsiasi momento per condividerla con tutti nel tuo account Workload Factory.</block>
-  <block id="26e05170ba3616166d4659e72d415450" category="paragraph">Ogni scheda del dashboard mostra l'etichetta "Private" o "Public" così puoi vedere rapidamente quali dashboard sono condivise.</block>
+  <block id="26e05170ba3616166d4659e72d415450" category="paragraph">Ogni scheda del dashboard mostra l'etichetta "Privato" o "Pubblico" così puoi vedere rapidamente quali dashboard sono condivise.</block>
   <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">Scopri la visibilità e la condivisione della dashboard</block>
   <block id="c5d5a7386c6c7c68f8d62de175cd235f" category="paragraph"><block ref="c5d5a7386c6c7c68f8d62de175cd235f" category="inline-link-macro-rx"></block></block>
   <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">Scopri come condividere le dashboard</block>
   <block id="15bb464c4011a82a1976bc518af9f860" category="paragraph"><block ref="15bb464c4011a82a1976bc518af9f860" category="inline-link-macro-rx"></block></block>
   <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">Amministrazione delle funzionalità di AI</block>
-  <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">Puoi controllare l'accesso alle funzionalità di intelligenza artificiale in tutta l'organizzazione con le seguenti impostazioni nell'amministrazione di Workload Factory.</block>
+  <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">Puoi controllare l'accesso alle funzionalità di intelligenza artificiale in tutta l'organizzazione tramite le seguenti impostazioni nell'amministrazione di Workload Factory.</block>
   <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">Usa Bedrock gestito da NetApp (consigliato e abilitato di default, con limiti di credito mensili)</block>
   <block id="7f72da8c356eeacf603a52c235e09676" category="list-text">Disattiva tutte le funzionalità di AI</block>
   <block id="aa55b63e5a41704f1621780515cd8a24" category="paragraph">La nuova pagina di amministrazione ti permette di gestire queste impostazioni in un unico posto.</block>
-  <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">Le funzionalità basate sull'AI includono Ask Me, dashboard personalizzate, rule builder e analizzatori per EMS, log di database e latenza dei volumi.</block>
-  <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">Se le funzionalità di intelligenza artificiale sono disattivate, vedrai un messaggio che indica che l'IA non è disponibile.</block>
+  <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">Le funzionalità AI includono Ask Me, dashboard personalizzate, rule builder e analizzatori per EMS, log di database e latenza dei volumi.</block>
+  <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">Se le funzionalità di intelligenza artificiale sono disattivate, gli utenti vedranno un messaggio che indica che l'AI non è disponibile.</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">Scopri come gestire le funzionalità di intelligenza artificiale</block>
   <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03 agosto 2026</block>
+  <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">Analisi della latenza dell'AI con controllo dei costi</block>
+  <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">Come amministratore di Workload Factory, puoi controllare l'accesso all'analisi della latenza AI in tutta l'organizzazione.</block>
+  <block id="4c9d3f8b46f94437f92a47d3612a2829" category="list-text">*NetApp-crediti AI gestiti*: Se il tuo amministratore lo abilita, puoi utilizzare l'analisi AI tramite l'integrazione gestita di Amazon Bedrock di NetApp. Non è richiesta alcuna configurazione aggiuntiva. Il tuo utilizzo mensile è limitato dal budget assegnato. Se raggiungi il limite mensile, le funzionalità basate sull'AI vengono disabilitate e vedrai un messaggio.</block>
+  <block id="67ee5da1047f90d8a684f7e0d2ca1944" category="list-text">*Disabilitato dall'amministratore*: Se l'amministratore disattiva le funzionalità di intelligenza artificiale, le opzioni di analisi basate sull'AI saranno disattivate e vedrai un messaggio che indica che la funzionalità è disattivata.</block>
+  <block id="69e316ff96b412dd2a5045f8dd2f433c" category="section-title">Gestione dell'aumento elastico del throughput</block>
+  <block id="a01f5f5609c9aee121b699114cfe006f" category="paragraph">Ora puoi gestire il comportamento di aumento del throughput dalla pagina Panoramica EDA per uno o più file system FSx for ONTAP selezionati.</block>
+  <block id="9c3ee7dcbca3424fcc3c760549aa303d" category="list-text">*Selezione modalità*: scegli *Automatizza* o *Consiglia*.</block>
+  <block id="b9722197734c8293fedc4e7c6db77abe" category="list-text">*Aggiornamenti in blocco*: Seleziona uno o più file system e applica le modifiche di modalità e parametri in un'unica operazione.</block>
+  <block id="1a97c66f134399c6e8ddf03e8cd9055e" category="list-text">*Finestra di dialogo per la gestione del throughput*: Modifica le impostazioni di aumento del throughput con i valori predefiniti EDA nella finestra di dialogo.</block>
+  <block id="0e71e5ed033b79a12a3d33146bbef832" category="list-text">*Impostazioni avanzate*: Configura parametri aggiuntivi per la decisione sul throughput in una sezione *Configurazione avanzata* espandibile.</block>
+  <block id="3c559babe76da927fd273d0640ba2089" category="list-text">*Visibilità della tabella*: nella tabella Cluster è disponibile una nuova colonna *Gestione del throughput* che puoi abilitare dalle impostazioni della colonna.</block>
+  <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*Configurazione della scheda superiore*: La scheda superiore ora supporta la configurazione della modalità di aumento del throughput, in modo simile alla gestione degli SSD.</block>
+  <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">Scopri come utilizzare la dashboard Overview</block>
+  <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>.</block>
 </blocks>

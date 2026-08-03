@@ -1,0 +1,31 @@
+= Analisi della latenza dell'AI con controllo dei costi
+:allow-uri-read: 
+
+
+
+
+[[ai-latency-analysis-with-cost-controls]]
+=== Analisi della latenza dell'AI con controllo dei costi
+
+Come amministratore di Workload Factory, puoi controllare l'accesso all'analisi della latenza AI in tutta l'organizzazione.
+
+* *NetApp-crediti AI gestiti*: Se il tuo amministratore lo abilita, puoi utilizzare l'analisi AI tramite l'integrazione gestita di Amazon Bedrock di NetApp. Non è richiesta alcuna configurazione aggiuntiva. Il tuo utilizzo mensile è limitato dal budget assegnato. Se raggiungi il limite mensile, le funzionalità basate sull'AI vengono disabilitate e vedrai un messaggio.
+* *Disabilitato dall'amministratore*: Se l'amministratore disattiva le funzionalità di intelligenza artificiale, le opzioni di analisi basate sull'AI saranno disattivate e vedrai un messaggio che indica che la funzionalità è disattivata.
+
+
+
+
+[[elastic-throughput-increase-management]]
+=== Gestione dell'aumento elastico del throughput
+
+Ora puoi gestire il comportamento di aumento del throughput dalla pagina Panoramica EDA per uno o più file system FSx for ONTAP selezionati.
+
+* *Selezione modalità*: scegli *Automatizza* o *Consiglia*.
+* *Aggiornamenti in blocco*: Seleziona uno o più file system e applica le modifiche di modalità e parametri in un'unica operazione.
+* *Finestra di dialogo per la gestione del throughput*: Modifica le impostazioni di aumento del throughput con i valori predefiniti EDA nella finestra di dialogo.
+* *Impostazioni avanzate*: Configura parametri aggiuntivi per la decisione sul throughput in una sezione *Configurazione avanzata* espandibile.
+* *Visibilità della tabella*: nella tabella Cluster è disponibile una nuova colonna *Gestione del throughput* che puoi abilitare dalle impostazioni della colonna.
+* *Configurazione della scheda superiore*: La scheda superiore ora supporta la configurazione della modalità di aumento del throughput, in modo simile alla gestione degli SSD.
+
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Scopri come utilizzare la dashboard Overview"^].
