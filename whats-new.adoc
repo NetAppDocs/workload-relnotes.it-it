@@ -20,6 +20,37 @@ Scopri le modifiche più recenti apportate ai carichi di lavoro che fanno parte 
 
 
 
+[[database-workloads]]
+=== Workload dei database
+
+
+
+==== Modifiche di configurazione per Oracle e Microsoft SQL Server nell'analisi ben architettata
+
+Nell'analisi well-architected, diverse configurazioni di database sono state combinate e rinominate nelle seguenti configurazioni.
+
+* *Gestione dello spazio del block device*: include space reservation, allocazione dello spazio e riserva frazionaria
+* *Efficienze di archiviazione*: include compressione, deduplicazione e compaction
+* *Ottimizzazione della stratificazione/TCO*: include la policy di tiering e i giorni minimi di raffreddamento per il tiering
+* *Pianifica snapshot locali*: include la policy sugli snapshot
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["Analisi della configurazione in Workload Factory"]
+
+
+
+==== Aggiornate le policy di autorizzazione IAM per i database
+
+Le autorizzazioni per i database sono state aggiornate per migliorare l'accesso alle funzionalità e limitare l'accesso a SSM dove non necessario.
+
+Le autorizzazioni di visualizzazione, pianificazione e analisi sono limitate ai documenti AWS SSM. Con queste autorizzazioni, puoi visualizzare host, istanze e database. Puoi anche eseguire un'analisi well-architected di base on-demand delle tue risorse.
+
+Le autorizzazioni di operazione e correzione ti permettono di apportare modifiche alle tue risorse, analizzare i registri degli errori, ottenere un'analisi completa e ben strutturata delle tue risorse e risolvere i problemi di configurazione.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Riferimento autorizzazioni"^]
+
+
+
 [[setup-and-administration]]
 === Installazione e amministrazione
 
@@ -33,7 +64,11 @@ Le autorizzazioni di visualizzazione, pianificazione e analisi sono limitate ai 
 
 Le autorizzazioni di operazione e correzione ti permettono di apportare modifiche alle tue risorse, analizzare i registri degli errori, ottenere un'analisi completa e ben strutturata delle tue risorse e risolvere i problemi di configurazione.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Riferimento autorizzazioni"] === Dashboard personalizzate
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Riferimento autorizzazioni"]
+
+
+
+==== dashboard personalizzate
 
 
 
@@ -45,9 +80,9 @@ Dopo aver creato una dashboard personalizzata, riceverai una notifica con un lin
 
 Questo ti aiuta a capire quando la tua dashboard è pronta e rende facile rivederla o ricrearla.
 
-link:create-custom-dashboard.html["Scopri come creare dashboard personalizzate"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-custom-dashboard.html["Scopri come creare dashboard personalizzate"]
 
-link:configure-notifications.html["Scopri come configurare le notifiche"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Scopri come configurare le notifiche"]
 
 
 
@@ -59,9 +94,9 @@ Le nuove dashboard sono private per impostazione predefinita e visibili solo a t
 
 Ogni scheda del dashboard mostra l'etichetta "Privato" o "Pubblico" così puoi vedere rapidamente quali dashboard sono condivise.
 
-link:learn-custom-dashboards.html#dashboard-visibility-and-sharing["Scopri la visibilità e la condivisione della dashboard"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/learn-custom-dashboards.html#view-and-share-dashboards["Scopri la visibilità e la condivisione della dashboard"]
 
-link:manage-custom-dashboards.html#change-dashboard-visibility["Scopri come condividere le dashboard"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-custom-dashboards.html#change-dashboard-visibility["Scopri come condividere le dashboard"]
 
 
 
@@ -79,7 +114,7 @@ Le funzionalità AI includono Ask Me, dashboard personalizzate, rule builder e a
 
 Se le funzionalità di intelligenza artificiale sono disattivate, gli utenti vedranno un messaggio che indica che l'AI non è disponibile.
 
-link:manage-genai-features.html["Scopri come gestire le funzionalità di intelligenza artificiale"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Scopri come gestire le funzionalità di intelligenza artificiale"]
 
 
 
