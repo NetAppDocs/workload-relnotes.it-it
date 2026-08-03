@@ -160,7 +160,7 @@ Ogni configurazione relativa ai volumi nella dashboard ben strutturata ora inclu
 
 I carichi di lavoro non vengono etichettati quando un amministratore disabilita le funzionalità di intelligenza artificiale. Se le funzionalità di intelligenza artificiale sono disattivate nelle impostazioni dell'account Workload Factory, il servizio di etichettatura non identifica né classifica i carichi di lavoro sulle risorse di storage.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-genai-features.html["Scopri come amministrare l'AI"^].
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Scopri come amministrare l'AI"^].
 
 
 
