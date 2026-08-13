@@ -26,8 +26,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Carichi di lavoro Genai</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Installazione e amministrazione</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Workload VMware</block>
-  <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">Fabbrica di carichi di lavoro NetApp</block>
-  <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">Scopri le modifiche più recenti apportate ai carichi di lavoro che fanno parte di NetApp Workload Factory.</block>
   <block id="374d5bd32bb9ae08b0f703942e0fe21c" category="doc">Modifiche recenti in NetApp Workload Factory</block>
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">Queste note di rilascio descrivono i recenti miglioramenti apportati ai servizi cloud che fanno parte di NetApp Workload Factory.</block>
@@ -37,7 +35,6 @@
   <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
   <block id="394b492bc5d751a9928357af63eeb4df" category="section-title">Nuova notifica per i file system FSx for ONTAP</block>
   <block id="ed577820f4fec6bbade3e14c5eb7020d" category="doc">Supporto per AWS GovCloud (US) in NetApp Workload Factory</block>
-  <block id="699b8f027b66b237760179b118b65c6e" category="paragraph">NetApp Workload Factory supporta gli account AWS GovCloud (US). Utilizzando un account GovCloud, è possibile distribuire e gestire i carichi di lavoro GenAI nelle regioni AWS GovCloud (US).</block>
   <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">31 maggio 2026</block>
   <block id="779d05f80e557ffb6b9d91002c8c535c" category="doc">Risparmio personalizzato per gli host Oracle su Amazon Elastic Block Store</block>
   <block id="3a4be47663e2fa751113137a974a3fbf" category="paragraph">NetApp Workload Factory for Databases consente di personalizzare il risparmio per gli host Oracle su Amazon Elastic Block Store (EBS). È possibile regolare diversi campi, come la frequenza degli snapshot, il numero di copie clonate e i dettagli del volume, per verificarne l'impatto sul risparmio.</block>
@@ -238,4 +235,6 @@
   <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
   <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
+  <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">Funzionalità ONTAP visualizzate in Esplora volumi</block>
+  <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">Volumes explorer ora include le funzionalità ONTAP nella tabella dei volumi. Queste funzionalità forniscono informazioni più dettagliate sulla configurazione e sullo stato dei tuoi volumi, come la copertura della protezione, lo stato di Autonomous Ransomware Protection (ARP/AI), l'efficienza dello storage, la policy di tiering e l'autogrow del volume.</block>
 </blocks>
