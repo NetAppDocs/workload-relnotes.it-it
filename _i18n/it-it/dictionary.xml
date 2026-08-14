@@ -136,7 +136,6 @@
   <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">Scopri come configurare il monitoraggio della latenza</block>
   <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
   <block id="efbeddc0347a679a438120189b77f860" category="section-title">Esploratore di volumi</block>
-  <block id="3e1cc7f8632eafd5f69d910c06db3aa4" category="paragraph">Esplora volumi offre una visualizzazione semplice e ricercabile di tutti i tuoi volumi in NetApp Workload Factory. Vedi subito quali volumi gestiscono carichi di lavoro a blocchi o a file. Visualizza la dimensione logica di ogni volume, la capacità fisica utilizzata e se utilizza funzionalità di efficienza dello storage (compressione, deduplicazione e compaction). Filtra e ordina per nome, stato (disponibile/non funzionante), latenza, dimensione, capacità utilizzata e funzionalità di protezione.</block>
   <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">Notifiche e-mail migliorate per i ritardi di replica</block>
   <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">Le notifiche e-mail relative ai ritardi di replica ora includono maggiori dettagli sulla relazione interessata. La notifica ti aiuta a identificare rapidamente la relazione interessata e a esaminarla nella console di Workload Factory.</block>
   <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">Abilita le notifiche per i ritardi di replica</block>
@@ -242,4 +241,5 @@
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp Workload Factory</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">11 agosto 2026</block>
+  <block id="2b2db21e376d227839b25c1e6fcb7638" category="paragraph">Esplora volumi offre una visualizzazione semplice e ricercabile di tutti i volumi in NetApp Workload Factory. Visualizza rapidamente quali volumi gestiscono carichi di lavoro a blocchi o a file. Visualizza le dimensioni logiche di ciascun volume, la capacità fisica utilizzata e se utilizza funzionalità di efficienza dello storage (compressione, deduplicazione e compaction). Filtra e ordina per nome, stato (disponibile/non funzionante), latenza, dimensioni, capacità utilizzata e funzionalità di protezione.</block>
 </blocks>
