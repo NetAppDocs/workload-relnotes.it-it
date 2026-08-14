@@ -1,0 +1,10 @@
+= Azioni sui volumi disponibili in Volumes explorer
+:allow-uri-read: 
+
+
+
+
+[[volume-actions-available-in-volumes-explorer]]
+=== Azioni sui volumi disponibili in Volumes explorer
+
+Tutte le azioni sui volumi sono disponibili direttamente da Volumes explorer per uno o più volumi. Questo rende più veloce eseguire operazioni a livello di volume. Le azioni sui volumi includono la modifica delle impostazioni del volume, la gestione degli snapshot e altre attività sui volumi senza uscire da Volumes explorer. Puoi anche accedere a queste azioni dalla scheda Volumes nella panoramica del file system FSx for ONTAP.

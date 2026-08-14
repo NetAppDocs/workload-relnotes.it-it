@@ -237,4 +237,9 @@
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
   <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">Funzionalità ONTAP visualizzate in Esplora volumi</block>
   <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">Volumes explorer ora include le funzionalità ONTAP nella tabella dei volumi. Queste funzionalità forniscono informazioni più dettagliate sulla configurazione e sullo stato dei tuoi volumi, come la copertura della protezione, lo stato di Autonomous Ransomware Protection (ARP/AI), l'efficienza dello storage, la policy di tiering e l'autogrow del volume.</block>
+  <block id="9b988decb4830a521f8e1487584f0385" category="doc">Azioni sui volumi disponibili in Volumes explorer</block>
+  <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">Tutte le azioni sui volumi sono disponibili direttamente da Volumes explorer per uno o più volumi. Questo rende più veloce eseguire operazioni a livello di volume. Le azioni sui volumi includono la modifica delle impostazioni del volume, la gestione degli snapshot e altre attività sui volumi senza uscire da Volumes explorer. Puoi anche accedere a queste azioni dalla scheda Volumes nella panoramica del file system FSx for ONTAP.</block>
+  <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp Workload Factory</block>
+  <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
+  <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">11 agosto 2026</block>
 </blocks>

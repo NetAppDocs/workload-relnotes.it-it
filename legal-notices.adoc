@@ -52,4 +52,4 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 I file di avviso forniscono informazioni sul copyright e sulle licenze di terze parti utilizzate nel software NetApp.
 
-55f7843f27571db97da76bdf68a76d22
+https://docs.netapp.com/us-en/workload-family/media/workload-factory-notice.pdf["NetApp Workload Factory"^]
