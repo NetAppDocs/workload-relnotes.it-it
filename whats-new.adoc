@@ -20,6 +20,19 @@ Scopri le modifiche più recenti apportate ai carichi di lavoro che fanno parte 
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
+=== Amazon FSX per NetApp ONTAP
+
+
+
+==== Puoi creare link dalla pagina Link
+
+Ora puoi creare collegamenti direttamente dalla pagina Collegamenti nel menu Amministrazione, oltre che dalla pagina Inventario di FSx for ONTAP e dalla pagina Panoramica del file system.
+
+link:create-link.html["Scopri di più sulla creazione di link"].
+
+
+
 [[setup-and-administration]]
 === Installazione e amministrazione
 
