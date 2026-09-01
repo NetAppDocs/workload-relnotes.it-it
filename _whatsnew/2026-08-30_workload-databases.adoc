@@ -1,0 +1,14 @@
+= Aggiornamento del calcolatore di risparmi
+:allow-uri-read: 
+
+
+
+
+[[savings-calculator-update]]
+=== Aggiornamento del calcolatore di risparmi
+
+Puoi confrontare le varie componenti di costo dell'esecuzione di carichi di lavoro Microsoft SQL Server, come storage, compute, licenza SQL, snapshot e cloni, per i tuoi carichi di lavoro database su file system FSx for ONTAP rispetto a Elastic Block Store (EBS), FSx for Windows File Server e storage on-premises, utilizzando solo i permessi di visualizzazione, pianificazione e analisi.
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Scopri le possibilità di risparmio per i carichi di lavoro dei database"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#permissions-for-database-workloads["Autorizzazioni per i carichi di lavoro del database"^]
+

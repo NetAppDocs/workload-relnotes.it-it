@@ -172,4 +172,10 @@
   <block id="ef8e743556b96fe2947729361cb5835f" category="paragraph">Ora puoi creare collegamenti direttamente dalla pagina Collegamenti nel menu Amministrazione, oltre che dalla pagina Inventario di FSx for ONTAP e dalla pagina Panoramica del file system.</block>
   <block id="b65fab1584e1a15fb6cd01b1fb573a1f" category="inline-link-macro">Scopri di più sulla creazione di link</block>
   <block id="2fb8fbf9eac6cb7cdbca3e8cae581dd0" category="paragraph"><block ref="ac8902bc899b18c41d3bea9bfd9e1e86" category="inline-link-macro-rx"></block>.</block>
+  <block id="619b54ce9e8c031c19256b4d8d750363" category="doc">Aggiornamento del calcolatore di risparmi</block>
+  <block id="e5dcb68e9a92c735dc0967956647bc80" category="paragraph">Puoi confrontare le varie componenti di costo dell'esecuzione di carichi di lavoro Microsoft SQL Server, come storage, compute, licenza SQL, snapshot e cloni, per i tuoi carichi di lavoro database su file system FSx for ONTAP rispetto a Elastic Block Store (EBS), FSx for Windows File Server e storage on-premises, utilizzando solo i permessi di visualizzazione, pianificazione e analisi.</block>
+  <block id="fa97573f07318758714d48498eeb8beb" category="inline-link-macro">Scopri le possibilità di risparmio per i carichi di lavoro dei database</block>
+  <block id="99e479d341973e05fca0c15ab9ffdad2" category="list-text"><block ref="99e479d341973e05fca0c15ab9ffdad2" category="inline-link-macro-rx"></block></block>
+  <block id="a5ca0e96d815aa95d08fcc15e4dee05c" category="inline-link-macro">Autorizzazioni per i carichi di lavoro del database</block>
+  <block id="6c371a91504dc6f98ab6ece596f7ab2f" category="list-text"><block ref="6c371a91504dc6f98ab6ece596f7ab2f" category="inline-link-macro-rx"></block></block>
 </blocks>
