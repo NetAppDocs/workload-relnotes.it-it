@@ -7,7 +7,7 @@ summary:
 = Note legali
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
