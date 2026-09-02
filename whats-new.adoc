@@ -415,27 +415,3 @@ Dopo aver inviato un avviso di latenza per un file system, Workload Factory aspe
 Le notifiche giornaliere sono attivate per impostazione predefinita per ridurre il volume delle email, continuando comunque ad avvisarti di eventuali problemi di latenza. Puoi modificare la tua preferenza di notifica durante la configurazione del monitoraggio della latenza o la modifica delle impostazioni di soglia.
 
 https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["Scopri come configurare il monitoraggio della latenza"^].
-
-
-
-[[01-june-2026]]
-== 1° giugno 2026
-
-
-
-[[database-workloads]]
-=== Workload dei database
-
-Direttiva non risolta in <stdin> - include::_whatsnew/2026-06-01_workload-databases.adoc[leveloffset=+1]
-
-
-
-[[31-may-2026]]
-== 31 maggio 2026
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== Amazon FSX per NetApp ONTAP
-
-Direttiva non risolta in <stdin> - include::_whatsnew/2026-05-31_workload-fsx-ontap.adoc[leveloffset=+1] === Carichi di lavoro VMware Direttiva non risolta in <stdin> - include::_whatsnew/2026-05-31_workload-vmware.adoc[leveloffset=+1] === Configurazione e amministrazione Direttiva non risolta in <stdin> - include::_whatsnew/2026-05-31_workload-setup-admin.adoc[leveloffset=+1] === Carichi di lavoro EDA Direttiva non risolta in <stdin> - include::_whatsnew/2026-05-31_workload-eda.adoc[leveloffset=+1]
