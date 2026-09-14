@@ -9,7 +9,7 @@
 
 Ora puoi creare collegamenti direttamente dalla pagina Collegamenti nel menu Amministrazione, oltre che dalla pagina Inventario di FSx for ONTAP e dalla pagina Panoramica del file system.
 
-link:create-link.html["Scopri di più sulla creazione di link"].
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Scopri di più sulla creazione di link"^].
 
 
 
