@@ -1,0 +1,20 @@
+= Configurazioni del database incluse nella dashboard ben strutturata
+:allow-uri-read: 
+
+
+
+
+[[database-configurations-included-in-well-architected-dashboard]]
+=== Configurazioni del database incluse nella dashboard ben strutturata
+
+La dashboard ben progettata ora include suggerimenti per le configurazioni del database, consentendoti di valutare e ottimizzare la tua configurazione in base alle best practice. Le prime configurazioni includono:
+
+* Tiering dei dati freddi
+* Efficienze dello storage
+* policy di Snapshot
+* margine di capacità SSD
+
+
+Trova la dashboard well-architected selezionando il menu principale nella console di NetApp Workload Factory e seleziona *Well-architected*.
+
+image:well-architected-menu-option.png["Opzione di menu ben strutturata nella console di NetApp Workload Factory"]
