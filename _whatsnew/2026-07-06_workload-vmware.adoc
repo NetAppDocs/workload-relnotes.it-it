@@ -11,4 +11,4 @@ Il calcolatore TCO di EVS ora supporta le istanze EC2 AWS i7i.metal-24xl come ho
 
 Il calcolatore confronta automaticamente entrambi i tipi di istanza e seleziona l'opzione più conveniente. Una nuova sezione di confronto mostra le configurazioni degli host EVS affiancate, rendendo più facile trovare la configurazione migliore per le tue esigenze.
 
-link:calculate-evs-savings.html["Calcola il risparmio stimato per EVS"]
+link:https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Calcola il risparmio stimato per EVS"]
