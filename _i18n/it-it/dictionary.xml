@@ -179,15 +179,6 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory ora identifica i carichi di lavoro per gli host connessi a FSx for ONTAP storage distribuito in una regione diversa.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">La logica di rilevamento del carico di lavoro migliorata ora individua ulteriori tipologie di carico di lavoro e aumenta la precisione dei risultati.</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>.</block>
-  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">Configurazioni del database incluse nella dashboard ben strutturata</block>
-  <block id="a04fc413f106e041524732d895e4258e" category="paragraph">La dashboard ben progettata ora include suggerimenti per le configurazioni del database, consentendoti di valutare e ottimizzare la tua configurazione in base alle best practice. Le prime configurazioni includono:</block>
-  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">Tiering dei dati freddi</block>
-  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">Efficienze dello storage</block>
-  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">policy di Snapshot</block>
-  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">margine di capacità SSD</block>
-  <block id="4dcac8e07a1246e665077c1572955236" category="paragraph">Trova la dashboard well-architected selezionando il menu principale nella console di NetApp Workload Factory e seleziona *Well-architected*.</block>
-  <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Opzione di menu ben strutturata nella console di NetApp Workload Factory</block>
-  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 settembre 2026</block>
   <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
@@ -234,4 +225,6 @@
   <block id="44268d176d67be14130038589d76e779" category="paragraph">Workload Factory ora ti avvisa quando un collegamento Lambda non utilizza l'immagine più recente disponibile. Se gli aggiornamenti automatici non sono supportati per un collegamento, la notifica indica quando è disponibile una versione più recente.</block>
   <block id="36be3d9219f21557e17dda1fb159e09d" category="paragraph">Puoi visualizzare le istruzioni di aggiornamento dalla pagina Collegamenti. Le istruzioni spiegano come aggiornare manualmente l'immagine del collegamento Lambda e abilitare gli aggiornamenti automatici quando sono disponibili. Mantenere i collegamenti aggiornati ti consente di accedere alle funzionalità più recenti, risolvere i problemi noti e applicare gli aggiornamenti di sicurezza più recenti.</block>
   <block id="14bda382780d759b676db8bd277841a9" category="paragraph">Ricevi anche un avviso nella dashboard di FSx per ONTAP quando è disponibile una versione più recente del collegamento per un collegamento che non supporta gli aggiornamenti automatici.</block>
+  <block id="753d621a767f80f69e64e577e1856e54" category="doc">Supporto per più file system per una singola istanza</block>
+  <block id="6adeb7328ee4497e74b45036bf16ff9d" category="paragraph">Workload Factory for Databases supporta più file system per una singola istanza di Microsoft SQL Server. Puoi registrare più file system in un'istanza di SQL Server e risolvere contemporaneamente un problema di configurazione per più file system in un'istanza di SQL Server.</block>
 </blocks>
