@@ -1,0 +1,28 @@
+= Notifiche avanzate sulla capacità degli SSD
+:allow-uri-read: 
+
+
+
+
+[[enhanced-ssd-capacity-notifications]]
+=== Notifiche avanzate sulla capacità degli SSD
+
+Le notifiche di gestione della capacità SSD ora includono messaggi di errore dettagliati per la risoluzione dei problemi relativi agli errori di automazione. Le notifiche vengono inviate per aumenti di capacità riusciti, errori durante le operazioni di aumento, errori nei controlli della capacità, avvisi di soglia e raccomandazioni. I dettagli dell'errore includono motivi specifici del guasto, come autorizzazioni mancanti, aggiornamenti simultanei in corso, periodi di cooldown di AWS o problemi nel recupero delle metriche di CloudWatch.
+
+link:https://docs.netapp.com/us-en/workload-eda/learn-overview-dashboard.html["Scopri la gestione della capacità SSD"^].
+
+
+
+[[week-time-frame-for-latency-graphs]]
+=== Intervallo di tempo di una settimana per i grafici della latenza
+
+I grafici di analisi della latenza ora supportano un intervallo di tempo di 1 settimana, oltre alle opzioni esistenti (1 ora, 3 ore, 12 ore, 24 ore, 72 ore). Usa la visualizzazione settimanale per identificare modelli e tendenze a lungo termine nel comportamento della latenza del volume.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Scopri l'analisi delle tendenze della latenza"^].
+
+
+
+[[improved-file-system-visibility-in-the-interface]]
+=== Maggiore visibilità del file system nell'interfaccia
+
+Workload Factory ora ti offre una visione più chiara dei tuoi file system nell'interfaccia. Puoi visualizzare le tendenze di utilizzo della capacità SSD e del throughput, i riepiloghi dei carichi di lavoro e informazioni dettagliate sulla configurazione direttamente dalla panoramica del file system.
