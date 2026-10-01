@@ -202,16 +202,13 @@
   <block id="72c9ca3fa9790aabd5a7a741dfe036e9" category="paragraph">Questi controlli aggiuntivi ti offrono maggiore visibilità e supervisione. In modalità di lettura/scrittura, gli agenti devono ottenere la tua approvazione prima di apportare modifiche ad AWS, ONTAP o alle API supportate. Puoi anche scegliere il livello di dettaglio da visualizzare nelle risposte, incluse le informazioni sul ragionamento dell'agente e, in Slack, la sua attività con gli strumenti.</block>
   <block id="8b4711746b3adfa755ed575da3759c69" category="paragraph">Gli agenti supportano anche ambienti multi-account e semplificano la configurazione. Un singolo agente può operare in modo sicuro su più account AWS utilizzando credenziali diverse.</block>
   <block id="ff2cb9e669640d8f287be7fc339c4d78" category="inline-link-macro">Scopri di più sugli agenti di intelligenza artificiale</block>
-  <block id="fd0b6331664a65cf7a31ea72bbff0ad8" category="paragraph"><block ref="fd0b6331664a65cf7a31ea72bbff0ad8" category="inline-link-macro-rx"></block></block>
   <block id="718a428bd3b2faadb3c143efe186c19c" category="inline-link-macro">Gestisci le impostazioni degli agenti</block>
-  <block id="f96519dcd31d8fc6ae26fb065d41298c" category="paragraph"><block ref="f96519dcd31d8fc6ae26fb065d41298c" category="inline-link-macro-rx"></block></block>
   <block id="3cfde347b20875f3299e4bc85cde4012" category="section-title">Attività programmate in Ask Me</block>
   <block id="ed6bda88b37dd9ee0232de291a362174" category="paragraph">Ora puoi personalizzare un prompt nella chat di Ask Me per creare attività pianificate. Usa le attività pianificate per chiedere ad Ask Me di eseguire controlli ricorrenti e inviare aggiornamenti in chat in base alla pianificazione che definisci.</block>
   <block id="ff51f1512e81cb44e19946405c4c3751" category="paragraph">Esempi di richieste:</block>
   <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">Verifica ogni ora lo stato di salute e il ciclo di vita di tutti i file system FSx for NetApp ONTAP per individuare tempestivamente eventuali problemi.</block>
   <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">Elenca ogni ora tutti i file system AWS FSx accessibili per mantenere un inventario aggiornato.</block>
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Scopri di più su Ask Me</block>
-  <block id="21acc05c94ffdfe8d543fc22e8162a92" category="paragraph"><block ref="21acc05c94ffdfe8d543fc22e8162a92" category="inline-link-macro-rx"></block></block>
   <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">Supporto ONTAP in Ask Me</block>
   <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">Ask Me ora supporta FSx per ONTAP e i sistemi ONTAP on-premises. Usa la stessa esperienza di chat per ottenere risposte e informazioni su tutta la tua infrastruttura ONTAP.</block>
   <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">Aggiornamento delle notifiche</block>
@@ -280,4 +277,7 @@
   <block id="a2113e92c2a5c9986659d92e10f81f0a" category="paragraph">Workload Factory ora identifica e classifica con maggiore precisione i carichi di lavoro e gli host nel servizio di tagging dei carichi di lavoro. I metodi di rilevamento aggiornati riducono gli errori di classificazione e forniscono risultati di tagging e classificazione più accurati.</block>
   <block id="a8b7294bac36c008516aba27f6d45bab" category="paragraph">Workload Factory ora ti offre una visione più chiara dei file system nell'interfaccia. Puoi visualizzare le tendenze di utilizzo della capacità SSD e del throughput, i riepiloghi dei carichi di lavoro e informazioni dettagliate sulla configurazione direttamente dalla panoramica del file system. Workload Factory ora identifica e classifica con maggiore precisione i carichi di lavoro e gli host nel servizio di tagging dei carichi di lavoro. I metodi di rilevamento aggiornati riducono gli errori di classificazione e forniscono risultati di tagging e classificazione più accurati.</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">30 settembre 2026</block>
+  <block id="92ef509d26c2f4b8f1eafc483dafc514" category="paragraph"><block ref="92ef509d26c2f4b8f1eafc483dafc514" category="inline-link-macro-rx"></block></block>
+  <block id="ff60e6cb69fa35fc765fb6716dc86a1d" category="paragraph"><block ref="ff60e6cb69fa35fc765fb6716dc86a1d" category="inline-link-macro-rx"></block></block>
+  <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
 </blocks>
