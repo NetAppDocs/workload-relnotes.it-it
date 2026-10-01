@@ -113,7 +113,7 @@ Workload Factory ora riconosce la modalità di scrittura preferita di FlexCache 
 [[link-documentation-support]]
 === Supporto alla documentazione dei collegamenti
 
-Tutta la documentazione relativa ai collegamenti è ora inclusa nella documentazione di configurazione e amministrazione di Workload Factory. Puoi comunque fare riferimento alla link:links-overview.html["Scopri i collegamenti di NetApp Workload Factory"]documentazione di Workload Factory FSx for ONTAP e trovare i collegamenti alle pagine pertinenti nella documentazione di configurazione e amministrazione.
+Tutta la documentazione relativa ai collegamenti è ora inclusa nella documentazione di configurazione e amministrazione di Workload Factory. Puoi comunque fare riferimento alla link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["Scopri i collegamenti di NetApp Workload Factory"]documentazione di Workload Factory FSx for ONTAP e trovare i collegamenti alle pagine pertinenti nella documentazione di configurazione e amministrazione.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Scopri di più sulla configurazione dei collegamenti nella console di Workload Factory."^]
 

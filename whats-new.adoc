@@ -124,7 +124,7 @@ Workload Factory ora riconosce la modalità di scrittura preferita di FlexCache 
 
 ==== Supporto alla documentazione dei collegamenti
 
-Tutta la documentazione relativa ai collegamenti è ora inclusa nella documentazione di configurazione e amministrazione di Workload Factory. Puoi comunque fare riferimento alla link:links-overview.html["Scopri i collegamenti di NetApp Workload Factory"]documentazione di Workload Factory FSx for ONTAP e trovare i collegamenti alle pagine pertinenti nella documentazione di configurazione e amministrazione.
+Tutta la documentazione relativa ai collegamenti è ora inclusa nella documentazione di configurazione e amministrazione di Workload Factory. Puoi comunque fare riferimento alla link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["Scopri i collegamenti di NetApp Workload Factory"]documentazione di Workload Factory FSx for ONTAP e trovare i collegamenti alle pagine pertinenti nella documentazione di configurazione e amministrazione.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Scopri di più sulla configurazione dei collegamenti nella console di Workload Factory."^]
 
@@ -202,9 +202,9 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overvie
 
 
 
-==== Supporto ONTAP in Ask Me
+==== Supporto per lo storage in Ask Me
 
-Ask Me ora supporta FSx per ONTAP e i sistemi ONTAP on-premises. Usa la stessa esperienza di chat per ottenere risposte e informazioni su tutta la tua infrastruttura ONTAP.
+Ask Me ora supporta FSx per ONTAP e Google Cloud NetApp Volumes. Usa la stessa esperienza di chat per ottenere risposte e approfondimenti in tutti gli ambienti di storage supportati.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Scopri di più su Ask Me"]
 
