@@ -31,48 +31,7 @@
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">Queste note di rilascio descrivono i recenti miglioramenti apportati ai servizi cloud che fanno parte di NetApp Workload Factory.</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">Note sulla versione NetApp Workload Factory</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">Carichi di lavoro EDA</block>
-  <block id="caa606c0b1085a846c384cef14c3a17f" category="doc">Supporto per l'istanza i7i.metal-24xl nel calcolatore TCO di EVS</block>
-  <block id="b055674b094a39e8822f5941fd1ddf8d" category="paragraph">Il calcolatore TCO di EVS ora supporta le istanze EC2 AWS i7i.metal-24xl come host del cluster. Rispetto alle configurazioni i4i.metal, queste istanze riducono il costo iniziale di EVS di circa 33% per il compute e 25% per lo storage vSAN.</block>
-  <block id="bbc7cb1849fc26e314ad21ecd99ca5fe" category="paragraph">Il calcolatore confronta automaticamente entrambi i tipi di istanza e seleziona l'opzione più conveniente. Una nuova sezione di confronto mostra le configurazioni degli host EVS affiancate, rendendo più facile trovare la configurazione migliore per le tue esigenze.</block>
-  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">Calcola il risparmio stimato per EVS</block>
-  <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">06 luglio 2026</block>
-  <block id="07139d61108a6478189b71bcdc7f39b8" category="list-text">*Grafico della latenza*: mostra come la latenza varia nel tempo, con linee di soglia e avvisi quando i limiti vengono superati.</block>
-  <block id="390641ad0fb5c4dcbd3e1ea9a432933d" category="list-text">*Grafico IOPS*: mostra le operazioni al secondo, con linee di soglia e indicatori per i precedenti superamenti dei limiti.</block>
-  <block id="38f51c8db276cb26c3c7af52f545996e" category="paragraph">Tutti i grafici utilizzano la stessa linea temporale e mostrano automaticamente le metriche corrette in base al fatto che l'evento sia una lettura o una scrittura.</block>
-  <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">Scopri come analizzare le tendenze di latenza con più grafici</block>
-  <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>.</block>
-  <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">05 luglio 2026</block>
   <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">dashboard personalizzate</block>
-  <block id="2865e3ecb86dc9391d13f92e53f2a2ac" category="paragraph">Crea dashboard basate sull'intelligenza artificiale che si adattino ai tuoi carichi di lavoro e alle tue priorità, così puoi vedere facilmente come stanno andando le tue operazioni. Invece di affidarti a visualizzazioni predefinite, le dashboard personalizzate ti permettono di concentrarti sulle informazioni che contano di più.</block>
-  <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">Descrivi in parole semplici cosa vuoi monitorare e l'AI creerà una dashboard basata sulla tua richiesta. Ad esempio, puoi monitorare lo stato del disaster recovery, la capacità e i costi nelle diverse regioni, la conformità alla protezione dello storage e altre metriche operative.</block>
-  <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">Le dashboard personalizzate sono di sola lettura, quindi non possono modificare le impostazioni di archiviazione o di carico di lavoro. Chiunque nel tuo account Workload Factory può visualizzare e gestire queste dashboard, facilitando la condivisione di informazioni e mantenendo l'allineamento tra i team.</block>
-  <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">Scopri di più sulle dashboard personalizzate</block>
-  <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">Imposta la frequenza di notifica della latenza</block>
-  <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">Ora puoi scegliere con quale frequenza ricevere notifiche email per violazioni della latenza:</block>
-  <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*Ricordami ogni giorno (consigliato)*: Ricevi una notifica quando si verifica un nuovo problema su qualsiasi file system FSx for ONTAP.</block>
-  <block id="b1960d91c54aac51310626fca3cc3b48" category="paragraph">Se si verificano più problemi di latenza sullo stesso file system in un solo giorno, riceverai una sola email.</block>
-  <block id="a6f20e83b8038d1aeb40bd01b25f763e" category="paragraph">Dopo aver inviato un avviso di latenza per un file system, Workload Factory aspetta 24 ore prima di inviare un altro avviso per quello stesso file system.</block>
-  <block id="e2a4178b795c9afb4497b6549895fe0f" category="list-text">*Notifica in caso di violazione della latenza (ogni 20 minuti)*: Ricevi una notifica quando viene rilevata una violazione, fino a una volta ogni 20 minuti.</block>
-  <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">Le notifiche giornaliere sono attivate per impostazione predefinita per ridurre il volume delle email, continuando comunque ad avvisarti di eventuali problemi di latenza. Puoi modificare la tua preferenza di notifica durante la configurazione del monitoraggio della latenza o la modifica delle impostazioni di soglia.</block>
-  <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">Scopri come configurare il monitoraggio della latenza</block>
-  <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
-  <block id="efbeddc0347a679a438120189b77f860" category="section-title">Esploratore di volumi</block>
-  <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">Notifiche e-mail migliorate per i ritardi di replica</block>
-  <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">Le notifiche e-mail relative ai ritardi di replica ora includono maggiori dettagli sulla relazione interessata. La notifica ti aiuta a identificare rapidamente la relazione interessata e a esaminarla nella console di Workload Factory.</block>
-  <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">Abilita le notifiche per i ritardi di replica</block>
-  <block id="7f27417270cfb269527e679a64b5a19a" category="paragraph"><block ref="7f27417270cfb269527e679a64b5a19a" category="inline-link-macro-rx"></block></block>
-  <block id="5312d8ea7e9ef079aeac882dbcd64d0a" category="section-title">Miglioramento della creazione di dispositivi a blocchi</block>
-  <block id="85fb39d6f3bb52679cb9ce3bd27ffd1c" category="paragraph">Workload Factory supporta la creazione di dispositivi a blocchi a partire da uno snapshot di volume.</block>
-  <block id="a439412a0228682fa1054f4bc1a96815" category="inline-link-macro">Crea un dispositivo a blocchi da uno snapshot di volume in Workload Factory</block>
-  <block id="40a9299c5fdf8c1e8242dcb670c6b1cd" category="paragraph"><block ref="40a9299c5fdf8c1e8242dcb670c6b1cd" category="inline-link-macro-rx"></block></block>
-  <block id="cc661418365d138458bf55f936b73a47" category="section-title">Rimozione del carico di lavoro GenAI da Workload Factory</block>
-  <block id="ef18329e66f7a0f5b022b9a400dd74ed" category="paragraph">Il carico di lavoro GenAI è stato rimosso dalla console di Workload Factory.</block>
-  <block id="efb6a1d0d54500167c0d1ae30ab8ac5b" category="doc">Analisi della latenza migliorata con grafici sincronizzati di latenza, IOPS e throughput</block>
-  <block id="a868b37aeda2e8d7f0a8e48f498112fc" category="paragraph">Il pannello di analisi della latenza ora include una pagina di *analisi dettagliata della latenza* con grafici delle prestazioni sincronizzati:</block>
-  <block id="a4abbd682ae58689df4450b4a65c90a2" category="list-text">*Grafico del throughput*: mostra le velocità di trasferimento dei dati (DataReadBytes o DataWriteBytes). Quando selezioni Metadati nel filtro, il grafico del throughput non mostra dati.</block>
-  <block id="7e9591a005bdef4cdf16dfd575186f3b" category="paragraph">Puoi regolare la visualizzazione e correlare i picchi di latenza con le variazioni di IOPS e throughput. Gli indicatori di violazione e i dettagli al passaggio del mouse ti aiutano a vedere quando le soglie sono state superate e a rivedere le metriche chiave per la violazione rilevata.</block>
-  <block id="842065a36dace972d6dab0c170421bd1" category="section-title">Etichettatura dei carichi di lavoro per volumi e dispositivi a blocchi</block>
-  <block id="47c38c6a3d7e96ce1b3b2519a980f283" category="paragraph">Workload Factory ora identifica e tagga volumi e dispositivi a blocchi in base al carico di lavoro o all'applicazione principale. Puoi assegnare tag di carico di lavoro predefiniti come Microsoft SQL Server o Oracle Database, oppure creare tag personalizzati per le tue applicazioni. I tag possono essere applicati a singole risorse o ereditati dalle risorse di storage collegate. Questo ti aiuta ad allineare le configurazioni di storage ai requisiti del carico di lavoro, a capire l'impatto degli incidenti e a risolvere i problemi in modo più efficace.</block>
   <block id="da0c92072a1db7fee3208bcad3ad822b" category="doc">Aggiornate le policy di autorizzazione IAM per i database</block>
   <block id="e9e3af45119a834b75ee5ce8ad5fc96d" category="paragraph">Le autorizzazioni per i database sono state aggiornate per migliorare l'accesso alle funzionalità e limitare l'accesso a SSM dove non necessario.</block>
   <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">Le autorizzazioni di visualizzazione, pianificazione e analisi sono limitate ai documenti AWS SSM. Con queste autorizzazioni, puoi visualizzare host, istanze e database. Puoi anche eseguire un'analisi well-architected di base on-demand delle tue risorse.</block>
@@ -162,7 +121,6 @@
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp Workload Factory</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">11 agosto 2026</block>
-  <block id="2b2db21e376d227839b25c1e6fcb7638" category="paragraph">Esplora volumi offre una visualizzazione semplice e ricercabile di tutti i volumi in NetApp Workload Factory. Visualizza rapidamente quali volumi gestiscono carichi di lavoro a blocchi o a file. Visualizza le dimensioni logiche di ciascun volume, la capacità fisica utilizzata e se utilizza funzionalità di efficienza dello storage (compressione, deduplicazione e compaction). Filtra e ordina per nome, stato (disponibile/non funzionante), latenza, dimensioni, capacità utilizzata e funzionalità di protezione.</block>
   <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">Nuova esperienza di onboarding per credenziali e link</block>
   <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">Workload Factory migliora l'esperienza di onboarding per le credenziali e i link, semplificando l'avvio. Dopo che hai creato il tuo account ed effettuato l'accesso, seleziona *Inizia* in qualsiasi riquadro workload, ad esempio *Storage*, e la pagina successiva ti guida passo passo nel processo di configurazione.</block>
   <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">30 agosto 2026</block>
@@ -179,8 +137,6 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory ora identifica i carichi di lavoro per gli host connessi a FSx for ONTAP storage distribuito in una regione diversa.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">La logica di rilevamento del carico di lavoro migliorata ora individua ulteriori tipologie di carico di lavoro e aumenta la precisione dei risultati.</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>.</block>
-  <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
-  <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
   <block id="08b543f700a568688a9f78d874d0ce8b" category="doc">Notifiche avanzate sulla capacità degli SSD</block>
   <block id="f37e9239265205bdf39af7b4def6f75a" category="paragraph">Le notifiche di gestione della capacità SSD ora includono messaggi di errore dettagliati per la risoluzione dei problemi relativi agli errori di automazione. Le notifiche vengono inviate per aumenti di capacità riusciti, errori durante le operazioni di aumento, errori nei controlli della capacità, avvisi di soglia e raccomandazioni. I dettagli dell'errore includono motivi specifici del guasto, come autorizzazioni mancanti, aggiornamenti simultanei in corso, periodi di cooldown di AWS o problemi nel recupero delle metriche di CloudWatch.</block>
   <block id="4a3354724a06bbb8040fa512f39a5e07" category="inline-link-macro">Scopri la gestione della capacità SSD</block>
@@ -280,4 +236,20 @@
   <block id="56643767ee547abedda1d643567a4c85" category="paragraph">Tutta la documentazione relativa ai collegamenti è ora inclusa nella documentazione di configurazione e amministrazione di Workload Factory. Puoi comunque fare riferimento alla <block ref="08c564abbdedd12846cfb2f0de43f628" category="inline-link-macro-rx"></block>documentazione di Workload Factory FSx for ONTAP e trovare i collegamenti alle pagine pertinenti nella documentazione di configurazione e amministrazione.</block>
   <block id="d757afa220ac7f97f408903182fddee2" category="section-title">Supporto per lo storage in Ask Me</block>
   <block id="541644294bd888a59c4f26e19102bfb2" category="paragraph">Ask Me ora supporta FSx per ONTAP e Google Cloud NetApp Volumes. Usa la stessa esperienza di chat per ottenere risposte e approfondimenti in tutti gli ambienti di storage supportati.</block>
+  <block id="77c39d029270c567ae2816d2c688ea3b" category="doc">Aggiornamenti della dashboard personalizzata</block>
+  <block id="b4a3fedd52cfe46140994157b6fa12ec" category="paragraph">Le dashboard personalizzate ora semplificano la gestione del tuo lavoro.</block>
+  <block id="5d95426dd9834d03b33e051ae7f9fb5c" category="paragraph">Puoi modificare le dashboard direttamente dal catalogo, incluse metriche, grafici e intervalli di tempo.</block>
+  <block id="e57137dc0ab44a9b0797700e3e8c851c" category="paragraph">Quando modifichi una dashboard, Workload Factory riapre la chat con le tue richieste e i tuoi messaggi precedenti. Puoi quindi aggiornare la dashboard, salvare le modifiche o ripristinare la versione precedente.</block>
+  <block id="8f44990f66d79c05eb2b8e612e7e18b5" category="paragraph">Solo chi ha creato la dashboard può modificarla. Durante la modifica, gli altri utenti non potranno visualizzare le modifiche finché non le salverai.</block>
+  <block id="14dd0ad1c8f18e92cbbc77ecf3a2645b" category="paragraph">Il catalogo delle dashboard ora include più filtri per aiutarti a trovare rapidamente le dashboard in base alla categoria e allo stato.</block>
+  <block id="fb1ecdb5253f537a735a53d5e9e2eba6" category="paragraph">Se il tuo amministratore disabilita le funzionalità di AI o viene raggiunto il limite di credito mensile, non puoi più creare o modificare le dashboard.</block>
+  <block id="adf3d3abc197eec345a7ab721730806c" category="inline-link-macro">Scopri le dashboard personalizzate</block>
+  <block id="f736e966e4394f88a05cee94fdba57ff" category="paragraph"><block ref="f736e966e4394f88a05cee94fdba57ff" category="inline-link-macro-rx"></block></block>
+  <block id="dfc2a77d9b383cd28cba1a1e99f9a378" category="inline-link-macro">Crea una dashboard personalizzata</block>
+  <block id="e703f5c9737234e07b6d50b473d03d31" category="paragraph"><block ref="e703f5c9737234e07b6d50b473d03d31" category="inline-link-macro-rx"></block></block>
+  <block id="62403e3fa28afe128e2c0e15bf0333f7" category="inline-link-macro">Gestisci dashboard personalizzate</block>
+  <block id="a6624b6c8238a8d2fecbcab00748683a" category="paragraph"><block ref="a6624b6c8238a8d2fecbcab00748683a" category="inline-link-macro-rx"></block></block>
+  <block id="1703fc0755f2533bd9d727fa0298c500" category="inline-link-macro">Risolvi i problemi delle dashboard personalizzate</block>
+  <block id="6690aacdf8125a25e4539caa3239e86f" category="paragraph"><block ref="6690aacdf8125a25e4539caa3239e86f" category="inline-link-macro-rx"></block></block>
+  <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">04 ottobre 2026</block>
 </blocks>
