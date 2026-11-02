@@ -31,91 +31,8 @@
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">Queste note di rilascio descrivono i recenti miglioramenti apportati ai servizi cloud che fanno parte di NetApp Workload Factory.</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">Note sulla versione NetApp Workload Factory</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">Carichi di lavoro EDA</block>
-  <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">dashboard personalizzate</block>
-  <block id="da0c92072a1db7fee3208bcad3ad822b" category="doc">Aggiornate le policy di autorizzazione IAM per i database</block>
-  <block id="e9e3af45119a834b75ee5ce8ad5fc96d" category="paragraph">Le autorizzazioni per i database sono state aggiornate per migliorare l'accesso alle funzionalità e limitare l'accesso a SSM dove non necessario.</block>
-  <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">Le autorizzazioni di visualizzazione, pianificazione e analisi sono limitate ai documenti AWS SSM. Con queste autorizzazioni, puoi visualizzare host, istanze e database. Puoi anche eseguire un'analisi well-architected di base on-demand delle tue risorse.</block>
-  <block id="e9ad7ba5991717b52c215bd25e788b28" category="paragraph">Le autorizzazioni di operazione e correzione ti permettono di apportare modifiche alle tue risorse, analizzare i registri degli errori, ottenere un'analisi completa e ben strutturata delle tue risorse e risolvere i problemi di configurazione.</block>
-  <block id="b8646f09ea34b75c077cfea12f75617b" category="inline-link-macro">Riferimento autorizzazioni</block>
-  <block id="d5eb0f9120b28b557f3e367589adf4bb" category="section-title">Notifiche per dashboard personalizzate</block>
-  <block id="fb5e135dfdab99cdebbb946a22093655" category="paragraph">Workload Factory ora ti avvisa quando la tua dashboard personalizzata è pronta o se la creazione non riesce.</block>
-  <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">Dopo aver creato una dashboard personalizzata, riceverai una notifica con un link diretto per visualizzarla. Se la creazione non riesce, riceverai una notifica con un link all'inventario delle dashboard personalizzate per riprovare.</block>
-  <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">Questo ti aiuta a capire quando la tua dashboard è pronta e rende facile rivederla o ricrearla.</block>
-  <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">Scopri come creare dashboard personalizzate</block>
-  <block id="863d814c29385fa8ebfd13bc1c1c7e96" category="inline-link-macro">Scopri come configurare le notifiche</block>
-  <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">Dashboard personalizzate private e pubbliche</block>
-  <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">Ora le dashboard personalizzate includono le impostazioni di condivisione. Puoi mantenere una dashboard privata o condividerla con il tuo team.</block>
-  <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">Le nuove dashboard sono private per impostazione predefinita e visibili solo a te. Puoi rendere pubblica una dashboard in qualsiasi momento per condividerla con tutti nel tuo account Workload Factory.</block>
-  <block id="26e05170ba3616166d4659e72d415450" category="paragraph">Ogni scheda del dashboard mostra l'etichetta "Privato" o "Pubblico" così puoi vedere rapidamente quali dashboard sono condivise.</block>
-  <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">Scopri la visibilità e la condivisione della dashboard</block>
-  <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">Scopri come condividere le dashboard</block>
-  <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">Amministrazione delle funzionalità di AI</block>
-  <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">Puoi controllare l'accesso alle funzionalità di intelligenza artificiale in tutta l'organizzazione tramite le seguenti impostazioni nell'amministrazione di Workload Factory.</block>
-  <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">Usa Bedrock gestito da NetApp (consigliato e abilitato di default, con limiti di credito mensili)</block>
-  <block id="7f72da8c356eeacf603a52c235e09676" category="list-text">Disattiva tutte le funzionalità di AI</block>
-  <block id="aa55b63e5a41704f1621780515cd8a24" category="paragraph">La nuova pagina di amministrazione ti permette di gestire queste impostazioni in un unico posto.</block>
-  <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">Le funzionalità AI includono Ask Me, dashboard personalizzate, rule builder e analizzatori per EMS, log di database e latenza dei volumi.</block>
-  <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">Se le funzionalità di intelligenza artificiale sono disattivate, gli utenti vedranno un messaggio che indica che l'AI non è disponibile.</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">Scopri come gestire le funzionalità di intelligenza artificiale</block>
-  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03 agosto 2026</block>
-  <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">Analisi della latenza dell'AI con controllo dei costi</block>
-  <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">Come amministratore di Workload Factory, puoi controllare l'accesso all'analisi della latenza AI in tutta l'organizzazione.</block>
-  <block id="4c9d3f8b46f94437f92a47d3612a2829" category="list-text">*NetApp-crediti AI gestiti*: Se il tuo amministratore lo abilita, puoi utilizzare l'analisi AI tramite l'integrazione gestita di Amazon Bedrock di NetApp. Non è richiesta alcuna configurazione aggiuntiva. Il tuo utilizzo mensile è limitato dal budget assegnato. Se raggiungi il limite mensile, le funzionalità basate sull'AI vengono disabilitate e vedrai un messaggio.</block>
-  <block id="67ee5da1047f90d8a684f7e0d2ca1944" category="list-text">*Disabilitato dall'amministratore*: Se l'amministratore disattiva le funzionalità di intelligenza artificiale, le opzioni di analisi basate sull'AI saranno disattivate e vedrai un messaggio che indica che la funzionalità è disattivata.</block>
-  <block id="69e316ff96b412dd2a5045f8dd2f433c" category="section-title">Gestione dell'aumento elastico del throughput</block>
-  <block id="a01f5f5609c9aee121b699114cfe006f" category="paragraph">Ora puoi gestire il comportamento di aumento del throughput dalla pagina Panoramica EDA per uno o più file system FSx for ONTAP selezionati.</block>
-  <block id="9c3ee7dcbca3424fcc3c760549aa303d" category="list-text">*Selezione modalità*: scegli *Automatizza* o *Consiglia*.</block>
-  <block id="b9722197734c8293fedc4e7c6db77abe" category="list-text">*Aggiornamenti in blocco*: Seleziona uno o più file system e applica le modifiche di modalità e parametri in un'unica operazione.</block>
-  <block id="1a97c66f134399c6e8ddf03e8cd9055e" category="list-text">*Finestra di dialogo per la gestione del throughput*: Modifica le impostazioni di aumento del throughput con i valori predefiniti EDA nella finestra di dialogo.</block>
-  <block id="0e71e5ed033b79a12a3d33146bbef832" category="list-text">*Impostazioni avanzate*: Configura parametri aggiuntivi per la decisione sul throughput in una sezione *Configurazione avanzata* espandibile.</block>
-  <block id="3c559babe76da927fd273d0640ba2089" category="list-text">*Visibilità della tabella*: nella tabella Cluster è disponibile una nuova colonna *Gestione del throughput* che puoi abilitare dalle impostazioni della colonna.</block>
-  <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*Configurazione della scheda superiore*: La scheda superiore ora supporta la configurazione della modalità di aumento del throughput, in modo simile alla gestione degli SSD.</block>
-  <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">Scopri come utilizzare la dashboard Overview</block>
-  <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>.</block>
-  <block id="da6f5bf8aee08ef83468ad38ab52796b" category="doc">Nuova dashboard ben progettata disponibile per tutti i sistemi FSx per ONTAP</block>
-  <block id="7fca025a8bf1b5d72a149731d5c88125" category="paragraph">L'analisi well-architected è ora disponibile per i file system FSx for ONTAP dalla nuova dashboard well-architected in NetApp Workload Factory. La nuova dashboard offre una vista centralizzata di tutti i tuoi file system tra account e regioni e delle loro configurazioni in un unico posto. Compare una notifica popup quando visiti la scheda *Well-architected* da un file system. Accedi alla nuova dashboard selezionando *Well-architected* dal menu di navigazione a sinistra in Workload Factory.</block>
-  <block id="b09ad8a2ad81c470093e9c74313ea0c2" category="paragraph">Puoi ancora accedere all'analisi well-architected per uno specifico file system e dall'opzione di menu *Well-architected* in Storage.</block>
-  <block id="63960000d4e139f329b74b4b91c43feb" category="section-title">Nuovi widget aggiunti alla dashboard di storage</block>
-  <block id="1b701a8eaad0525cd9d21842a87a1800" category="paragraph">La dashboard di storage ora include due nuovi widget per aiutarti a capire come utilizzi le risorse di storage e a trovare modi per ottimizzarle.</block>
-  <block id="0e2bbff5eb55e16098106686c6657f4e" category="list-text">*Carichi di lavoro principali rilevati* Mostra i dati dei carichi di lavoro trovati dal servizio di tagging in tutto il tuo ambiente. Visualizza i carichi di lavoro con un punteggio di affidabilità superiore all'80% che includono risorse FSx associate, come volumi e dispositivi a blocchi. Ogni carico di lavoro mostra il suo nome, il numero di risorse, la capacità allocata e la capacità utilizzata. Ordina per numero di risorse (predefinito), capacità allocata o capacità utilizzata per identificare rapidamente i carichi di lavoro più grandi e capire i modelli di utilizzo dello storage.</block>
-  <block id="dea1b9553440d525973da9d88c579dd0" category="list-text">*Approfondimenti e osservazioni basati sull'IA* Mostra approfondimenti generati dall'IA per le tue risorse gestite. Il widget analizza i dati del tuo patrimonio all'interno dell'ambito selezionato ed evidenzia i tre risultati principali in aree chiave, tra cui capacità, prestazioni, protezione dei dati, replica, risparmio sui costi e tendenze dello storage.</block>
-  <block id="e3b3cc77c3245b045d666342b4d976b2" category="paragraph">Ogni approfondimento include un riepilogo, risultati dettagliati e azioni consigliate. Espandi un approfondimento per vedere più dettagli e dare priorità ai problemi in base alla gravità, ai miglioramenti delle prestazioni e alle opportunità di risparmio sui costi.</block>
-  <block id="cd4ef961255320407f22a2c9683cfd1d" category="section-title">Etichettatura del carico di lavoro</block>
-  <block id="6e7c3ced7d1755c7c375f47ca6b2c3f0" category="section-title">Integrazione di AWS Systems Manager per l'assegnazione di tag ai carichi di lavoro</block>
-  <block id="8cc8dc3c329756b30481400836ca180c" category="paragraph">Il servizio di etichettatura dei carichi di lavoro ora funziona con AWS Systems Manager per aggiungere maggiori dettagli ai dati di inventario degli host. Workload Factory ora può raccogliere ed elaborare le informazioni di inventario SSM per identificare e classificare meglio i carichi di lavoro. Gli attributi AWS SSM sono inclusi anche nel processo di etichettatura per migliorare l'accuratezza del rilevamento dei carichi di lavoro.</block>
-  <block id="7f1ecac494abdd70b1fef3cc1209be0c" category="paragraph">Ogni configurazione relativa ai volumi nella dashboard ben strutturata ora include la colonna *Workload* nella tabella delle risorse. Questa colonna mostra il workload che Workload Factory associa a ciascun volume.</block>
-  <block id="b26629c4d0db7a100913103c2501115d" category="section-title">Etichettatura dei carichi di lavoro e funzionalità di intelligenza artificiale</block>
-  <block id="c6e3575ea0e96a40eeea1698ed97e99f" category="paragraph">I carichi di lavoro non vengono etichettati quando un amministratore disabilita le funzionalità di intelligenza artificiale. Se le funzionalità di intelligenza artificiale sono disattivate nelle impostazioni dell'account Workload Factory, il servizio di etichettatura non identifica né classifica i carichi di lavoro sulle risorse di storage.</block>
-  <block id="9801425a2145ab6ed5aa12b9446c905c" category="inline-link-macro">Scopri come amministrare l'AI</block>
-  <block id="39cf1aaf3e84c5c49c930c5bfe27e098" category="section-title">Esplora il miglioramento del calcolo dell'istantanea di risparmio</block>
-  <block id="a4f25c93cc96e84a15a9a235f569bbe2" category="paragraph">Explore Savings ora utilizza un calcolo coerente della capacità degli snapshot, quindi le stime di risparmio di FSx for ONTAP tengono conto correttamente del requisito aggiuntivo del pool di capacità degli snapshot.</block>
-  <block id="e14c4b029cabd340fe3b6c67835e9927" category="inline-link-macro">Scopri le opportunità di risparmio per i tuoi ambienti di storage su Amazon Elastic Block Store, FSx for Windows File Server ed Elastic File System.</block>
-  <block id="01ee25f562cbb2e8ca2ff8f41e96f80d" category="paragraph"><block ref="01ee25f562cbb2e8ca2ff8f41e96f80d" category="inline-link-macro-rx"></block></block>
-  <block id="347a810d994926c5e31d1bd690b34fcf" category="section-title">Esporta i dati relativi al ritardo di replica in formato CSV</block>
-  <block id="45cbeaeb98d1d075d560a8e62269fbbb" category="paragraph">Ora puoi esportare i dati relativi al ritardo di replica in un file CSV per analizzarli in un foglio di calcolo e condividerli con altri.</block>
-  <block id="abda6db4ef1e45cf251dcf456064a874" category="section-title">Eventi del punto di accesso S3</block>
-  <block id="084779dffb2a62383b80e6fbe69e0dc4" category="paragraph">Ora puoi inviare gli eventi del punto di accesso S3 all'argomento SNS secondo una pianificazione predefinita. Ogni aggiornamento include tutti gli eventi che si sono verificati dall'ultimo aggiornamento.</block>
-  <block id="c634bf7b5214ed8f0d82613de1e29eff" category="inline-link-macro">modifica i punti di accesso S3</block>
-  <block id="84118bd808a8989867b6fc874b0b1b45" category="paragraph">Per configurare le notifiche per gli eventi S3, <block ref="5014cadb2b53045b84df58ebddada57a" category="inline-link-macro-rx"></block> seleziona *Invia eventi S3 tramite SNS* nella sezione *Tabella di registro*.</block>
-  <block id="adf6bc23c10d536eed25c42f34ba48e8" category="section-title">02 agosto 2026</block>
-  <block id="bb971caaebe9e5940267caf457500810" category="paragraph"><block ref="247b746a5e5f871115d636673a8fd3a7" category="inline-link-macro-rx"></block>.</block>
-  <block id="78a4e31d1c34a343ac1189ff737a0982" category="doc">Modifiche di configurazione per Oracle e Microsoft SQL Server nell'analisi ben architettata</block>
-  <block id="1d617de46837a3d67b6850fd27b13c02" category="paragraph">Nell'analisi well-architected, diverse configurazioni di database sono state combinate e rinominate nelle seguenti configurazioni.</block>
-  <block id="70dc13ee7e3320f270e7236f7fa9f60d" category="list-text">*Gestione dello spazio del block device*: include space reservation, allocazione dello spazio e riserva frazionaria</block>
-  <block id="c75bc7e1a77b2b8e809bf87a1b1c2b5b" category="list-text">*Efficienze di archiviazione*: include compressione, deduplicazione e compaction</block>
-  <block id="706125d817b831eb4c31ea90c004eee2" category="list-text">*Ottimizzazione della stratificazione/TCO*: include la policy di tiering e i giorni minimi di raffreddamento per il tiering</block>
-  <block id="08ab4e6e5d6d250dd93617842402b41f" category="list-text">*Pianifica snapshot locali*: include la policy sugli snapshot</block>
-  <block id="3791b9a912543795aa72719e1fa5c488" category="inline-link-macro">Analisi della configurazione in Workload Factory</block>
-  <block id="5874b771173388bd46c8912da31750a0" category="paragraph"><block ref="5874b771173388bd46c8912da31750a0" category="inline-link-macro-rx"></block></block>
-  <block id="c041c2dfd235a9062883922df8e04748" category="paragraph"><block ref="c041c2dfd235a9062883922df8e04748" category="inline-link-macro-rx"></block></block>
-  <block id="167e20b67f84068555b3081057c696b8" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block></block>
-  <block id="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="paragraph"><block ref="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="inline-link-macro-rx"></block></block>
-  <block id="d972d2e4f90697cd9aea0ea06c6d65ea" category="paragraph"><block ref="d972d2e4f90697cd9aea0ea06c6d65ea" category="inline-link-macro-rx"></block></block>
-  <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
-  <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
-  <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">Funzionalità ONTAP visualizzate in Esplora volumi</block>
-  <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">Volumes explorer ora include le funzionalità ONTAP nella tabella dei volumi. Queste funzionalità forniscono informazioni più dettagliate sulla configurazione e sullo stato dei tuoi volumi, come la copertura della protezione, lo stato di Autonomous Ransomware Protection (ARP/AI), l'efficienza dello storage, la policy di tiering e l'autogrow del volume.</block>
   <block id="9b988decb4830a521f8e1487584f0385" category="doc">Azioni sui volumi disponibili in Volumes explorer</block>
   <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">Tutte le azioni sui volumi sono disponibili direttamente da Volumes explorer per uno o più volumi. Questo rende più veloce eseguire operazioni a livello di volume. Le azioni sui volumi includono la modifica delle impostazioni del volume, la gestione degli snapshot e altre attività sui volumi senza uscire da Volumes explorer. Puoi anche accedere a queste azioni dalla scheda Volumes nella panoramica del file system FSx for ONTAP.</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp Workload Factory</block>
@@ -252,4 +169,29 @@
   <block id="1703fc0755f2533bd9d727fa0298c500" category="inline-link-macro">Risolvi i problemi delle dashboard personalizzate</block>
   <block id="6690aacdf8125a25e4539caa3239e86f" category="paragraph"><block ref="6690aacdf8125a25e4539caa3239e86f" category="inline-link-macro-rx"></block></block>
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">04 ottobre 2026</block>
+  <block id="b680b1a7fd35564d77eb715d3c89f5cb" category="doc">Usa la tua istanza Amazon Bedrock per gli strumenti di AI</block>
+  <block id="aefffefabafd2a723ba252259d49413b" category="paragraph">Workload Factory ora include un'ulteriore opzione nella pagina delle impostazioni AI che consente ai clienti di utilizzare la propria istanza Amazon Bedrock.</block>
+  <block id="59071a98cbd118cd70a7342fac20edee" category="paragraph">Questa opzione è disponibile in Bedrock gestito dal cliente per gli strumenti di AI ed è supportata da tutti i servizi di AI di Workload Factory.</block>
+  <block id="723b7f36410bdffd1d79fc26537b0350" category="paragraph">Dopo la connessione, Workload Factory ti comunica se la connessione è andata a buon fine.</block>
+  <block id="c13ffbb74415f75e6bfbceb28746aa00" category="doc">Dettagli del volume nell'analisi della latenza</block>
+  <block id="e702df4af5908b691938e2a636bf0d11" category="paragraph">Ora puoi visualizzare nella pagina *Analisi dettagliata della latenza* gli ulteriori dettagli del volume: *Tipo di volume* (RW/DP), *Stile del volume* (FlexVol e FlexGroup).</block>
+  <block id="84040e078366ab4b302c9f45a3caa89d" category="section-title">Verifica della pressione del file system per gli eventi di latenza</block>
+  <block id="06aefa6560003b3171cd7662ef2b3d9d" category="paragraph">Per i volumi con un avviso di latenza, ora puoi verificare se il file system era sottoposto a una pressione sufficiente da influire sulle prestazioni al momento dell'evento. Puoi visualizzare i dati di CloudWatch dei 40 minuti precedenti all'evento e seguire un collegamento al file system per ulteriori indagini.</block>
+  <block id="3e7850720206a5fe00f7310f49f139ef" category="inline-link-macro">Scopri come analizzare le tendenze della latenza</block>
+  <block id="4082bd9c59dc64a78f083ec07f0f1ade" category="paragraph"><block ref="e0c19bfe1186d72bb091851a5915268f" category="inline-link-macro-rx"></block>.</block>
+  <block id="84ae0158deb3f95e6027fdf8d5ff467d" category="section-title">Punti decisionali relativi al throughput</block>
+  <block id="d561222faafa1c2e107d8307549a4372" category="paragraph">Ora puoi visualizzare le raccomandazioni sul throughput del client e i punti decisionali dell'automazione. Passa il mouse su un punto decisionale per visualizzare i dettagli, come lo SKU corrente e quello consigliato o le metriche fuori soglia nell'intervallo di tempo (%).</block>
+  <block id="e7e1d8130eb396a11055ef0aad27b20c" category="inline-link-macro">Scopri i punti decisionali</block>
+  <block id="b1b6afda8cefc68653435f204de78f32" category="paragraph"><block ref="c182c1de3b13ab1f612ac32dab94169a" category="inline-link-macro-rx"></block>.</block>
+  <block id="1e67c2facf6c9ccaed8c578497980ba2" category="section-title">Esegui di nuovo l'analisi della latenza</block>
+  <block id="95386ac844fe5334b9e7743d6098dfab" category="paragraph">Ora puoi selezionare *Esegui nuovamente l'analisi* per avviare una nuova analisi della latenza per un volume e aggiornare i risultati su richiesta.</block>
+  <block id="1e2beb43d53ce6e7e78ce598ad680f34" category="inline-link-macro">Scopri come analizzare i problemi di latenza</block>
+  <block id="7ab17ff19aa466bc8531cc7568dea5a6" category="paragraph"><block ref="13291cb64cb4778475d22fb041bce2e0" category="inline-link-macro-rx"></block>.</block>
+  <block id="d6ed55c5fa0490be9e9d07719ba741ce" category="doc">Supporto per le istanze i7i.metal-24xl e i7i.metal-48xl nel calcolatore TCO di EVS</block>
+  <block id="b6c3bb340d0b13e009a53c6c8a2b9219" category="paragraph">Il calcolatore TCO di EVS ora supporta le istanze EC2 AWS i7i.metal-24xl e i7i.metal-48xl come host del cluster. Rispetto alle configurazioni i4i.metal, le istanze i7i.metal-24xl riducono il costo iniziale di EVS di circa il 33% per il calcolo e del 25% per lo storage vSAN.</block>
+  <block id="e50148793a31ae443693925cfda40d91" category="paragraph">Il calcolatore confronta tutti i tipi di istanza e seleziona automaticamente l'opzione più economica. Una nuova sezione di confronto mostra le configurazioni degli host EVS affiancate, semplificando la scelta della configurazione più adatta alle tue esigenze.</block>
+  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">Calcola il risparmio stimato per EVS</block>
+  <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
+  <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">01 novembre 2026</block>
+  <block id="f535eb1278ad100b4d323539a7942781" category="section-title">14 ottobre 2026</block>
 </blocks>
