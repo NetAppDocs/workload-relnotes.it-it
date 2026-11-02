@@ -115,3 +115,10 @@ Ora puoi attivare le notifiche automatiche di gestione della capacità per prova
 === Punti decisionali relativi al throughput
 
 Ora puoi visualizzare le raccomandazioni sul throughput del client e i punti decisionali dell'automazione. Passa il mouse su un punto decisionale per visualizzare i dettagli, come lo SKU corrente e quello consigliato o le metriche fuori soglia nell'intervallo di tempo (%).
+
+
+
+[[customer-managed-bedrock-support-for-classification]]
+=== Supporto Bedrock gestito dal cliente per la classificazione
+
+Workload Factory ora ti consente di utilizzare la tua configurazione di Amazon Bedrock per la classificazione del tagging dei workload. Puoi fornire il tuo endpoint Bedrock e le tue credenziali in modo che le richieste di classificazione vengano eseguite tramite la tua configurazione Bedrock.
