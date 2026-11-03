@@ -27,4 +27,4 @@ La dashboard ben progettata ora include suggerimenti per le configurazioni del d
 
 Seleziona il menu principale nella console di Workload Factory, quindi seleziona *Well-architected* per trovare la dashboard well-architected.
 
-image:well-architected-menu-option.png["Opzione di menu ben strutturata nella console di NetApp Workload Factory"]
+image:workload-databases/well-architected-menu-option-databases.png["Opzione di menu ben strutturata nella console di NetApp Workload Factory"]

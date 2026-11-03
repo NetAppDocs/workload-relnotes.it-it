@@ -106,7 +106,6 @@
   <block id="a4b0895311938bbe97380c217d8bc91a" category="section-title">Accesso alla dashboard Well-Architected</block>
   <block id="99443f6b5bfec8a35e6748e731a10d71" category="paragraph">Puoi accedere alla dashboard well-architected dal menu principale nella console di Workload Factory e dall'interno di un file system. Per trovare la dashboard well-architected dal menu principale, seleziona il menu principale e quindi seleziona *Well-architected*.</block>
   <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Opzione di menu ben strutturata nella console di NetApp Workload Factory</block>
-  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">Nuove raccomandazioni nell'analisi well-architected</block>
   <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory ora include le seguenti configurazioni nell'analisi dell'architettura ottimale per i file system FSx for ONTAP:</block>
   <block id="3b4bb2bfc2800826050f3805ec9d835a" category="list-text">*Configurazione della gestione dello spazio dei volumi*: consiglia di abilitare la gestione coordinata dello spazio dei volumi per i volumi FSx for ONTAP.</block>
@@ -122,7 +121,6 @@
   <block id="a187114bcc51b42124813d0e4d20730d" category="section-title">Esplora volumi visualizza lo stato ARP/AI per i volumi in tutti i file system</block>
   <block id="14bbbfe188029f45698ccb26b1280a48" category="paragraph">La schermata di esplorazione dei volumi include ora una scheda con lo stato di NetApp Autonomous Ransomware Protection with AI (ARP/AI) per i volumi su tutti i tuoi file system. La scheda mostra il numero di volumi protetti e indica se alcuni volumi sono a rischio. Dalla scheda, puoi selezionare *Analyze attacks* per analizzare le potenziali minacce ransomware e intraprendere le azioni appropriate per proteggere i tuoi dati.</block>
   <block id="3f25080804b8d019675a456a436cb471" category="inline-image-macro">Lo screenshot mostra una nuova scheda nella schermata Esplora volumi che visualizza lo stato ARP/AI per i volumi in tutti i file system. La scheda indica il numero di volumi protetti e gli eventuali volumi a rischio. Puoi selezionare la voce Analyze attacks per esaminare gli attacchi sospetti e intraprendere le azioni appropriate per proteggere i tuoi dati.</block>
-  <block id="3984208540eb5fb15ca89127c0ce9c35" category="paragraph"><block ref="3984208540eb5fb15ca89127c0ce9c35" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3ae39496097bf7dd54def47f219d44a2" category="inline-link-macro">Scopri di più sulla protezione dal ransomware.</block>
   <block id="32d61e76f54bb5b368f607bb435c5c1f" category="paragraph"><block ref="32d61e76f54bb5b368f607bb435c5c1f" category="inline-link-macro-rx"></block></block>
   <block id="bf408a384d3111f4dc3c9bd2e2488084" category="section-title">Notifica via email per relazioni di replica non integre</block>
@@ -278,4 +276,7 @@
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 settembre 2026</block>
   <block id="7cc20c44b067a9d650d7a25d5be9d67d" category="section-title">Supporto Bedrock gestito dal cliente per la classificazione</block>
   <block id="8a8cb6e7e1b94c2efc52b7f5d677eb4d" category="paragraph">Workload Factory ora ti consente di utilizzare la tua configurazione di Amazon Bedrock per la classificazione del tagging dei workload. Puoi fornire il tuo endpoint Bedrock e le tue credenziali in modo che le richieste di classificazione vengano eseguite tramite la tua configurazione Bedrock.</block>
+  <block id="442d917e6f977497aa9164bdb334b30b" category="paragraph"><block ref="442d917e6f977497aa9164bdb334b30b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b38510edecee128bcf57a2052192d3fa" category="paragraph"><block ref="b38510edecee128bcf57a2052192d3fa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33d18edd919b0af815bbf108537020f0" category="paragraph"><block ref="33d18edd919b0af815bbf108537020f0" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
