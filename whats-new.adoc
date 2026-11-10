@@ -748,19 +748,3 @@ Puoi confrontare le varie componenti di costo dell'esecuzione di carichi di lavo
 ==== Nuova esperienza di onboarding per credenziali e link
 
 Workload Factory migliora l'esperienza di onboarding per le credenziali e i link, semplificando l'avvio. Dopo che hai creato il tuo account ed effettuato l'accesso, seleziona *Inizia* in qualsiasi riquadro workload, ad esempio *Storage*, e la pagina successiva ti guida passo passo nel processo di configurazione.
-
-
-
-[[11-august-2026]]
-== 11 agosto 2026
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== Amazon FSX per NetApp ONTAP
-
-
-
-==== Azioni sui volumi disponibili in Volumes explorer
-
-Tutte le azioni sui volumi sono disponibili direttamente da Volumes explorer per uno o più volumi. Questo rende più veloce eseguire operazioni a livello di volume. Le azioni sui volumi includono la modifica delle impostazioni del volume, la gestione degli snapshot e altre attività sui volumi senza uscire da Volumes explorer. Puoi anche accedere a queste azioni dalla scheda Volumes nella panoramica del file system FSx for ONTAP.
